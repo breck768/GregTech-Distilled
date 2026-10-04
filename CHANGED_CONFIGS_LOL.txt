@@ -1,0 +1,9 @@
+harderBrickRecipes
+nerfWoodCrafting
+hardWoodRecipes
+hardRedstoneRecipes
+hardToolArmorRecipes
+doesExplosionDamagesTerrain
+highTierContent
+environmentalHazards
+hardMiscRecipes

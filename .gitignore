@@ -1,0 +1,31 @@
+# instance stuff
+saves/
+server-resource-packs/
+resourcepacks/
+logs/
+crash-reports/
+debug/
+backups/
+world/
+emi.json
+*.log
+*.lock
+
+# big
+*.zip
+*.rar
+*.tar.gz
+target/
+build/
+out/
+
+# vscode
+.vscode/
+
+# server junk
+local/
+usercache.json
+ops.json
+whitelist.json
+banned-players.json
+banned-ips.json
