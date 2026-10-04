@@ -8,6 +8,84 @@
     },
     "projects": [
         {
+            "pakku_id": "whw2SdeX2EJzVgGN",
+            "pakku_links": [
+                "8Rtvxws7orqtTBQz"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "applied-energistics-2"
+            },
+            "name": {
+                "curseforge": "Applied Energistics 2"
+            },
+            "id": {
+                "curseforge": "223794"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "appliedenergistics2-forge-15.4.11.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8991/271/appliedenergistics2-forge-15.4.11.jar",
+                    "id": "8991271",
+                    "parent_id": "223794",
+                    "hashes": {
+                        "sha1": "e0d777a400fe3c3082681d28de4e7f6a0b3e7b50",
+                        "md5": "96c4467d4d5dec975867d152f02d9bcc"
+                    },
+                    "required_dependencies": [
+                        "1173950"
+                    ],
+                    "size": 8501309,
+                    "date_published": "2026-09-27T15:04:56.180Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8b2y77ALxqDv3aYX",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "architectury-api"
+            },
+            "name": {
+                "curseforge": "Architectury API"
+            },
+            "id": {
+                "curseforge": "419699"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "architectury-9.2.14-forge.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5137/938/architectury-9.2.14-forge.jar",
+                    "id": "5137938",
+                    "parent_id": "419699",
+                    "hashes": {
+                        "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+                        "md5": "76b40d407b6bf0257dd1dab6d3d395d5"
+                    },
+                    "required_dependencies": [],
+                    "size": 580602,
+                    "date_published": "2024-02-26T13:18:59.227Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "bBkg0HOouhuiVs7M",
             "type": "MOD",
             "slug": {
@@ -40,6 +118,135 @@
                     "required_dependencies": [],
                     "size": 1121750,
                     "date_published": "2026-05-13T06:18:18.303Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "jbEoEFS6M2d2kp6I",
+            "pakku_links": [
+                "8b2y77ALxqDv3aYX"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-library-forge"
+            },
+            "name": {
+                "curseforge": "FTB Library (NeoForge)"
+            },
+            "id": {
+                "curseforge": "404465"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-library-forge-2001.2.13.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8226/927/ftb-library-forge-2001.2.13.jar",
+                    "id": "8226927",
+                    "parent_id": "404465",
+                    "hashes": {
+                        "sha1": "a5427d5ff07eb044144ed0b54308370d88bce17e",
+                        "md5": "9de2c76938392445e735a98b352da9d4"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 780558,
+                    "date_published": "2026-06-10T14:57:06.283Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "buLCTET0TDQlr3x1",
+            "pakku_links": [
+                "2gK1NFLGlezHQac4",
+                "8b2y77ALxqDv3aYX",
+                "jbEoEFS6M2d2kp6I"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-quests-forge"
+            },
+            "name": {
+                "curseforge": "FTB Quests (NeoForge)"
+            },
+            "id": {
+                "curseforge": "289412"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-quests-forge-2001.4.22.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8078/538/ftb-quests-forge-2001.4.22.jar",
+                    "id": "8078538",
+                    "parent_id": "289412",
+                    "hashes": {
+                        "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa",
+                        "md5": "a05a49243da4a2505413d74e13102b16"
+                    },
+                    "required_dependencies": [
+                        "404468",
+                        "419699",
+                        "404465"
+                    ],
+                    "size": 1255469,
+                    "date_published": "2026-05-12T15:59:14.893Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2gK1NFLGlezHQac4",
+            "pakku_links": [
+                "8b2y77ALxqDv3aYX",
+                "jbEoEFS6M2d2kp6I"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-teams-forge"
+            },
+            "name": {
+                "curseforge": "FTB Teams (NeoForge)"
+            },
+            "id": {
+                "curseforge": "404468"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-teams-forge-2001.3.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar",
+                    "id": "7499810",
+                    "parent_id": "404468",
+                    "hashes": {
+                        "sha1": "c49023f5d471aa1ba7fc624d2565fe9e82b7117e",
+                        "md5": "1c547d6f1b22f461f84c5fb79067b0ec"
+                    },
+                    "required_dependencies": [
+                        "419699",
+                        "404465"
+                    ],
+                    "size": 252579,
+                    "date_published": "2026-01-21T10:11:35.007Z"
                 }
             ]
         },
@@ -154,6 +361,42 @@
             ]
         },
         {
+            "pakku_id": "8Rtvxws7orqtTBQz",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "guideme"
+            },
+            "name": {
+                "curseforge": "GuideME"
+            },
+            "id": {
+                "curseforge": "1173950"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "guideme-20.1.15.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8204/776/guideme-20.1.15.jar",
+                    "id": "8204776",
+                    "parent_id": "1173950",
+                    "hashes": {
+                        "sha1": "3d432fc99cefcfd17a12635d2d220f09a069f1c7",
+                        "md5": "0d892c2b4af52459ac6a639040374916"
+                    },
+                    "required_dependencies": [],
+                    "size": 9414827,
+                    "date_published": "2026-06-06T09:47:01.193Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "pMuGmySS5yrdZ1A6",
             "type": "MOD",
             "slug": {
@@ -192,9 +435,9 @@
             ]
         },
         {
-            "pakku_id": "QTLFBLODQXngjus9",
+            "pakku_id": "wHNJgPLGI4ZUvOJO",
             "pakku_links": [
-                "QoW5CHM7CK0TqH0W"
+                "wgf9BISeNJ1FBE17"
             ],
             "type": "MOD",
             "slug": {
@@ -233,7 +476,7 @@
             ]
         },
         {
-            "pakku_id": "QoW5CHM7CK0TqH0W",
+            "pakku_id": "wgf9BISeNJ1FBE17",
             "type": "MOD",
             "slug": {
                 "curseforge": "mezzconfig"
@@ -265,6 +508,42 @@
                     "required_dependencies": [],
                     "size": 364842,
                     "date_published": "2026-10-03T15:37:48.390Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2a4pRLtagK3PKFcL",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "mouse-tweaks"
+            },
+            "name": {
+                "curseforge": "Mouse Tweaks"
+            },
+            "id": {
+                "curseforge": "60089"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5338/457/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+                    "id": "5338457",
+                    "parent_id": "60089",
+                    "hashes": {
+                        "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c",
+                        "md5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+                    },
+                    "required_dependencies": [],
+                    "size": 76237,
+                    "date_published": "2024-05-12T16:26:46.523Z"
                 }
             ]
         },
