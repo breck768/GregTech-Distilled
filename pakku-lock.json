@@ -1,0 +1,309 @@
+{
+    "target": "curseforge",
+    "mc_versions": [
+        "1.20.1"
+    ],
+    "loaders": {
+        "forge": "47.4.26"
+    },
+    "projects": [
+        {
+            "pakku_id": "bBkg0HOouhuiVs7M",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "emi"
+            },
+            "name": {
+                "curseforge": "EMI"
+            },
+            "id": {
+                "curseforge": "580555"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "emi-1.1.24+1.20.1+forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8081/375/emi-1.1.24+1.20.1+forge.jar",
+                    "id": "8081375",
+                    "parent_id": "580555",
+                    "hashes": {
+                        "sha1": "ea320200878e4a49196760234a22da763671520a",
+                        "md5": "c86d5772fba9fbd4d612f2fe82397f72"
+                    },
+                    "required_dependencies": [],
+                    "size": 1121750,
+                    "date_published": "2026-05-13T06:18:18.303Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "QWaLgh9MwCKYNzrR",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "gregtechceu-modern"
+            },
+            "name": {
+                "curseforge": "GregTech CEu Modern"
+            },
+            "id": {
+                "curseforge": "890405"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "gtceu-1.20.1-7.5.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7917/773/gtceu-1.20.1-7.5.3.jar",
+                    "id": "7917773",
+                    "parent_id": "890405",
+                    "hashes": {
+                        "sha1": "2e9de016b74826d43f0d4e619a755e8ec0253784",
+                        "md5": "78d93936d70c0eba394a1a70d3ba1d52"
+                    },
+                    "required_dependencies": [],
+                    "size": 18209988,
+                    "date_published": "2026-04-12T20:47:58.687Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0QFlaaSCNUDdeQbF",
+            "pakku_links": [
+                "QWaLgh9MwCKYNzrR"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "gcyr"
+            },
+            "name": {
+                "curseforge": "Gregicality Rocketry"
+            },
+            "id": {
+                "curseforge": "922713"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "gcyr-1.20.1-0.2.9.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8349/382/gcyr-1.20.1-0.2.9.jar",
+                    "id": "8349382",
+                    "parent_id": "922713",
+                    "hashes": {
+                        "sha1": "125cd2874493c92432637933effb0efc0bbc46a5",
+                        "md5": "989fd9a51b01056314e9ff4179fc5a68"
+                    },
+                    "required_dependencies": [
+                        "890405"
+                    ],
+                    "size": 1720922,
+                    "date_published": "2026-07-01T00:30:00.750Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "cKJJNkMmD6QLeLWW",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "gtceu-programmer-art"
+            },
+            "name": {
+                "curseforge": "Gregtech CEu Modern Programmer Art"
+            },
+            "id": {
+                "curseforge": "950859"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Gregtech_CEu_Modern_Programmer_Art.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7703/521/Gregtech_CEu_Modern_Programmer_Art.zip",
+                    "id": "7703521",
+                    "parent_id": "950859",
+                    "hashes": {
+                        "sha1": "164bf1f059e390e1eff05756a3eb9c005a0c37ea",
+                        "md5": "0c0ab9403fc2cdba4dc5ad830d25d327"
+                    },
+                    "required_dependencies": [],
+                    "size": 4005548,
+                    "date_published": "2026-03-03T00:50:45.930Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "pMuGmySS5yrdZ1A6",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "jade"
+            },
+            "name": {
+                "curseforge": "Jade 🔍"
+            },
+            "id": {
+                "curseforge": "324717"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Jade-1.20.1-Forge-11.13.3.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8479/276/Jade-1.20.1-Forge-11.13.3.jar",
+                    "id": "8479276",
+                    "parent_id": "324717",
+                    "hashes": {
+                        "sha1": "d08e64e66521d69e083c8525f1fc507f1c202384",
+                        "md5": "a53aade6b5915ebe8357abb68cf1f778"
+                    },
+                    "required_dependencies": [],
+                    "size": 553487,
+                    "date_published": "2026-07-21T11:08:31.270Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "QTLFBLODQXngjus9",
+            "pakku_links": [
+                "QoW5CHM7CK0TqH0W"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "jei"
+            },
+            "name": {
+                "curseforge": "Just Enough Items (JEI)"
+            },
+            "id": {
+                "curseforge": "238222"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "jei-1.20.1-forge-15.62.0.219.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/9058/38/jei-1.20.1-forge-15.62.0.219.jar",
+                    "id": "9058038",
+                    "parent_id": "238222",
+                    "hashes": {
+                        "sha1": "e514cd6bc50b816487d9c25cd457de5e0bd5b07f",
+                        "md5": "872176fd31ee2615bfed17d1ba3765c8"
+                    },
+                    "required_dependencies": [
+                        "1689768"
+                    ],
+                    "size": 2232177,
+                    "date_published": "2026-10-04T12:38:50.890Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "QoW5CHM7CK0TqH0W",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "mezzconfig"
+            },
+            "name": {
+                "curseforge": "MezzConfig"
+            },
+            "id": {
+                "curseforge": "1689768"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "mezz_config-1.20.1-forge-0.6.8.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/9048/661/mezz_config-1.20.1-forge-0.6.8.jar",
+                    "id": "9048661",
+                    "parent_id": "1689768",
+                    "hashes": {
+                        "sha1": "e0e9f46bbd24b44a7046c45ccf6aff0bc0a7b735",
+                        "md5": "c609eaeef43e3aa1fd2795168ddb1747"
+                    },
+                    "required_dependencies": [],
+                    "size": 364842,
+                    "date_published": "2026-10-03T15:37:48.390Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "pzERXjNDlFGr3yNs",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ulv-covers-modern"
+            },
+            "name": {
+                "curseforge": "ULV Covers Modern"
+            },
+            "id": {
+                "curseforge": "984851"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ulvcovm-0.3.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6842/815/ulvcovm-0.3.2.jar",
+                    "id": "6842815",
+                    "parent_id": "984851",
+                    "hashes": {
+                        "sha1": "2abcd5751dd4b8dc0334c286f5eb75a2b6297173",
+                        "md5": "3cfa212584fdb3fe48709cd0d98c87db"
+                    },
+                    "required_dependencies": [],
+                    "size": 165355,
+                    "date_published": "2025-08-03T13:19:13.957Z"
+                }
+            ]
+        }
+    ],
+    "lockfile_version": 2
+}
