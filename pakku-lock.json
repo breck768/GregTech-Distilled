@@ -8,6 +8,43 @@
     },
     "projects": [
         {
+            "pakku_id": "1XuQwuqvU6tGWoL6",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "appleskin"
+            },
+            "name": {
+                "curseforge": "AppleSkin"
+            },
+            "id": {
+                "curseforge": "248787"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "appleskin-forge-mc1.20.1-2.5.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4770/828/appleskin-forge-mc1.20.1-2.5.1.jar",
+                    "id": "4770828",
+                    "parent_id": "248787",
+                    "hashes": {
+                        "sha1": "81919356f84eab14258db98924b66c3c38e372b1",
+                        "md5": "dae63cea9c951dda542a4005ceef3953"
+                    },
+                    "required_dependencies": [],
+                    "size": 47428,
+                    "date_published": "2023-09-27T04:39:49.087Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "whw2SdeX2EJzVgGN",
             "pakku_links": [
                 "8Rtvxws7orqtTBQz"
@@ -82,6 +119,48 @@
                     "required_dependencies": [],
                     "size": 580602,
                     "date_published": "2024-02-26T13:18:59.227Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "SacuESiSDxxVwHCJ",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "controlling",
+                "curseforge": "controlling"
+            },
+            "name": {
+                "modrinth": "Controlling",
+                "curseforge": "Controlling"
+            },
+            "id": {
+                "modrinth": "xv94TkTM",
+                "curseforge": "250398"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Controlling-forge-1.20.1-12.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/LH6Bi6Am/Controlling-forge-1.20.1-12.0.2.jar",
+                    "id": "LH6Bi6Am",
+                    "parent_id": "xv94TkTM",
+                    "hashes": {
+                        "sha512": "3945bf3f6d843957f13584dfc70bede253d1e48f0dcb96f647fbcc6fcd3d1748a0dd9c6ca5c882e07a41f98eb84057934f51e43ab6023ed0a19695de2e6fe9f5",
+                        "sha1": "6195a3d1464f8fb641d7e165163aea1a857ce08e"
+                    },
+                    "required_dependencies": [
+                        "fuuu3xnx"
+                    ],
+                    "size": 115280,
+                    "date_published": "2023-07-16T04:39:30.644589Z"
                 }
             ]
         },
@@ -544,6 +623,121 @@
                     "required_dependencies": [],
                     "size": 76237,
                     "date_published": "2024-05-12T16:26:46.523Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "yP7m02cnEycj9RsM",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "searchables"
+            },
+            "name": {
+                "curseforge": "Searchables"
+            },
+            "id": {
+                "curseforge": "858542"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Searchables-forge-1.20.1-1.0.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5284/15/Searchables-forge-1.20.1-1.0.3.jar",
+                    "id": "5284015",
+                    "parent_id": "858542",
+                    "hashes": {
+                        "sha1": "ed5a23ec30c90fd06b3f1d8140614028e1fafaee",
+                        "md5": "9f5418e9c08c18a375ef42fada4bcef2"
+                    },
+                    "required_dependencies": [],
+                    "size": 77732,
+                    "date_published": "2024-04-23T06:56:49.313Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Xgczh5EgdidMX160",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "spice-of-life-carrot-edition"
+            },
+            "name": {
+                "curseforge": "Spice of Life: Carrot Edition"
+            },
+            "id": {
+                "curseforge": "277616"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "solcarrot-1.20.1-1.15.1.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4888/575/solcarrot-1.20.1-1.15.1.jar",
+                    "id": "4888575",
+                    "parent_id": "277616",
+                    "hashes": {
+                        "sha1": "f7fa1fd0c633b10f98d7f0f97766b95aac1a2dc0",
+                        "md5": "3b143c8d252b51221b5e85724c00171c"
+                    },
+                    "required_dependencies": [],
+                    "size": 104185,
+                    "date_published": "2023-11-21T22:21:12.127Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "fBYm0Zq3GLSHnYBr",
+            "pakku_links": [
+                "8b2y77ALxqDv3aYX"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "foodvariations"
+            },
+            "name": {
+                "curseforge": "Spice of Life: Classic Edition"
+            },
+            "id": {
+                "curseforge": "1109288"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "spiceoflife_classic-forge-2.13.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8832/188/spiceoflife_classic-forge-2.13.jar",
+                    "id": "8832188",
+                    "parent_id": "1109288",
+                    "hashes": {
+                        "sha1": "d0ed921636aba3c8a235e14187747dce8300f88c",
+                        "md5": "defb1d8c9a4deed2d324a63a277dd6d9"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 122039,
+                    "date_published": "2026-09-07T18:39:07.640Z"
                 }
             ]
         },
