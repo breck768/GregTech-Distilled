@@ -1,0 +1,290 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: ""
+	icon: {
+		Count: 1
+		id: "gtceu:flint_pickaxe"
+		tag: {
+			Damage: 0
+			DisallowContainerItem: 0b
+			GT.Behaviours: {
+				TorchPlacing: 1b
+			}
+			GT.Tool: {
+				DefaultEnchantments: [ ]
+				HarvestLevel: 1
+				MaxDamage: 63
+				ToolSpeed: 4.0f
+			}
+			HideFlags: 2
+		}
+	}
+	id: "33F567D6631DBC0B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "43EE0BD8B1079F72"
+			tasks: [{
+				id: "1B93F6B5C6BBA8B1"
+				title: "yo waddup"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["something about rubber logs"]
+			id: "701F00715AECD87E"
+			tasks: [{
+				count: 16L
+				id: "2A9C4F86C86201CA"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Logs"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: ["3 gravel recipe"]
+			id: "0040CAE3FF2FDD88"
+			tasks: [{
+				count: 8L
+				id: "0664E5E3DEB36D79"
+				item: { Count: 8, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "62AAA77C2670DAC2"
+			tasks: [
+				{
+					id: "12E19F68CFA3167A"
+					item: {
+						Count: 1
+						id: "gtceu:flint_pickaxe"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								TorchPlacing: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 1
+								MaxDamage: 63
+								ToolSpeed: 4.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F4AF9B63864EC3C"
+					item: {
+						Count: 1
+						id: "gtceu:flint_sword"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 4.0f
+								AttackSpeed: -2.4f
+								DefaultEnchantments: [{
+									id: "minecraft:fire_aspect"
+									lvl: 1s
+								}]
+								MaxDamage: 63
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EF99CCEF24D0F6A"
+					item: {
+						Count: 1
+						id: "gtceu:flint_axe"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 1
+								MaxDamage: 63
+								ToolSpeed: 2.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4541E4F4FC612C9E"
+					item: {
+						Count: 1
+						id: "gtceu:flint_shovel"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 1
+								MaxDamage: 63
+								ToolSpeed: 4.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Flint Tools"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "1D81C6B949B81B63"
+			tasks: [{
+				id: "50F94BFE4035D3B3"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "caving"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "517B7F00DBF738E2"
+			tasks: [{
+				count: 16L
+				id: "0BA5E760BD8E3E43"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "65F1C2DAEA61625A"
+			tasks: [{
+				id: "1B317F2ADB2092C0"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: ["build in desert joke"]
+			id: "60B9785F8E47ECF6"
+			tasks: [
+				{
+					count: 3L
+					id: "2C91795612642F52"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "509926FFC6F881DE"
+					item: { Count: 5, id: "minecraft:sand" }
+					type: "item"
+				}
+			]
+			title: "coke oven stuff"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "78FA3DB5BA8D59D5"
+			tasks: [{
+				id: "7122DA5302BF060B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "0B15042E60AEDA3D"
+			tasks: [
+				{
+					id: "2A8A050DD06B3F33"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:rawmeats)"
+						}
+					}
+					title: "Any #forge:rawmeats"
+					type: "item"
+				}
+				{
+					id: "4596A90518F8DF78"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:seeds)"
+						}
+					}
+					title: "Any #forge:seeds"
+					type: "item"
+				}
+			]
+			title: "food"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "6E74ACFF47D62C68"
+			tasks: [{
+				id: "5395978663C84E2B"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "4F6BAFA9BD236CEB"
+			tasks: [{
+				id: "67A32F2A3C89113D"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Introduction"
+}

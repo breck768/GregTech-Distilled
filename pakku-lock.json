@@ -165,6 +165,42 @@
             ]
         },
         {
+            "pakku_id": "4fxn55Lvcfg3HPEh",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "crafting-station"
+            },
+            "name": {
+                "curseforge": "Crafting Station"
+            },
+            "id": {
+                "curseforge": "318551"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Crafting Station-forge-1.20.1-0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5496/566/Crafting Station-forge-1.20.1-0.jar",
+                    "id": "5496566",
+                    "parent_id": "318551",
+                    "hashes": {
+                        "sha1": "4b683f61f23710c39ab1a6f555f546ba4c504cc1",
+                        "md5": "4dd64d06cca6c65527d64092ee402234"
+                    },
+                    "required_dependencies": [],
+                    "size": 98761,
+                    "date_published": "2024-07-02T21:31:38.597Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "V8p1SnUuaSs2wVuR",
             "type": "MOD",
             "slug": {
@@ -235,6 +271,48 @@
                     "required_dependencies": [],
                     "size": 1121750,
                     "date_published": "2026-05-13T06:18:18.303Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "a1cdFDdGpJtwwR9p",
+            "pakku_links": [
+                "8b2y77ALxqDv3aYX"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-filter-system"
+            },
+            "name": {
+                "curseforge": "FTB Filter System"
+            },
+            "id": {
+                "curseforge": "943925"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-filter-system-forge-20.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6466/153/ftb-filter-system-forge-20.0.1.jar",
+                    "id": "6466153",
+                    "parent_id": "943925",
+                    "hashes": {
+                        "sha1": "812de9759fe87cb405e14cbb0fe5b72a7ee11f42",
+                        "md5": "e94ddd33cf0d6ed5a5eeaefcea8f5089"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 197884,
+                    "date_published": "2025-04-26T08:49:57.267Z"
                 }
             ]
         },
@@ -364,6 +442,49 @@
                     ],
                     "size": 252579,
                     "date_published": "2026-01-21T10:11:35.007Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "vkWATk3kuQeDKM5H",
+            "pakku_links": [
+                "8b2y77ALxqDv3aYX",
+                "jbEoEFS6M2d2kp6I"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-xmod-compat"
+            },
+            "name": {
+                "curseforge": "FTB XMod Compat"
+            },
+            "id": {
+                "curseforge": "889915"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-xmod-compat-forge-2.1.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6402/486/ftb-xmod-compat-forge-2.1.3.jar",
+                    "id": "6402486",
+                    "parent_id": "889915",
+                    "hashes": {
+                        "sha1": "0584f628d2bc6a612d79dee368324357ebae1423",
+                        "md5": "6d01bd4bc73c6ce36d0d91c56bb27772"
+                    },
+                    "required_dependencies": [
+                        "419699",
+                        "404465"
+                    ],
+                    "size": 129725,
+                    "date_published": "2025-04-09T10:47:38.837Z"
                 }
             ]
         },

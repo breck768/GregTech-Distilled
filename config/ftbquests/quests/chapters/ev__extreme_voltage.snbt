@@ -1,12 +1,13 @@
 {
+	always_invisible: true
 	autofocus_id: "01E88C8523658529"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ev__extreme_voltage"
-	group: "693226878D58638A"
+	group: "76CF20B03F551A1A"
 	icon: "gtceu:ev_electric_motor"
 	id: "7FB9F636D95820A3"
-	order_index: 4
+	order_index: 5
 	quest_links: [
 		{
 			id: "2E99A771FCA40E15"

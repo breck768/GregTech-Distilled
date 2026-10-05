@@ -1,11 +1,12 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "ore_generation"
-	group: "288DA1F92F7C0A7A"
+	group: "76CF20B03F551A1A"
 	icon: "minecraft:iron_ore"
 	id: "6A809CAE287B97BA"
-	order_index: 2
+	order_index: 12
 	quest_links: [
 		{
 			id: "4B68740C721D04D5"

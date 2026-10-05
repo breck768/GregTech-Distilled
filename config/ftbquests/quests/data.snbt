@@ -11,7 +11,7 @@
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
 	hide_excluded_quests: false
-	icon: "kubejs:greg_icon"
+	icon: "minecraft:cod"
 	lock_message: "eSFSDF"
 	loot_crate_no_drop: {
 		boss: 0
@@ -21,6 +21,6 @@
 	pause_game: false
 	progression_mode: "default"
 	show_lock_icons: true
-	title: "GregTech Community Pack"
+	title: "gregpack"
 	version: 13
 }

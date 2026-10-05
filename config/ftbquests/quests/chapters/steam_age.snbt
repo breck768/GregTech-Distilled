@@ -1,11 +1,12 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "steam_age"
-	group: "693226878D58638A"
+	group: "76CF20B03F551A1A"
 	icon: "gtceu:bronze_brick_casing"
 	id: "3B89FB8839204148"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

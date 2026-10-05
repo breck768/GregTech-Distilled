@@ -36,7 +36,7 @@ recipes:
   # Whether to make Vanilla Tools and Armor recipes harder.
   # Excludes Flint and Steel, and Buckets.
   # Default: false
-  hardToolArmorRecipes: true
+  hardToolArmorRecipes: false
 
   # Whether to make miscellaneous recipes harder.
   # Default: false
