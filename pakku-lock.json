@@ -165,6 +165,44 @@
             ]
         },
         {
+            "pakku_id": "V8p1SnUuaSs2wVuR",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "curios"
+            },
+            "name": {
+                "curseforge": "Curios API"
+            },
+            "id": {
+                "curseforge": "309927"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "curios-forge-5.14.1+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6418/456/curios-forge-5.14.1+1.20.1.jar",
+                    "id": "6418456",
+                    "parent_id": "309927",
+                    "hashes": {
+                        "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+                        "md5": "2fdcc97cbc66c4b2492b407c792e7159"
+                    },
+                    "required_dependencies": [],
+                    "size": 398066,
+                    "date_published": "2025-04-13T13:09:30.850Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "bBkg0HOouhuiVs7M",
             "type": "MOD",
             "slug": {
@@ -555,6 +593,49 @@
             ]
         },
         {
+            "pakku_id": "TjuoMiNfJYBOcIWp",
+            "pakku_links": [
+                "l5ASlauQi0mU4UM9",
+                "8b2y77ALxqDv3aYX"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs"
+            },
+            "name": {
+                "curseforge": "KubeJS"
+            },
+            "id": {
+                "curseforge": "238086"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubejs-forge-2001.6.5-build.26.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8020/595/kubejs-forge-2001.6.5-build.26.jar",
+                    "id": "8020595",
+                    "parent_id": "238086",
+                    "hashes": {
+                        "sha1": "8b0cc9797d4ed00fd2d1002d58960af8b32012ae",
+                        "md5": "64ee6615f19fb9b2b11fee8b7385eaaf"
+                    },
+                    "required_dependencies": [
+                        "416294",
+                        "419699"
+                    ],
+                    "size": 1658792,
+                    "date_published": "2026-05-01T10:43:20.410Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "wgf9BISeNJ1FBE17",
             "type": "MOD",
             "slug": {
@@ -623,6 +704,196 @@
                     "required_dependencies": [],
                     "size": 76237,
                     "date_published": "2024-05-12T16:26:46.523Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "OptG88Gmvgz4biMR",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "pams-harvestcraft-2-crops"
+            },
+            "name": {
+                "curseforge": "Pam's HarvestCraft 2 - Crops"
+            },
+            "id": {
+                "curseforge": "361385"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "pamhc2crops-1.20-1.0.3.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4687/624/pamhc2crops-1.20-1.0.3.jar",
+                    "id": "4687624",
+                    "parent_id": "361385",
+                    "hashes": {
+                        "sha1": "1b2eb3198570be89edce532bc76c6471af3529f3",
+                        "md5": "3b4a219f1bc87f89256ca84ff6059f7a"
+                    },
+                    "required_dependencies": [],
+                    "size": 1050402,
+                    "date_published": "2023-08-07T21:13:53.157Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "gjGCOEAGm5R5nbfu",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "pams-harvestcraft-2-food-core"
+            },
+            "name": {
+                "curseforge": "Pam's HarvestCraft 2 - Food Core"
+            },
+            "id": {
+                "curseforge": "372534"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "pamhc2foodcore-1.20.4-1.0.5.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5097/798/pamhc2foodcore-1.20.4-1.0.5.jar",
+                    "id": "5097798",
+                    "parent_id": "372534",
+                    "hashes": {
+                        "sha1": "7fafd6a0c6692142b8dfb249341659f463fc9cba",
+                        "md5": "744646a811ced1c079c19a7df31388fe"
+                    },
+                    "required_dependencies": [],
+                    "size": 911489,
+                    "date_published": "2024-02-11T00:34:25.843Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "G72kmalay2kjLIMj",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "pams-harvestcraft-2-food-extended"
+            },
+            "name": {
+                "curseforge": "Pam's HarvestCraft 2 - Food Extended"
+            },
+            "id": {
+                "curseforge": "402231"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "pamhc2foodextended-1.20.4-1.0.1.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5147/171/pamhc2foodextended-1.20.4-1.0.1.jar",
+                    "id": "5147171",
+                    "parent_id": "402231",
+                    "hashes": {
+                        "sha1": "5939df90ec025f90e502d6e735081103860bbd0f",
+                        "md5": "dc927874aca1d62cd9dbc69e044d9ed9"
+                    },
+                    "required_dependencies": [],
+                    "size": 2062882,
+                    "date_published": "2024-02-29T22:04:49.307Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "4qQgT5R03D1AgCrv",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "pams-harvestcraft-2-trees"
+            },
+            "name": {
+                "curseforge": "Pam's HarvestCraft 2 - Trees"
+            },
+            "id": {
+                "curseforge": "365460"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "pamhc2trees-1.20-1.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4625/518/pamhc2trees-1.20-1.0.2.jar",
+                    "id": "4625518",
+                    "parent_id": "365460",
+                    "hashes": {
+                        "sha1": "3e4118f4649305f3940c412d20d6295d884900bf",
+                        "md5": "39a319227f0fb70bec5f9b6d7bd9b34f"
+                    },
+                    "required_dependencies": [],
+                    "size": 777303,
+                    "date_published": "2023-07-04T23:12:00.190Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "l5ASlauQi0mU4UM9",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "rhino"
+            },
+            "name": {
+                "curseforge": "Rhino"
+            },
+            "id": {
+                "curseforge": "416294"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rhino-forge-2001.2.3-build.10.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6186/971/rhino-forge-2001.2.3-build.10.jar",
+                    "id": "6186971",
+                    "parent_id": "416294",
+                    "hashes": {
+                        "sha1": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1",
+                        "md5": "59387620b0ef6becbff02c7c1636ad3e"
+                    },
+                    "required_dependencies": [],
+                    "size": 1798244,
+                    "date_published": "2025-02-12T21:26:47.347Z"
                 }
             ]
         },
