@@ -1,3 +1,9 @@
 {
-	chapter_groups: [{ id: "76CF20B03F551A1A", title: "yo waddup" }]
+	chapter_groups: [
+		{ id: "0C5D66777A7B856C", title: "Early Game" }
+		{ id: "0C686732BF1453B0", title: "Mid Game" }
+		{ id: "29C9EC756C6F40B5", title: "Late Game" }
+		{ id: "7FD8BB25C440EB7C", title: "End Game" }
+		{ id: "76CF20B03F551A1A", title: "_community pack junk" }
+	]
 }

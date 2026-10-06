@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aultra_excessive_voltage"
+	group: "29C9EC756C6F40B5"
+	id: "1AD91482CDA33AE1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "&aUltra Excessive Voltage"
+}

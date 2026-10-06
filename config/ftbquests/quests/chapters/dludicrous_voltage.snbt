@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dludicrous_voltage"
+	group: "0C686732BF1453B0"
+	icon: "gtceu:nano_processor_mainframe"
+	id: "154942E748633124"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "&dLudicrous Voltage"
+}

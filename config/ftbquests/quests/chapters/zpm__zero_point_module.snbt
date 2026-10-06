@@ -6,7 +6,7 @@
 	group: "76CF20B03F551A1A"
 	icon: "gtceu:zpm_electric_motor"
 	id: "0945247E83444D90"
-	order_index: 8
+	order_index: 7
 	quest_links: [
 		{
 			id: "6BE70146903B5CBD"

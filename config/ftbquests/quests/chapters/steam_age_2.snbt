@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_age_2"
+	group: "0C5D66777A7B856C"
+	icon: "gtceu:vacuum_tube"
+	id: "5A5742DD40EC3D5D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["210125560737B35B"]
+		id: "01AE5BA787DA2A64"
+		tasks: [{
+			id: "47109C6BF4336776"
+			title: "Welcome to ULV/Steam"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&8Ultra Low Voltage&7/&fSteam"
+}

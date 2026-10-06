@@ -143,11 +143,11 @@ worldgen:
 
     # Prevents regular vanilla ores from being generated outside GregTech ore veins
     # Default: true
-    removeVanillaOreGen: true
+    removeVanillaOreGen: false
 
     # Prevents vanilla's large ore veins from being generated
     # Default: true
-    removeVanillaLargeOreVeins: true
+    removeVanillaLargeOreVeins: false
 
     # Distance between bedrock ore veins in chunks, if enabled.
     # Default: 16

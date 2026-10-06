@@ -6,7 +6,7 @@
 	group: "76CF20B03F551A1A"
 	icon: "minecraft:iron_ore"
 	id: "6A809CAE287B97BA"
-	order_index: 12
+	order_index: 11
 	quest_links: [
 		{
 			id: "4B68740C721D04D5"
@@ -42,16 +42,9 @@
 			x: 13.0d
 			y: 1.0d
 		}
-		{
-			id: "204A88B97FFA67FA"
-			linked_quest: "4A365A7CC9E374F9"
-			x: 13.0d
-			y: 0.0d
-		}
 	]
 	quests: [
 		{
-			dependencies: ["0C690272ED4FB1C3"]
 			description: [
 				"Some of the details are repeated from the introduction quest, but we feel like we needed to expand on the explanation if you want to know all the details!"
 				""

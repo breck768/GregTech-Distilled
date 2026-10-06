@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "introduction"
-	group: ""
+	group: "0C5D66777A7B856C"
 	icon: {
 		Count: 1
 		id: "gtceu:flint_pickaxe"
@@ -26,18 +26,28 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["mv at best"]
+			icon: "minecraft:grass_block"
 			id: "43EE0BD8B1079F72"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "How far will you go?"
 			tasks: [{
-				id: "1B93F6B5C6BBA8B1"
-				title: "yo waddup"
-				type: "checkmark"
+				dimension: "minecraft:overworld"
+				id: "3A771A658C9D1D76"
+				title: "First person to beat the pack without triggering this gets a cookie"
+				type: "dimension"
 			}]
-			x: -1.5d
-			y: 0.0d
+			title: "The Start of a Journey"
+			x: 3.5d
+			y: -6.0d
 		}
 		{
-			description: ["something about rubber logs"]
+			dependencies: ["43EE0BD8B1079F72"]
+			description: ["Nothing special to see here, find your favorite type of wood."]
+			icon: "minecraft:oak_log"
 			id: "701F00715AECD87E"
+			subtitle: "Some things never change"
 			tasks: [{
 				count: 16L
 				id: "2A9C4F86C86201CA"
@@ -51,24 +61,31 @@
 				title: "Any #minecraft:logs"
 				type: "item"
 			}]
-			title: "Logs"
-			x: -0.5d
-			y: 0.0d
+			title: "Familiarity"
+			x: 3.5d
+			y: -4.0d
 		}
 		{
-			description: ["3 gravel recipe"]
+			dependencies: ["701F00715AECD87E"]
+			description: ["If you've worked ahead, you might have noticed that wood tools, along with all vanilla tools, lack recipes. You must experiment with more &4Gregic &fways of making tools. So, go out and grab some Flint."]
 			id: "0040CAE3FF2FDD88"
+			subtitle: "Huh?"
 			tasks: [{
 				count: 8L
 				id: "0664E5E3DEB36D79"
 				item: { Count: 8, id: "minecraft:flint" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.0d
+			title: "\"Wait, what?\""
+			x: 3.5d
+			y: -2.0d
 		}
 		{
+			dependencies: ["4F6BAFA9BD236CEB"]
+			description: ["Your first set of tools. Expect to make a couple of these, as their durability is low and the next upgrade is only available when you obtain Iron."]
 			id: "62AAA77C2670DAC2"
+			shape: "gear"
+			subtitle: "Sticks and rocks"
 			tasks: [
 				{
 					id: "12E19F68CFA3167A"
@@ -160,44 +177,69 @@
 				}
 			]
 			title: "Flint Tools"
-			x: 2.5d
-			y: 0.0d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["0B15042E60AEDA3D"]
+			description: [
+				"It's time to do some mining. There are two options, the vastly more resource efficient GregTech veins or the familiar caving."
+				""
+				"Unlike standard GregTech, vanilla ore veins still generate. Caving is still a viable activity in the early game for getting yourself established while your resource stockpiles are low."
+				""
+				"Whatever you decide to do, report back once you have a stack of Cobblestone."
+				""
+				"{@pagebreak}"
+				"For the uninitiated, GregTech ore veins are large ore deposits that spawn ores of a specific type. They generate at varying Y levels, but always generate at the center of every 3 chunks in any given world. They are marked by piles of dust on the surface. Digging straight down in the center of a chunk where these appear will lead you to the corresponding ore vein. These ore veins are automatically marked on your map, and you can craft ore prospectors later on that show you a view of what ore veins are around you."
+			]
 			id: "1D81C6B949B81B63"
+			subtitle: "First half of the name comes second."
 			tasks: [{
 				id: "50F94BFE4035D3B3"
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			title: "caving"
-			x: 4.5d
-			y: 0.0d
+			title: "Mining"
+			x: 7.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["6E74ACFF47D62C68"]
+			description: ["Iron is still as useful as ever, be sure to make plenty."]
 			id: "517B7F00DBF738E2"
+			subtitle: "Fe"
 			tasks: [{
 				count: 16L
 				id: "0BA5E760BD8E3E43"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.0d
+			title: "First Metals: Iron"
+			x: 7.5d
+			y: -2.0d
 		}
 		{
+			dependencies: ["0B15042E60AEDA3D"]
+			description: ["While you're out hunter gathering, pick up any Sugar Cane you find."]
 			id: "65F1C2DAEA61625A"
+			subtitle: "Reeds"
 			tasks: [{
 				id: "1B317F2ADB2092C0"
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
-			description: ["build in desert joke"]
+			dependencies: ["0B15042E60AEDA3D"]
+			description: [
+				"You'll likely need large amounts of Sand and &owill &rneed large amounts of Clay in the future. Find a spot with plently of Clay, and nominate a desert out of sight of your base to dig big obnoxious holes in."
+				""
+				"Or build your base in the holes, I really don't care!"
+			]
 			id: "60B9785F8E47ECF6"
+			subtitle: "The Land is your Canvas."
 			tasks: [
 				{
 					count: 3L
@@ -212,12 +254,20 @@
 					type: "item"
 				}
 			]
-			title: "coke oven stuff"
-			x: 3.5d
-			y: 1.0d
+			title: "Resource Gathering"
+			x: 6.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["701F00715AECD87E"]
+			description: [
+				"Beds can be made as soon as you have wood. You'll need more wood and wool than you might be used to."
+				""
+				"Also, the higher ups are telling me you need to dye them, otherwise your toilet will mysteriously no longer be able to flush."
+			]
+			icon: "minecraft:red_bed"
 			id: "78FA3DB5BA8D59D5"
+			optional: true
 			tasks: [{
 				id: "7122DA5302BF060B"
 				item: {
@@ -230,11 +280,20 @@
 				title: "Any #minecraft:beds"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.0d
+			title: "Zzz..."
+			x: 2.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["62AAA77C2670DAC2"]
+			description: [
+				"This pack features two mods, Spice of Life Classic Edition and Carrot Edition."
+				"Carrot Edition adds obtaining extra hearts for eating multiple unique types of foods, and Classic Edition adds diminishing returns on foods that are eaten often. As such, a varied diet is important. Consider finding some animals to farm and crops to breed them with and/or consume yourself."
+				""
+				"&8if diminishing returns is an unpopular feature i have no issue with removing it lmao "
+			]
 			id: "0B15042E60AEDA3D"
+			subtitle: "Hello Hungry"
 			tasks: [
 				{
 					id: "2A8A050DD06B3F33"
@@ -261,30 +320,231 @@
 					type: "item"
 				}
 			]
-			title: "food"
-			x: 3.5d
-			y: 0.0d
+			title: "Foodstuffs"
+			x: 5.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["1D81C6B949B81B63"]
+			description: [
+				"Hope you grabbed some extra flint"
+				""
+				"{@pagebreak}"
+				"&8ulv furnace :p"
+			]
 			id: "6E74ACFF47D62C68"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "cmon dawg"
 			tasks: [{
 				id: "5395978663C84E2B"
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			title: "Your ACTUAL first machine?"
+			x: 7.5d
+			y: -0.5d
 		}
 		{
+			dependencies: ["0040CAE3FF2FDD88"]
+			description: [
+				"Can't play Minecraft without crafting."
+				"{@pagebreak}"
+				"&8ulv assembler :)"
+			]
 			id: "4F6BAFA9BD236CEB"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "We're REALLY stretching the definition there"
 			tasks: [{
 				id: "67A32F2A3C89113D"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			title: "Your first machine?"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F6BAFA9BD236CEB"]
+			description: ["Your vanilla crafting table can be converted directly into a Crafting Station. This version can directly access inventories adjacent to it in world. This will be useful once you begin microcrafting."]
+			id: "20789F8F43D3823D"
+			optional: true
+			tasks: [{
+				id: "5B774B167F58A42F"
+				item: "craftingstation:crafting_station"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2321231AB2B623FA"
+				"1F59D4119C4CAD90"
+				"18D15B6109D763B8"
+			]
+			description: [
+				"Bronze Ingots can be created by smelting Bronze Dust in a furnace, which itself is a product of mixing Tin and Copper dust in a crafting grid."
+				""
+				"You eventually get a more efficient recipe that yields 4 dust instead of 3, but you may choose to make alot of bronze in bulk now. The choice is yours."
+			]
+			id: "0E0F4FDD83B22FAD"
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "SnCu3"
+			tasks: [{
+				id: "44A707A61EFDFED6"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["517B7F00DBF738E2"]
+			description: [
+				"Iron can be further processed in a furnace to create Wrought Iron. This is a harder version of the metal that can be used for stronger tools and is used machine parts later on. "
+				""
+				"Seasoned GregTech players will be happy to know that you DON'T have to smelt nuggets, smelting Iron Ingots in a furnace will yield a Hot Iron Ingot, which can be hammered into Wrought Iron from there."
+				""
+				"Do not convert your entire Iron supply into Wrought Iron, they are not interchangeable."
+			]
+			id: "66CAE1FC47A86D12"
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Fe but freaky"
+			tasks: [{
+				id: "236C166CBCDBF6BD"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "Wrought Iron Ingots"
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["701F00715AECD87E"]
+			description: [
+				"It's in your best interest to start farming Rubber Trees as soon as possible, as they yield Sticky Resin, an important item in the near future."
+				""
+				"They can be found in most parts of the world, but most commonly in forests among other trees."
+			]
+			id: "70B043D82A57433E"
+			subtitle: "Your favorite wood sucks, actually!"
+			tasks: [{
+				id: "6DC3B3939A4F2FB7"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			title: "Unfamiliarity"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66CAE1FC47A86D12"]
+			description: [
+				"The first of many GregTech crafting tools. This one can convert many early game items into an equivalent dust form."
+				""
+				"You can make this and all of the upcoming tools out of Iron if you wanted to, but Wrought Iron versions are a strict upgrade."
+			]
+			id: "2321231AB2B623FA"
+			subtitle: "Mashy Thing"
+			tasks: [{
+				id: "20A8DB5A8909AE45"
+				item: {
+					Count: 1
+					id: "gtceu:wrought_iron_mortar"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 383
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E74ACFF47D62C68"]
+			hide_dependent_lines: true
+			id: "1F59D4119C4CAD90"
+			subtitle: "Cu"
+			tasks: [{
+				id: "2C330AF0C33EB83F"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "First Metals: Copper"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E74ACFF47D62C68"]
+			hide_dependent_lines: true
+			id: "18D15B6109D763B8"
+			subtitle: "Sn"
+			tasks: [{
+				id: "62DD3A7481445F7C"
+				item: "gtceu:tin_ingot"
+				type: "item"
+			}]
+			title: "First Metals: Tin"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"66CAE1FC47A86D12"
+				"0E0F4FDD83B22FAD"
+			]
+			description: ["Your first step into Gregification has begun. Head on over to the &8Ultra Low Voltage&7/&fSteam&r chapter."]
+			icon: "gtceu:gregification_hazard_sign_block"
+			id: "210125560737B35B"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "[MCSBAN]"
+			tasks: [{
+				id: "7695462263F72FA7"
+				title: "Certificate of Most Certainly Still Being a Noob"
+				type: "checkmark"
+			}]
+			title: "And with that..."
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Every design decision in this pack has been given a specific reason for existing. If something feels out of place, refer to the Design Philosophy document in the Discord server. If it is not present in there, ask me about it directly, as it would be something I have yet to consider. "
+				"{@pagebreak}"
+				"Some notable config options that are set in this pack:"
+				"The rod recipe in Lathes use the hard mode (1 rod 2 small dust) recipe, a la GTNH."
+				"Most \"harder\" recipe configs are enabled in general (this is subject to change)"
+				""
+				"As noted in the Mining quest, vanilla ore gen is still present, on top of GT ore gen. This is to augment the early game, as plain GT basically making caving irrelevant is antithetical to survival Minecraft in my opinion"
+				"Bedrock ore veins are enabled &8but are as of yet unused &r and will be the main method of resource generation. Probably."
+				""
+				"Weather (rain, fire, etc.) do NOT cause machines to explode"
+				"On top of this, machine explosions do NOT cause terrain damage, only delete the machine itself."
+				""
+				"Pollution and hazards are enabled. &cPLEASE read the design doc or talk to me directly if you dont vibe with this (or the food changes)"
+			]
+			id: "1FC8CCB8307D85C2"
+			subtitle: "im not reading allat"
+			tasks: [{
+				id: "3E560B5BD4490472"
+				title: "Pertinent Information"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -8.5d
 		}
 	]
-	title: "Introduction"
+	title: "&7Origin"
 }

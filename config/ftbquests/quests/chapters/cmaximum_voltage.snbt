@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cmaximum_voltage"
+	group: "7FD8BB25C440EB7C"
+	id: "6AD5616A3306563B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "&l&cMaximum Voltage"
+}

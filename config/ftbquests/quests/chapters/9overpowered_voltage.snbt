@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "9overpowered_voltage"
+	group: "7FD8BB25C440EB7C"
+	id: "5E0FBD2B2D8E9AE7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "&l&9Overpowered Voltage"
+}
