@@ -116,6 +116,46 @@
 			x: -2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["071A387593153E20"]
+			description: [
+				"EMI has its place in any GTM pack, this one is no different."
+				"&bAutocrafting has seen an improvement through the EMI Tree Tabs addon.&r This addon allows you to sort different crafting trees into groups and craft those entire groups as if they were one tree. "
+				""
+				"For example, if you want to craft all the blocks needed for an Electric Blast Furnace, you can favorite the required recipes, add the individual blocks as recipe trees, and then you can group them together and adjust the number of crafts per item. The addon GUI explains the keybinds."
+				"{@pagebreak}"
+				"This replaces the usecase of the old Just Enough Calculation mod, which allowed you to encode arbitrary recipes (similar to the paper trick in AE2 patterns), which you could exploit to add recipes that gave you the directions for multiblocks and entire processing chains."
+			]
+			icon: "minecraft:crafting_table"
+			id: "7E43A544DD6383E4"
+			subtitle: "Emi Memi Imi"
+			tasks: [{
+				id: "4A3C146F53B99060"
+				title: "EMI"
+				type: "checkmark"
+			}]
+			title: "EMI"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["071A387593153E20"]
+			description: [
+				"This pack features two mods, Spice of Life Classic Edition and Carrot Edition."
+				"Carrot Edition adds obtaining extra hearts for eating multiple unique types of foods, and Classic Edition adds diminishing returns on foods that are eaten often. As such, a varied diet is important. Consider finding some animals to farm and crops to breed them with and/or consume yourself."
+				""
+				"&8if diminishing returns is an unpopular feature i have no issue with removing it lmao "
+			]
+			icon: "pamhc2foodextended:pepperonipizzaitem"
+			id: "2EA70DD3DC788D0B"
+			tasks: [{
+				id: "3E1C70D121EF307B"
+				title: "Food"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
 	]
 	title: "Information"
 }

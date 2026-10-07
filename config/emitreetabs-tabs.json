@@ -1,23 +1,42 @@
 {
   "version": 2,
-  "active": 0,
+  "active": 3,
   "tabs": [
     {
-      "goal": "gtceu:shaped/hv_assembler",
+      "goal": "gtceu:shaped/lv_chemical_reactor",
+      "batches": 3,
+      "group": 1,
+      "mode": "craft",
+      "offX": 8.400000000000025,
+      "offY": -55.37481259370315,
+      "zoom": 0
+    },
+    {
+      "goal": "gtceu:shaped/lv_forge_hammer",
       "batches": 2,
       "group": 1,
       "mode": "craft",
-      "offX": 0.0,
-      "offY": -89.20014992503748,
+      "offX": 0.2,
+      "offY": -89.40029985007496,
       "zoom": 0
     },
     {
       "goal": "gtceu:shaped/lv_macerator",
       "batches": 4,
+      "name": "Basic Macerator §r",
       "group": 1,
       "mode": "craft",
-      "offX": -10.4,
-      "offY": -91.60194902548726,
+      "offX": 94.83333273149191,
+      "offY": -153.7651816891689,
+      "zoom": -2
+    },
+    {
+      "goal": "gtceu:shaped/lv_centrifuge",
+      "batches": 7,
+      "group": 1,
+      "mode": "craft",
+      "offX": 0.0,
+      "offY": -89.0,
       "zoom": 0
     }
   ],

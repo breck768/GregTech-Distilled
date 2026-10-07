@@ -9,7 +9,7 @@
 	/**
 	 * Whether cheating in items is enabled.
 	 */
-	cheat-mode: creative;
+	cheat-mode: false;
 
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
@@ -370,37 +370,37 @@
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result.
 	 */
-	craft-one: "key.mouse.left";
+	craft-one: "key.keyboard.unknown";
 
 	/**
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for as many results as possible.
 	 */
-	craft-all: "shift key.mouse.left";
+	craft-all: "key.keyboard.unknown";
 
 	/**
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result and put in inventory if possible.
 	 */
-	craft-one-to-inventory: "key.keyboard.unknown";
+	craft-one-to-inventory: "key.mouse.left";
 
 	/**
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for as many results as possible and put in inventory if
 	 * possible.
 	 */
-	craft-all-to-inventory: "key.keyboard.unknown";
+	craft-all-to-inventory: "shift key.mouse.left";
 
 	/**
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result and put in cursor if possible.
 	 */
-	craft-one-to-cursor: "ctrl key.mouse.left";
+	craft-one-to-cursor: "key.keyboard.unknown";
 
 	/**
 	 * Display the recipe that will be used to craft on a stack with no recipe context.
 	 */
-	show-craft: "key.keyboard.left.shift";
+	show-craft: "key.keyboard.unknown";
 
 	/**
 	 * Cheat in one of an item into the inventory.
@@ -441,6 +441,9 @@
 	 * In edit mode, hide stacks with the hovered stack's id
 	 */
 	hide-stack-by-id: "ctrl shift key.mouse.left";
+
+	/** unparsed */
+	craft-tree: "key.keyboard.n";
 }
 
 #dev {

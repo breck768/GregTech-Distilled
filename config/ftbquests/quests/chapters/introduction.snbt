@@ -286,12 +286,7 @@
 		}
 		{
 			dependencies: ["62AAA77C2670DAC2"]
-			description: [
-				"This pack features two mods, Spice of Life Classic Edition and Carrot Edition."
-				"Carrot Edition adds obtaining extra hearts for eating multiple unique types of foods, and Classic Edition adds diminishing returns on foods that are eaten often. As such, a varied diet is important. Consider finding some animals to farm and crops to breed them with and/or consume yourself."
-				""
-				"&8if diminishing returns is an unpopular feature i have no issue with removing it lmao "
-			]
+			description: ["You're probably getting hungry by now, try to find a stable source of food."]
 			id: "0B15042E60AEDA3D"
 			subtitle: "Hello Hungry"
 			tasks: [
@@ -367,7 +362,11 @@
 		}
 		{
 			dependencies: ["4F6BAFA9BD236CEB"]
-			description: ["Your vanilla crafting table can be converted directly into a Crafting Station. This version can directly access inventories adjacent to it in world. This will be useful once you begin microcrafting."]
+			description: [
+				"Your vanilla crafting table can be converted directly into a Crafting Station. This version can directly access inventories adjacent to it in world. This will be useful once you begin microcrafting."
+				"{@pagebreak}"
+				"&7this unfortunately doesn't quite play well with EMI autocrafting but its the thought that counts :)"
+			]
 			id: "20789F8F43D3823D"
 			optional: true
 			tasks: [{
