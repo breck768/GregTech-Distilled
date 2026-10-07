@@ -520,6 +520,7 @@
 			y: -6.0d
 		}
 		{
+			can_repeat: true
 			description: [
 				"Every design decision in this pack has been given a specific reason for existing. If something feels out of place, refer to the Design Philosophy document in the Discord server. If it is not present in there, ask me about it directly, as it would be something I have yet to consider. "
 				"{@pagebreak}"
@@ -535,7 +536,15 @@
 				""
 				"Pollution and hazards are enabled. &cPLEASE read the design doc or talk to me directly if you dont vibe with this (or the food changes)"
 			]
+			disable_toast: true
 			id: "1FC8CCB8307D85C2"
+			optional: true
+			rewards: [{
+				command: "/tellraw @p {\"text\":\"Discord Server Link\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/sDJjdbQdet\"}}"
+				id: "62580E417C1024F8"
+				title: "Discord Server Invite (posts in chat)"
+				type: "command"
+			}]
 			subtitle: "im not reading allat"
 			tasks: [{
 				id: "3E560B5BD4490472"
