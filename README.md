@@ -1,4 +1,4 @@
-# Gregpack
+# GregTech: Distilled
 Discord: https://discord.gg/sDJjdbQdet
 ## Installation Instructions:
 Direct download:
