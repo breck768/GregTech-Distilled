@@ -21,6 +21,6 @@
 	pause_game: false
 	progression_mode: "default"
 	show_lock_icons: true
-	title: "gregpack"
+	title: "GregTech: Distilled"
 	version: 13
 }
