@@ -275,6 +275,47 @@
             ]
         },
         {
+            "pakku_id": "ffh7BRFyCKyBuEox",
+            "pakku_links": [
+                "bBkg0HOouhuiVs7M"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ett-emi-tree-tabs"
+            },
+            "name": {
+                "curseforge": "ETT - EMI Tree Tabs"
+            },
+            "id": {
+                "curseforge": "1677804"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "emitreetabs-forge-4.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/9052/714/emitreetabs-forge-4.0.1.jar",
+                    "id": "9052714",
+                    "parent_id": "1677804",
+                    "hashes": {
+                        "sha1": "e43902ef7d68fdd12e2cd92fcdcad945f752d46d",
+                        "md5": "e745336a385c4651478017cf9013cf5c"
+                    },
+                    "required_dependencies": [
+                        "580555"
+                    ],
+                    "size": 197415,
+                    "date_published": "2026-10-03T23:14:25.110Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "y5aLLha86ngjXKCG",
             "type": "MOD",
             "slug": {

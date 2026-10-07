@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "active": 0,
+  "tabs": [
+    {
+      "goal": "gtceu:shaped/hv_assembler",
+      "batches": 2,
+      "group": 1,
+      "mode": "craft",
+      "offX": 0.0,
+      "offY": -89.20014992503748,
+      "zoom": 0
+    },
+    {
+      "goal": "gtceu:shaped/lv_macerator",
+      "batches": 4,
+      "group": 1,
+      "mode": "craft",
+      "offX": -10.4,
+      "offY": -91.60194902548726,
+      "zoom": 0
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "lv machines",
+      "colour": -9532216
+    }
+  ]
+}
