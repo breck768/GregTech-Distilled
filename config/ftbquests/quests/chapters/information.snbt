@@ -1,0 +1,121 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "information"
+	group: ""
+	icon: "minecraft:book"
+	id: "4B62ECFE88144BCC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["389D534F46336F3D"]
+			description: [
+				""
+				"{@pagebreak}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "gtceu:blue_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+			id: "1FC8CCB8307D85C2"
+			rewards: [{
+				command: "/tellraw @p {\"text\":\"Discord Server Link\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/sDJjdbQdet\"}}"
+				id: "62580E417C1024F8"
+				title: "Discord Server Invite (posts in chat)"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3E560B5BD4490472"
+				type: "checkmark"
+			}]
+			title: "Discord Server"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["This chapter contains any information you should know about upfront."]
+			icon: "minecraft:book"
+			id: "071A387593153E20"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "im not reading allat"
+			tasks: [{
+				id: "715AA7AAB5554876"
+				title: "ok :D"
+				type: "checkmark"
+			}]
+			title: "Pertinent Information"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["071A387593153E20"]
+			description: [
+				"This pack is currently very new, and I decided to make it public as early as I did to gain player feedback."
+				"Every design decision in this pack has a specific reason for being the way that it is. If something feels out of place, refer to the Design Manifesto document in the Discord server. If it is not present in there, ask me about it directly, as it would be something I have yet to consider."
+				"The pack is built on community feedback that allows me to better formulate ideas, &oplease &rgive me any criticism or thoughts you have."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:neutronium_wrench"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 6
+						MaxDamage: 65534
+						ToolSpeed: 184.0f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+			id: "389D534F46336F3D"
+			tasks: [{
+				id: "28D7BD1518FB82AE"
+				type: "checkmark"
+			}]
+			title: "In Development"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["071A387593153E20"]
+			description: [
+				"The rod recipe in Lathes use the hard mode (1 rod 2 small dust) recipe, a la GTNH. Most \"harder\" recipe configs are enabled in general (this is subject to change)."
+				"{@pagebreak}"
+				"Vanilla ore gen is still present, on top of GT ore gen. This is to augment the early game, as plain GT making caving irrelevant is antithetical to survival Minecraft in my opinion."
+				"Bedrock ore veins are enabled &8but are as of yet unused &r and will be the main method of resource generation. Probably."
+				"{@pagebreak}"
+				"Weather (rain, fire, etc.) do NOT cause machines to explode"
+				"On top of this, machine explosions do NOT cause terrain damage, only delete the machine itself."
+				"{@pagebreak}"
+				"Pollution and hazards are enabled. &cPLEASE read the design doc or talk to me directly if you dont vibe with this (or the food changes)"
+			]
+			icon: "gtceu:iron_gear"
+			id: "319A097480599D7F"
+			tasks: [{
+				id: "20D52FD826E6A266"
+				title: "Config Changes"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "Information"
+}

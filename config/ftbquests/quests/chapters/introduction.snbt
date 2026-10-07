@@ -519,41 +519,6 @@
 			x: 7.5d
 			y: -6.0d
 		}
-		{
-			can_repeat: true
-			description: [
-				"Every design decision in this pack has been given a specific reason for existing. If something feels out of place, refer to the Design Philosophy document in the Discord server. If it is not present in there, ask me about it directly, as it would be something I have yet to consider. "
-				"{@pagebreak}"
-				"Some notable config options that are set in this pack:"
-				"The rod recipe in Lathes use the hard mode (1 rod 2 small dust) recipe, a la GTNH."
-				"Most \"harder\" recipe configs are enabled in general (this is subject to change)"
-				""
-				"As noted in the Mining quest, vanilla ore gen is still present, on top of GT ore gen. This is to augment the early game, as plain GT basically making caving irrelevant is antithetical to survival Minecraft in my opinion"
-				"Bedrock ore veins are enabled &8but are as of yet unused &r and will be the main method of resource generation. Probably."
-				""
-				"Weather (rain, fire, etc.) do NOT cause machines to explode"
-				"On top of this, machine explosions do NOT cause terrain damage, only delete the machine itself."
-				""
-				"Pollution and hazards are enabled. &cPLEASE read the design doc or talk to me directly if you dont vibe with this (or the food changes)"
-			]
-			disable_toast: true
-			id: "1FC8CCB8307D85C2"
-			optional: true
-			rewards: [{
-				command: "/tellraw @p {\"text\":\"Discord Server Link\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/sDJjdbQdet\"}}"
-				id: "62580E417C1024F8"
-				title: "Discord Server Invite (posts in chat)"
-				type: "command"
-			}]
-			subtitle: "im not reading allat"
-			tasks: [{
-				id: "3E560B5BD4490472"
-				title: "Pertinent Information"
-				type: "checkmark"
-			}]
-			x: 5.5d
-			y: -8.5d
-		}
 	]
 	title: "&7Origin"
 }
