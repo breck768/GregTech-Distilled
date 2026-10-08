@@ -6,7 +6,6 @@
       "goal": "gtceu:shaped/lv_chemical_reactor",
       "batches": 3,
       "group": 1,
-      "mode": "craft",
       "offX": 8.400000000000025,
       "offY": -55.37481259370315,
       "zoom": 0
@@ -15,7 +14,6 @@
       "goal": "gtceu:shaped/lv_forge_hammer",
       "batches": 2,
       "group": 1,
-      "mode": "craft",
       "offX": 0.2,
       "offY": -89.40029985007496,
       "zoom": 0
@@ -25,7 +23,6 @@
       "batches": 4,
       "name": "Basic Macerator §r",
       "group": 1,
-      "mode": "craft",
       "offX": 94.83333273149191,
       "offY": -153.7651816891689,
       "zoom": -2
@@ -34,7 +31,6 @@
       "goal": "gtceu:shaped/lv_centrifuge",
       "batches": 7,
       "group": 1,
-      "mode": "craft",
       "offX": 0.0,
       "offY": -89.0,
       "zoom": 0

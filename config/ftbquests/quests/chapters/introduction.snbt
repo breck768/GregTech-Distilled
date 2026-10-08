@@ -374,7 +374,7 @@
 				item: "craftingstation:crafting_station"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -0.5d
 		}
 		{

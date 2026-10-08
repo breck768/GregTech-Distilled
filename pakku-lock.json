@@ -910,6 +910,47 @@
             ]
         },
         {
+            "pakku_id": "bjnOcLyHtkFs8Jzv",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kotlin-for-forge"
+            },
+            "name": {
+                "curseforge": "Kotlin for Forge"
+            },
+            "id": {
+                "curseforge": "351264"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kotlinforforge-4.12.0-all.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.4",
+                        "1.20.3"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7291/67/kotlinforforge-4.12.0-all.jar",
+                    "id": "7291067",
+                    "parent_id": "351264",
+                    "hashes": {
+                        "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+                        "md5": "d6a40dede74edbe646b34a1bafd53b4d"
+                    },
+                    "required_dependencies": [],
+                    "size": 7442998,
+                    "date_published": "2025-12-03T19:47:08.457Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "TjuoMiNfJYBOcIWp",
             "pakku_links": [
                 "l5ASlauQi0mU4UM9",
@@ -1474,6 +1515,50 @@
                     "required_dependencies": [],
                     "size": 165355,
                     "date_published": "2025-08-03T13:19:13.957Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "RdDOXxRNjCxRMpQn",
+            "pakku_links": [
+                "bjnOcLyHtkFs8Jzv",
+                "QWaLgh9MwCKYNzrR"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "universal-circuits"
+            },
+            "name": {
+                "curseforge": "Universal Circuits"
+            },
+            "id": {
+                "curseforge": "1410398"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "universalcircuits-1.0.4+mc.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8512/700/universalcircuits-1.0.4+mc.20.1.jar",
+                    "id": "8512700",
+                    "parent_id": "1410398",
+                    "hashes": {
+                        "sha1": "11bf76282a96f8e474cde16dc521fb7343013b1b",
+                        "md5": "896716de4e832f78a40663949be46354"
+                    },
+                    "required_dependencies": [
+                        "351264",
+                        "890405"
+                    ],
+                    "size": 181127,
+                    "date_published": "2026-07-26T12:02:21.953Z"
                 }
             ]
         }
