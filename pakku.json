@@ -1,6 +1,6 @@
 {
-    "name": "gregpack",
-    "version": "0.0.1",
+    "name": "gtdistilled",
+    "version": "0.0.5",
     "overrides": [
         "config"
     ]
