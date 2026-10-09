@@ -898,20 +898,13 @@
 		}
 		{
 			dependencies: ["7A5EB1A0C12044F7"]
-			description: ["need to add the mod lol"]
+			description: ["The Tool Belt allows you to store multiple different tools in a single slot, accessed via a radial menu. You can add more slots with the Belt Pouch item from the same mod, by adding it like an enchanted book in an anvil."]
 			id: "7D0143F632BBE0B0"
-			tasks: [
-				{
-					id: "19D3486BC2FE7E49"
-					title: "tool belt"
-					type: "checkmark"
-				}
-				{
-					id: "43890C0BD5E8656B"
-					item: "toolbelt:belt"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "43890C0BD5E8656B"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
 			x: 9.5d
 			y: 2.5d
 		}
