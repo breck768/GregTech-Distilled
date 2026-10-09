@@ -263,6 +263,8 @@
 			description: [
 				"Beds can be made as soon as you have wood. You'll need more wood and wool than you might be used to."
 				""
+				"These require a Soft Mallet tool as part of their recipe. You can make one with a Sign recipe turned on its side."
+				""
 				"Also, the higher ups are telling me you need to dye them, otherwise your toilet will mysteriously no longer be able to flush."
 			]
 			icon: "minecraft:red_bed"

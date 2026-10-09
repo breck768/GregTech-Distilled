@@ -7,6 +7,16 @@
 	id: "348E9CA64335778E"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["64EAC4C9872E8A50"]
+		id: "4509C5AB699439EC"
+		tasks: [{
+			id: "3DE7B6AC05667E95"
+			title: "e"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: 0.0d
+	}]
 	title: "&7Low Voltage"
 }

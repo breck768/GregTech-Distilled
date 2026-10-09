@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "active": 3,
+  "active": 0,
   "tabs": [
     {
       "goal": "gtceu:shaped/lv_chemical_reactor",
       "batches": 3,
       "group": 1,
       "offX": 8.400000000000025,
-      "offY": -55.37481259370315,
+      "offY": -55.57496251874063,
       "zoom": 0
     },
     {

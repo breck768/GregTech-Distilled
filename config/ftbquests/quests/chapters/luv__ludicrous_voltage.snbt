@@ -6,7 +6,7 @@
 	group: "76CF20B03F551A1A"
 	icon: "gtceu:luv_electric_motor"
 	id: "262A03F6F4EC713C"
-	order_index: 6
+	order_index: 5
 	quest_links: [
 		{
 			id: "7F8B55C8510200AF"

@@ -6,7 +6,7 @@
 	group: "76CF20B03F551A1A"
 	icon: "gtceu:cupronickel_coil_block"
 	id: "7C1306341997601D"
-	order_index: 14
+	order_index: 13
 	quest_links: [
 		{
 			id: "709FB8C1561E7BB8"
