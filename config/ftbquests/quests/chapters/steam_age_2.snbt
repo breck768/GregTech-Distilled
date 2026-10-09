@@ -486,11 +486,19 @@
 			id: "18060E52503CF80B"
 			size: 1.5d
 			subtitle: "WHAT."
-			tasks: [{
-				id: "4E5AAA520EDE6FDD"
-				item: "gtceu:coke_oven"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4E5AAA520EDE6FDD"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "23627ABE769C5FC7"
+					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
 			x: 2.25d
 			y: 0.0d
 		}
@@ -500,11 +508,19 @@
 			id: "45AD4B6A0B7DDAA6"
 			size: 1.5d
 			subtitle: "I started blasting"
-			tasks: [{
-				id: "416C102CAB4C42D5"
-				item: "gtceu:primitive_blast_furnace"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "416C102CAB4C42D5"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "026930467598F518"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 0.0d
 		}
