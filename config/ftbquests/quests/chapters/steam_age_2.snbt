@@ -170,11 +170,11 @@
 				item: "gtceu:lp_steam_forge_hammer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 1.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["7CAA5B44A92D5A17"]
+			dependencies: ["0AB5B9343BC201BE"]
 			description: ["This is simply a steam version of the vanilla Furnace, not much to see here. Steam is actually much more fuel efficient than using the solid fuels directly in a vanilla Furnace, so this is technically a massive upgrade in that regard, but the Multiblock version detailed in the other side of this questline is a much better alternative compared to making multiple of these."]
 			hide_dependent_lines: true
 			id: "34B6AB838F77EC1A"
@@ -184,8 +184,8 @@
 				item: "gtceu:lp_steam_furnace"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0AB5B9343BC201BE"]
@@ -201,7 +201,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["7CAA5B44A92D5A17"]
+			dependencies: ["0AB5B9343BC201BE"]
 			description: [
 				"Rock Crushers are machines that act as Cobblestone generators. They do more than just specifically cobblestone, but this one in particular actually cannot. You could create a primitive Stone processing line with this if you wanted, but mileage may vary."
 				""
@@ -215,11 +215,11 @@
 				item: "gtceu:lp_steam_rock_crusher"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.5d
+			x: -0.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["7CAA5B44A92D5A17"]
+			dependencies: ["0AB5B9343BC201BE"]
 			description: ["This is the first automatic Miner you can craft. It's very slow and has a small area that it can mine from, but automatic mining is automatic mining. It may not be a bad idea to make a couple of these to place on some ore veins. Given a supply of water, you can passively produce power for them with Solar Boilers."]
 			id: "125265C47216C871"
 			optional: true
@@ -228,21 +228,8 @@
 				item: "gtceu:lp_steam_miner"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["0AB5B9343BC201BE"]
-			description: ["The following machines are not required, or even particularly desireable to some, but we may as well round out the whole set."]
-			id: "7CAA5B44A92D5A17"
-			optional: true
-			tasks: [{
-				id: "27A3504BECE83306"
-				title: "Extra Steam Machines"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: -4.0d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5C4AB4A662495496"]
@@ -257,8 +244,8 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["0AB5B9343BC201BE"]
-			description: ["There are two Multiblock versions of some Steam machines that might be worth making. "]
+			dependencies: ["17A8876B8590CDB5"]
+			description: ["As part of the base mod, you can create multiblock variants of the Steam Furnace and Steam Macerator. This pack also offers multiblock versions of the remaining machines, rounding out the full set."]
 			id: "313924AB9668D115"
 			optional: true
 			tasks: [{
@@ -266,8 +253,8 @@
 				title: "Steam Multiblocks"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -282,8 +269,8 @@
 				item: "gtceu:steam_oven"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.0d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -302,7 +289,7 @@
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 6.0d
 			y: -5.5d
 		}
 		{
@@ -323,7 +310,7 @@
 				title: "Ore Processing"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 4.5d
 			y: -5.5d
 		}
 		{
@@ -766,6 +753,7 @@
 				""
 				"*the high pressure miner is a bit weird, check the tooltip"
 			]
+			icon: "gtceu:hp_steam_solid_boiler"
 			id: "17A8876B8590CDB5"
 			tasks: [{
 				id: "1D8D4E34C373B398"
@@ -1107,6 +1095,47 @@
 			}]
 			x: 7.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["313924AB9668D115"]
+			id: "09D96E87AF7DA345"
+			tasks: [{
+				id: "1AC411F83311CCA6"
+				item: "gtceu:steam_extractinator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			id: "55803E788FC1363F"
+			tasks: [{
+				id: "42EBAF90A24B02B8"
+				item: "gtceu:steam_press"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			id: "53DF8662AC7479AD"
+			tasks: [{
+				id: "28B846359917DAF9"
+				item: "gtceu:steam_alloyer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			id: "4EA171F5D3EB9B98"
+			tasks: [{
+				id: "4BA85A73F105147C"
+				item: "gtceu:steam_impactor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
 		}
 	]
 	title: "&8Ultra Low Voltage&7/&fSteam"

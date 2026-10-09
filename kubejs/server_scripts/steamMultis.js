@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
             ' X ', 
             '   '  
         ], {
-            X: 'gtceu:lp_steam_alloy_smelter'
+            X: 'gtceu:hp_steam_alloy_smelter'
         }
     ),
     event.shaped(
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
             ' X ', 
             '   '  
         ], {
-            X: 'gtceu:lp_steam_compressor'
+            X: 'gtceu:hp_steam_compressor'
         }
     ),
     event.shaped(
@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
             ' X ', 
             '   '  
         ], {
-            X: 'gtceu:lp_steam_extractor'
+            X: 'gtceu:hp_steam_extractor'
         }
     ),
     event.shaped(
@@ -36,7 +36,13 @@ ServerEvents.recipes(event => {
             ' X ', 
             '   '  
         ], {
-            X: 'gtceu:lp_steam_forge_hammer'
+            X: 'gtceu:hp_steam_forge_hammer'
         }
     )
+})
+
+// remove low pressure multiblock upgrades
+ServerEvents.recipes(event => {
+    event.remove({ id: 'gtceu:shaped/steam_oven_from_lp' })
+    event.remove({ id: 'gtceu:shaped/steam_grinder_from_lp' })
 })
