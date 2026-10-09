@@ -1442,6 +1442,42 @@
             ]
         },
         {
+            "pakku_id": "h6XfDSX2q3lN9lrP",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "tool-belt"
+            },
+            "name": {
+                "curseforge": "Tool Belt"
+            },
+            "id": {
+                "curseforge": "260262"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ToolBelt-1.20.1-1.20.03.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7906/260/ToolBelt-1.20.1-1.20.03.jar",
+                    "id": "7906260",
+                    "parent_id": "260262",
+                    "hashes": {
+                        "sha1": "486038e2b0e075c48f325a7665ad0f3149f7632c",
+                        "md5": "7ca9328c738012d82da247741c53215c"
+                    },
+                    "required_dependencies": [],
+                    "size": 253933,
+                    "date_published": "2026-04-10T18:48:35.997Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "pzERXjNDlFGr3yNs",
             "type": "MOD",
             "slug": {

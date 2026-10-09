@@ -12,13 +12,13 @@
 			dependencies: ["210125560737B35B"]
 			description: [
 				"Congratulations on making it to &8ULV&r!"
-				"The &6Steam Age&r acts as a tutorial for some key GregTech mechanics before you dive head first into electricity. "
+				"The &6Steam Age&r acts as a tutorial for some key &bGregTech&r mechanics before you dive head first into electricity. "
 				"It includes fluid and (possibly) item logistics, an introduction to ore processing, interdimensional travel, further processing of materials, and culminates in creating &7Electronic Circuits.&r"
 				""
 				"{@pagebreak}"
 				"&8i dont actually know if the steam age is supposed to be called \"ulv\""
-				"but?"
-				"i dont care."
+				"&8but?"
+				"&8i dont care."
 			]
 			icon: {
 				Count: 1
@@ -116,6 +116,7 @@
 			]
 			description: ["The Extractor... extracts things. You'll need this later on to create Rubber, and the electric versions can turn materials into their fluid form."]
 			id: "3944AAE13C38AB7C"
+			subtitle: "Extracting your first Rubber"
 			tasks: [{
 				id: "34717C1F1DFEE3BD"
 				item: "gtceu:lp_steam_extractor"
@@ -133,6 +134,7 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "0878B7E97A3C7732"
+			subtitle: "Macerating your Ores without Byproducts"
 			tasks: [{
 				id: "7A8288B7FECD4CA0"
 				item: "gtceu:lp_steam_macerator"
@@ -150,6 +152,7 @@
 			hide_dependent_lines: true
 			id: "3AD4BFAB06AED60F"
 			ignore_reward_blocking: true
+			subtitle: "Compressing items"
 			tasks: [{
 				id: "33F195DABD338E1E"
 				item: "gtceu:lp_steam_compressor"
@@ -165,6 +168,7 @@
 			]
 			description: ["Requiring &otwo&r machines as prerequisites, the Forge Hammer has a special use in the Steam age. Up until this point, you have been making plates by hammering two of them into one plate in a crafting grid. The Forge Hammer can turn ingots into plates at a 3:2 ratio, a 50% efficiency increase."]
 			id: "301E0CF599B7513A"
+			subtitle: "Forge Hammer"
 			tasks: [{
 				id: "7CCC55E884B67AC1"
 				item: "gtceu:lp_steam_forge_hammer"
@@ -179,6 +183,7 @@
 			hide_dependent_lines: true
 			id: "34B6AB838F77EC1A"
 			optional: true
+			subtitle: "Smelting things with compressed Steam"
 			tasks: [{
 				id: "526F59DAC74D1209"
 				item: "gtceu:lp_steam_furnace"
@@ -192,6 +197,7 @@
 			description: ["The Alloy Smelter takes two different metals and produces an alloy of them. Just about every other Steam Machine requires Pistons, which require Red Alloy, which can only be made in this guy. As such, this should be the first machine you make."]
 			hide_dependent_lines: true
 			id: "0783BCEAC051BCF9"
+			subtitle: "Combination Smelter"
 			tasks: [{
 				id: "45418E927FB0B470"
 				item: "gtceu:lp_steam_alloy_smelter"
@@ -210,6 +216,7 @@
 			]
 			id: "62A4FA0AD6282FB8"
 			optional: true
+			subtitle: "Place Water and Lava horizontally adjacent"
 			tasks: [{
 				id: "3520FEF2C4F8284A"
 				item: "gtceu:lp_steam_rock_crusher"
@@ -233,7 +240,7 @@
 		}
 		{
 			dependencies: ["5C4AB4A662495496"]
-			description: ["The Primitive Pump is the best solution you have for filling boilers with water. Once built, this multiblock automatically creates water passively, with a substantial increase or decrease to the production rate depending on the humidity of the biome it is built in. For the best results, build in any biome with plenty of water."]
+			description: ["The &6Primitive Pump&r is the best solution you have for filling boilers with &9water&r. Once built, this multiblock automatically creates water passively, with a substantial increase or decrease to the production rate depending on the humidity of the biome it is built in. For the best results, build in any biome with &9plenty of water&r."]
 			id: "3A4A81A34898E404"
 			tasks: [{
 				id: "1D1B2EC3C5616BD1"
@@ -245,16 +252,21 @@
 		}
 		{
 			dependencies: ["17A8876B8590CDB5"]
-			description: ["As part of the base mod, you can create multiblock variants of the Steam Furnace and Steam Macerator. This pack also offers multiblock versions of the remaining machines, rounding out the full set."]
+			description: [
+				"As part of the base mod, you can create multiblock variants of the Steam Furnace and Steam Macerator. This pack also offers multiblock versions of the remaining machines, rounding out the full set."
+				""
+				"These require the equivalent high pressure machine to craft."
+			]
 			id: "313924AB9668D115"
 			optional: true
+			size: 1.5d
 			tasks: [{
 				id: "2B7305A75B36A577"
 				title: "Steam Multiblocks"
 				type: "checkmark"
 			}]
 			x: 8.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -269,8 +281,8 @@
 				item: "gtceu:steam_oven"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.5d
+			x: 6.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -289,8 +301,8 @@
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.5d
+			x: 6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -303,6 +315,7 @@
 				"{@pagebreak}"
 				"Putting ore in a Macerator gives you double the yield that you otherwise would in Crushed ore. For ores such as Iron or Copper that are smelted into ingots, this crushed ore can be slammed directly into a furnace to smelt them as if they were ore. If you automate this process, you will have a system that accepts ore from your increasingly bulky mining trips, and turns them into a ton of materials, all without any input from you."
 			]
+			icon: "gtceu:crushed_iron_ore"
 			id: "47D2A6FF3BC4861C"
 			optional: true
 			tasks: [{
@@ -310,12 +323,12 @@
 				title: "Ore Processing"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: -5.5d
+			x: 5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5C4AB4A662495496"]
-			description: ["The GregTech logistics system is comprised of two things, Item/Fluid pipes and Covers. The following quests go into more detail."]
+			description: ["The &bGregTech&r logistics system is comprised of two things, Item/Fluid pipes and Covers. The following quests go into more detail."]
 			icon: "gtceu:lv_robot_arm"
 			id: "27C583BEDD47FC27"
 			size: 1.25d
@@ -368,9 +381,9 @@
 		{
 			dependencies: ["27C583BEDD47FC27"]
 			description: [
-				"Covers are GregTech items that can be placed on the sides of other GregTech blocks. This most commonly takes the form of Conveyors or Pumps that can push or pull items or fluids."
+				"&cCovers&r are &bGregTech&r items that can be placed on the sides of other &bGregTech blocks&r. This most commonly takes the form of Conveyors or Pumps that can push or pull items or fluids."
 				""
-				"Thanks to the ULV Covers addon, Steam Age versions of these items are available. You likely wont need many right now, and they are predictably weaker than the ones found later in the game, but they're dirt cheap and can work in a pinch even later on."
+				"Thanks to the &6ULV Covers&r addon, Steam Age versions of these items are available. You likely wont need many right now, and they are predictably weaker than the ones found later in the game, but they're dirt cheap and can work in a pinch even later on."
 			]
 			id: "3F58D481792D21C9"
 			optional: true
@@ -447,10 +460,12 @@
 			description: [
 				"Pipes and covers are great, but what ties this system together is what else is on offer."
 				""
-				"There are a variety of other types of covers that can be made later in the game that perform specific actions. Covers that emit a Redstone signal based on the contents of a machine, covers that can filter items and fluids,  covers that can generate power or even resources &8(just water i think)&r, or even covers that add additional storage slots to a machine. Most of them are not accessible at the moment, but check them out in the next few tiers!"
+				"There are a variety of other types of covers that can be made later in the game that perform specific actions. Covers that emit a &4Redstone&r signal based on the contents of a machine, covers that can &cfilter&r items and fluids,  covers that can &egenerate power&r or even &9resources&r &8(just water i think)&r, or even covers that add &6additional storage slots&r to a machine. Most of them are not accessible at the moment, but check them out in the next few tiers!"
 				""
+				"{@pagebreak}"
 				"Also, facades can be made by combining any given solid block and an Iron Plate in a crafting grid. This can be used to aesthetically hide or mask pipes or even entire machines. My favorite use of this is to create Glass Facades that add a transparent screen over the top of pipes. "
 			]
+			icon: "gtceu:storage_cover"
 			id: "58004C9EC5A34BF3"
 			tasks: [{
 				id: "02D8A84F4B5BAF03"
@@ -464,12 +479,13 @@
 		{
 			dependencies: ["03603AED6CDBC2F0"]
 			description: [
-				"The Coke Oven is likely to be your first Multiblock. It can turn Logs into Charcoal (did you figure out that you couldnt do this before?) and Coal into Coal Coke. Coke and the Creosote byproduct of this multiblock are what we are most interested in."
+				"The &6Coke Oven&r is likely to be your first Multiblock. It can turn Logs into &0Charcoal&r (did you figure out that you couldnt do this before?) and &0Coal&r into &8Coal Coke&r. &8Coke&r and the &6Creosote&r byproduct of this multiblock are what we are most interested in."
 				""
 				"You could have actually built this thing back in the Stone age, but it's only truly relevant now. It becomes cheaper if you have an Alloy Smelter."
 			]
 			id: "18060E52503CF80B"
 			size: 1.5d
+			subtitle: "WHAT."
 			tasks: [{
 				id: "4E5AAA520EDE6FDD"
 				item: "gtceu:coke_oven"
@@ -480,9 +496,10 @@
 		}
 		{
 			dependencies: ["0EAC2D2D25B74790"]
-			description: ["Building and constructing a Primitive Blast Furnace is something of a rite of passage for any GregTech player. This is your gateway into creating Steel. It is also likely to be your first major crafting project. This pack includes the \"hard\" recipe for Firebricks, so you will need plently of clay, gypsum, and calcite, among other things. Those last two are ores found in ore veins, and you can also macerate vanilla Calcite blocks, which is preferred if you can locate some."]
+			description: ["Building and constructing a &8Primitive Blast Furnace&r is something of a rite of passage for any &bGregTech&r player. This is your gateway into creating &8Steel&r. It is also likely to be your first major crafting project. This pack includes the \"hard\" recipe for Firebricks, so you will need plently of Clay, Gypsum, and Calcite, among other things. Those last two are ores found in ore veins, and you can also macerate vanilla Calcite blocks, which is preferred if you can locate some."]
 			id: "45AD4B6A0B7DDAA6"
 			size: 1.5d
+			subtitle: "I started blasting"
 			tasks: [{
 				id: "416C102CAB4C42D5"
 				item: "gtceu:primitive_blast_furnace"
@@ -559,9 +576,9 @@
 				"18060E52503CF80B"
 			]
 			description: [
-				"Steel can be made with either normal Iron or Wrought Iron and Coal/Charcoal or Coal Coke in the PBF. Wrought Iron and Coal Coke both offer recipe time discounts, and material discount in Cokes case, using both only requires 30 seconds per ingot. It is in your best interest to do that recipe. "
+				"&8Steel&r can be made with either normal Iron or &7Wrought Iron&r and &0Coal/Charcoal&r or &8Coal Coke&r in the &8PBF&r. &7Wrought Iron&r and &8Coal Coke&r both offer recipe time discounts, and material discount in Cokes case, using both only requires 30 seconds per ingot. It is in your best interest to do that recipe. "
 				""
-				"At this point, you have everything you need to create Electronic Circuits, your gateway into LV. Keep up the good work!"
+				"At this point, you have everything you need to create &7Electronic Circuits, your gateway into LV&r. Keep up the good work!"
 			]
 			id: "7A5EB1A0C12044F7"
 			size: 2.0d
@@ -582,6 +599,7 @@
 			]
 			hide_dependent_lines: true
 			id: "25E3A36790DB28A2"
+			subtitle: "Cu(Si(FeS2)5(CrAl2O3)Hg3)4"
 			tasks: [{
 				id: "49384595FCBB95E8"
 				item: "gtceu:red_alloy_ingot"
@@ -603,7 +621,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -636,7 +654,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -2.0d
+			y: 2.0d
 		}
 		{
 			can_repeat: false
@@ -650,7 +668,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["163D69E015283418"]
@@ -665,8 +683,8 @@
 				item: "gtceu:resistor"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -2.5d
+			x: 13.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["03603AED6CDBC2F0"]
@@ -681,8 +699,8 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -4.5d
+			x: 12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["26334E72E7EA4B55"]
@@ -722,6 +740,7 @@
 		{
 			dependencies: ["7A5EB1A0C12044F7"]
 			description: ["Probably the easiest ingredient of the circuit. Unless you're short on steel."]
+			hide_dependency_lines: true
 			id: "5908DB1D330026CD"
 			size: 1.5d
 			tasks: [{
@@ -729,8 +748,8 @@
 				item: "gtceu:steel_plate"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 2.0d
+			x: 15.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["51F8E37C048A75AE"]
@@ -755,13 +774,14 @@
 			]
 			icon: "gtceu:hp_steam_solid_boiler"
 			id: "17A8876B8590CDB5"
+			size: 1.5d
 			tasks: [{
 				id: "1D8D4E34C373B398"
 				title: "High Pressure Machines"
 				type: "checkmark"
 			}]
 			x: 8.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7A5EB1A0C12044F7"]
@@ -791,8 +811,8 @@
 				item: "gtceu:charcoal_pile_igniter"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0783BCEAC051BCF9"]
@@ -827,9 +847,9 @@
 		{
 			dependencies: ["27C583BEDD47FC27"]
 			description: [
-				"Pipes come in two flavors, Item Pipes and Fluid Pipes. Other than the thing that they transport, though, they are very similar. They both have a maximum throughput detailed in the item tooltip. Pipes have varying sizes, which further dictates this figure. "
+				"Pipes come in two flavors, Item Pipes and Fluid Pipes. Other than the thing that they transport, though, they are very similar. &cThey both have a maximum throughput detailed in the item tooltip.&r Pipes have varying sizes, which further dictates this figure. "
 				""
-				"They also have different capabilities in regards to what they can carry. For example, Wooden Fluid Pipes are very cheap to make, but have the lowest throughput of any pipe and have a pitiful heat tolerance. Not great for transporting Steam, but useful for &9Water&r."
+				"They also have different capabilities in regards to what they can carry. For example, &6Wooden Fluid Pipes&r are very cheap to make, but have the lowest throughput of any pipe and have a pitiful heat tolerance. Not great for transporting Steam, but useful for &9Water&r."
 				""
 				"Pipes automatically connect to blocks and other pipes that they are placed onto, and you can further configure them with a Wrench, as well as restrict the movement of the resources inside by shit clicking the edges."
 			]
@@ -851,6 +871,22 @@
 				""
 				"If you want to be lazy, the best material of the main tier metals that you have access to (steel, aluminum, etc) make for &ogood&r tools, but they are generally not the best that you can make. For example, in LV, you can create Diamond tools, which have better durability and mining speed than Steel."
 			]
+			icon: {
+				Count: 1
+				id: "gtceu:steel_wire_cutter"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 3
+						MaxDamage: 511
+						ToolSpeed: 9.0f
+					}
+					HideFlags: 2
+				}
+			}
 			id: "45FEAFFD8CB7D54D"
 			tasks: [{
 				id: "77DF025B6B3EA5B8"
@@ -864,11 +900,18 @@
 			dependencies: ["7A5EB1A0C12044F7"]
 			description: ["need to add the mod lol"]
 			id: "7D0143F632BBE0B0"
-			tasks: [{
-				id: "19D3486BC2FE7E49"
-				title: "tool belt"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "19D3486BC2FE7E49"
+					title: "tool belt"
+					type: "checkmark"
+				}
+				{
+					id: "43890C0BD5E8656B"
+					item: "toolbelt:belt"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 2.5d
 		}
@@ -994,8 +1037,8 @@
 		{
 			dependencies: ["03603AED6CDBC2F0"]
 			description: [
-				"The tools you made out of Flint in the first chapter can also be made out of the stronger materials detailed in the previous quest. On top of this, there are Mining Hammers and Spades. These are pickaxes and shovels respectively that mine in a 3x3 area surrounding the block that you target. This will be basically mandatory as your resource requirements increase."
-				"Also, the Crowbar is used to remove Covers from GregTech blocks."
+				"The tools you made out of &0Flint&r in the first chapter can also be made out of the stronger materials detailed in the previous quest. On top of this, there are Mining Hammers and Spades. These are pickaxes and shovels respectively that mine in a 3x3 area surrounding the block that you target. This will be basically mandatory as your resource requirements increase."
+				"Also, the Crowbar is used to remove Covers from &bGregTech&r blocks."
 			]
 			icon: {
 				Count: 1
@@ -1076,6 +1119,7 @@
 				"&8editors note: fact check the maintainance hatch bit"
 			]
 			id: "6E6FD716E70B98B3"
+			subtitle: "squis."
 			tasks: [{
 				id: "4224BE7E6D605556"
 				title: "Wallsharing"
@@ -1104,38 +1148,41 @@
 				item: "gtceu:steam_extractinator"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -6.5d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
+			dependencies: ["313924AB9668D115"]
 			id: "55803E788FC1363F"
 			tasks: [{
 				id: "42EBAF90A24B02B8"
 				item: "gtceu:steam_press"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -6.0d
+			x: 9.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["313924AB9668D115"]
 			id: "53DF8662AC7479AD"
 			tasks: [{
 				id: "28B846359917DAF9"
 				item: "gtceu:steam_alloyer"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -7.0d
+			x: 8.5d
+			y: -6.0d
 		}
 		{
+			dependencies: ["313924AB9668D115"]
 			id: "4EA171F5D3EB9B98"
 			tasks: [{
 				id: "4BA85A73F105147C"
 				item: "gtceu:steam_impactor"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.0d
+			x: 9.5d
+			y: -5.0d
 		}
 	]
 	title: "&8Ultra Low Voltage&7/&fSteam"

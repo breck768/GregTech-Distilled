@@ -26,7 +26,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["mv at best"]
+			description: ["Welcome to &1GregTech: Distilled&r. Enjoy your stay! Be sure to read the Information quest tab at your earliest convenience."]
 			icon: "minecraft:grass_block"
 			id: "43EE0BD8B1079F72"
 			shape: "hexagon"
@@ -67,7 +67,7 @@
 		}
 		{
 			dependencies: ["701F00715AECD87E"]
-			description: ["If you've worked ahead, you might have noticed that wood tools, along with all vanilla tools, lack recipes. You must experiment with more &4Gregic &fways of making tools. So, go out and grab some Flint."]
+			description: ["If you've worked ahead, you might have noticed that &6Wooden Tools&r, along with all &bvanilla tools&r, &clack recipes&r. You must experiment with more &bGregic &fways of making tools. So, go out and grab some Flint."]
 			id: "0040CAE3FF2FDD88"
 			subtitle: "Huh?"
 			tasks: [{
@@ -82,7 +82,7 @@
 		}
 		{
 			dependencies: ["4F6BAFA9BD236CEB"]
-			description: ["Your first set of tools. Expect to make a couple of these, as their durability is low and the next upgrade is only available when you obtain Iron."]
+			description: ["&8Your first set of tools.&r Expect to make a couple of these, as their &cdurability is low&r and the next upgrade is only available when you obtain Iron."]
 			id: "62AAA77C2670DAC2"
 			shape: "gear"
 			subtitle: "Sticks and rocks"
@@ -183,14 +183,14 @@
 		{
 			dependencies: ["0B15042E60AEDA3D"]
 			description: [
-				"It's time to do some mining. There are two options, the vastly more resource efficient GregTech veins or the familiar caving."
+				"It's time to do some mining. There are two options, the vastly more resource efficient &bGregTech&r veins or the familiar caving."
 				""
-				"Unlike standard GregTech, vanilla ore veins still generate. Caving is still a viable activity in the early game for getting yourself established while your resource stockpiles are low."
+				"Unlike standard &bGregTech&r, &avanilla ore veins still generate&r. Caving is still a viable activity in the early game for getting yourself established while your resource stockpiles are low."
 				""
 				"Whatever you decide to do, report back once you have a stack of Cobblestone."
 				""
 				"{@pagebreak}"
-				"For the uninitiated, GregTech ore veins are large ore deposits that spawn ores of a specific type. They generate at varying Y levels, but always generate at the center of every 3 chunks in any given world. They are marked by piles of dust on the surface. Digging straight down in the center of a chunk where these appear will lead you to the corresponding ore vein. These ore veins are automatically marked on your map, and you can craft ore prospectors later on that show you a view of what ore veins are around you."
+				"For the uninitiated, &bGregTech&r ore veins are large ore deposits that spawn ores of a specific type. They generate at varying Y levels, &cbut always generate at the center of every 3 chunks in any given world.&r They are marked by piles of dust on the surface. Digging straight down in the center of a chunk where these appear will lead you to the corresponding ore vein. These ore veins are automatically marked on your map, and you can craft ore prospectors later on that show you a view of what ore veins are around you."
 			]
 			id: "1D81C6B949B81B63"
 			subtitle: "First half of the name comes second."
@@ -220,7 +220,7 @@
 		}
 		{
 			dependencies: ["0B15042E60AEDA3D"]
-			description: ["While you're out hunter gathering, pick up any Sugar Cane you find."]
+			description: ["While you're out hunter gathering, pick up any &aSugar Cane&r you find."]
 			id: "65F1C2DAEA61625A"
 			subtitle: "Reeds"
 			tasks: [{
@@ -234,7 +234,7 @@
 		{
 			dependencies: ["0B15042E60AEDA3D"]
 			description: [
-				"You'll likely need large amounts of Sand and &owill &rneed large amounts of Clay in the future. Find a spot with plently of Clay, and nominate a desert out of sight of your base to dig big obnoxious holes in."
+				"You'll likely need large amounts of &eSand&r and &owill &rneed large amounts of &bClay&r in the future. Find a spot with plently of &bClay&r, and nominate a desert out of sight of your base to dig big obnoxious holes in."
 				""
 				"Or build your base in the holes, I really don't care!"
 			]
@@ -261,11 +261,11 @@
 		{
 			dependencies: ["701F00715AECD87E"]
 			description: [
-				"Beds can be made as soon as you have wood. You'll need more wood and wool than you might be used to."
+				"&4Beds&r can be made as soon as you have wood. You'll need more wood and wool than you might be used to."
 				""
-				"These require a Soft Mallet tool as part of their recipe. You can make one with a Sign recipe turned on its side."
+				"These require a &6Soft Mallet&r tool as part of their recipe. You can make one with a vanilla sign recipe turned on its side."
 				""
-				"Also, the higher ups are telling me you need to dye them, otherwise your toilet will mysteriously no longer be able to flush."
+				"Also, the higher ups are telling me you need to dye them, otherwise your toilet will &cm&4y&6s&et&ae&2r&9i&1o&5u&ds&7l&fy&r no longer be able to flush."
 			]
 			icon: "minecraft:red_bed"
 			id: "78FA3DB5BA8D59D5"
@@ -288,7 +288,11 @@
 		}
 		{
 			dependencies: ["62AAA77C2670DAC2"]
-			description: ["You're probably getting hungry by now, try to find a stable source of food."]
+			description: [
+				"You're probably getting hungry by now, try to find a stable source of food."
+				""
+				"If you've yet to read the Information tab, just know that a varied diet will be important. Also, go read the Information tab."
+			]
 			id: "0B15042E60AEDA3D"
 			subtitle: "Hello Hungry"
 			tasks: [
@@ -324,7 +328,7 @@
 		{
 			dependencies: ["1D81C6B949B81B63"]
 			description: [
-				"Hope you grabbed some extra flint"
+				"To progress out of the &7Stone Age&r, we need to graduate from only using materials found on the surface. Create a &7Furnace&r to smelt ores in."
 				""
 				"{@pagebreak}"
 				"&8ulv furnace :p"
@@ -345,14 +349,14 @@
 		{
 			dependencies: ["0040CAE3FF2FDD88"]
 			description: [
-				"Can't play Minecraft without crafting."
+				"Can't really play Minecraft without crafting, so lets rectify that."
 				"{@pagebreak}"
 				"&8ulv assembler :)"
 			]
 			id: "4F6BAFA9BD236CEB"
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "We're REALLY stretching the definition there"
+			subtitle: "REALLY stretching the definition man"
 			tasks: [{
 				id: "67A32F2A3C89113D"
 				item: "minecraft:crafting_table"
@@ -386,9 +390,9 @@
 				"18D15B6109D763B8"
 			]
 			description: [
-				"Bronze Ingots can be created by smelting Bronze Dust in a furnace, which itself is a product of mixing Tin and Copper dust in a crafting grid."
+				"&6Bronze Ingots&r can be created by smelting &6Bronze Dust&r in a furnace, which itself is a product of mixing &7Tin&r and &6Copper&r dust in a crafting grid."
 				""
-				"You eventually get a more efficient recipe that yields 4 dust instead of 3, but you may choose to make alot of bronze in bulk now. The choice is yours."
+				"You eventually get a more efficient recipe that yields 4 dust instead of 3, but you may choose to make alot of &6Bronze&r in bulk now. The choice is yours."
 			]
 			id: "0E0F4FDD83B22FAD"
 			shape: "diamond"
@@ -405,11 +409,11 @@
 		{
 			dependencies: ["517B7F00DBF738E2"]
 			description: [
-				"Iron can be further processed in a furnace to create Wrought Iron. This is a harder version of the metal that can be used for stronger tools and is used machine parts later on. "
+				"Iron can be further processed in a furnace to create &7Wrought Iron&r. This is a harder version of the metal that can be used for stronger tools and is used machine parts later on. "
 				""
-				"Seasoned GregTech players will be happy to know that you DON'T have to smelt nuggets, smelting Iron Ingots in a furnace will yield a Hot Iron Ingot, which can be hammered into Wrought Iron from there."
+				"Seasoned &bGregTech&r players will be happy to know that you DON'T have to smelt nuggets, smelting Iron Ingots in a furnace will yield a &eHot Iron Ingot&r, which can be hammered into &7Wrought Iron&r from there."
 				""
-				"Do not convert your entire Iron supply into Wrought Iron, they are not interchangeable."
+				"Do not convert your entire Iron supply into &7Wrought Iron&r, they are not interchangeable."
 			]
 			id: "66CAE1FC47A86D12"
 			shape: "diamond"
@@ -427,9 +431,9 @@
 		{
 			dependencies: ["701F00715AECD87E"]
 			description: [
-				"It's in your best interest to start farming Rubber Trees as soon as possible, as they yield Sticky Resin, an important item in the near future."
+				"It's in your best interest to start farming &6Rubber Trees&r as soon as possible, as they yield &eSticky Resin&r, an important item in the near future."
 				""
-				"They can be found in most parts of the world, but most commonly in forests among other trees."
+				"They can be found in most parts of the world, but most commonly in &2forests among other trees&r."
 			]
 			id: "70B043D82A57433E"
 			subtitle: "Your favorite wood sucks, actually!"
@@ -445,9 +449,9 @@
 		{
 			dependencies: ["66CAE1FC47A86D12"]
 			description: [
-				"The first of many GregTech crafting tools. This one can convert many early game items into an equivalent dust form."
+				"The first of many&b GregTech&r crafting tools. This one can convert many early game items into an equivalent dust form."
 				""
-				"You can make this and all of the upcoming tools out of Iron if you wanted to, but Wrought Iron versions are a strict upgrade."
+				"You can make this and all of the upcoming tools out of Iron if you wanted to, but &7Wrought Iron&r versions are a strict upgrade."
 			]
 			id: "2321231AB2B623FA"
 			subtitle: "Mashy Thing"
@@ -474,10 +478,12 @@
 		}
 		{
 			dependencies: ["6E74ACFF47D62C68"]
+			description: ["Not quite as abundant as it is in vanilla, but you'll need plenty of the stuff nonetheless."]
 			hide_dependent_lines: true
 			id: "1F59D4119C4CAD90"
 			subtitle: "Cu"
 			tasks: [{
+				count: 24L
 				id: "2C330AF0C33EB83F"
 				item: "minecraft:copper_ingot"
 				type: "item"
@@ -488,10 +494,12 @@
 		}
 		{
 			dependencies: ["6E74ACFF47D62C68"]
+			description: ["The first ore that might be unfamiliar to you. Tin is rather abundant and is a key material going forward."]
 			hide_dependent_lines: true
 			id: "18D15B6109D763B8"
 			subtitle: "Sn"
 			tasks: [{
+				count: 8L
 				id: "62DD3A7481445F7C"
 				item: "gtceu:tin_ingot"
 				type: "item"
@@ -505,7 +513,7 @@
 				"66CAE1FC47A86D12"
 				"0E0F4FDD83B22FAD"
 			]
-			description: ["Your first step into Gregification has begun. Head on over to the &8Ultra Low Voltage&7/&fSteam&r chapter."]
+			description: ["You have completed the first steps of your journey, and are now prepared to continue on. Head on over to the &8Ultra Low Voltage&7/&fSteam&r chapter."]
 			icon: "gtceu:gregification_hazard_sign_block"
 			id: "210125560737B35B"
 			shape: "hexagon"

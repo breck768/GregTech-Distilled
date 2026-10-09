@@ -59,8 +59,9 @@
 		{
 			dependencies: ["071A387593153E20"]
 			description: [
-				"This pack is currently very new, and I decided to make it public as early as I did to gain player feedback."
-				"Every design decision in this pack has a specific reason for being the way that it is. If something feels out of place, refer to the Design Manifesto document in the Discord server. If it is not present in there, ask me about it directly, as it would be something I have yet to consider."
+				"This pack is currently &9very new&r, and I decided to make it public as early as I did to gain player feedback."
+				"Every design decision in this pack has a specific reason for being the way that it is. If something feels out of place, refer to the &1Design Manifesto&r document in the Discord server. If it is not present in there, ask me about it directly, as it would be something I have yet to consider."
+				""
 				"The pack is built on community feedback that allows me to better formulate ideas, &oplease &rgive me any criticism or thoughts you have."
 			]
 			icon: {
@@ -98,11 +99,11 @@
 			description: [
 				"The rod recipe in Lathes use the hard mode (1 rod 2 small dust) recipe, a la GTNH. Most \"harder\" recipe configs are enabled in general (this is subject to change)."
 				"{@pagebreak}"
-				"Vanilla ore gen is still present, on top of GT ore gen. This is to augment the early game, as plain GT making caving irrelevant is antithetical to survival Minecraft in my opinion."
+				"&aVanilla ore gen is still present&r, on top of &1GT ore gen&r. This is to augment the early game, as plain GT making caving irrelevant is antithetical to survival Minecraft in my opinion."
 				"Bedrock ore veins are enabled &8but are as of yet unused &r and will be the main method of resource generation. Probably."
 				"{@pagebreak}"
-				"Weather (rain, fire, etc.) do NOT cause machines to explode"
-				"On top of this, machine explosions do NOT cause terrain damage, only delete the machine itself."
+				"Weather (rain, fire, etc.) do &4NOT&r cause machines to explode"
+				"On top of this, machine explosions do &4NOT&r cause terrain damage, only delete the machine itself."
 				"{@pagebreak}"
 				"Pollution and hazards are enabled. &cPLEASE read the design doc or talk to me directly if you dont vibe with this (or the food changes)"
 			]
@@ -122,9 +123,9 @@
 				"EMI has its place in any GTM pack, this one is no different."
 				"&bAutocrafting has seen an improvement through the EMI Tree Tabs addon.&r This addon allows you to sort different crafting trees into groups and craft those entire groups as if they were one tree. "
 				""
-				"For example, if you want to craft all the blocks needed for an Electric Blast Furnace, you can favorite the required recipes, add the individual blocks as recipe trees, and then you can group them together and adjust the number of crafts per item. The addon GUI explains the keybinds."
+				"For example, if you want to craft all the blocks needed for an &aElectric Blast Furnace&r, you can favorite the required recipes, add the individual blocks as recipe trees, and then you can group them together and adjust the number of crafts per item. &cThe addon GUI explains the keybinds&r."
 				"{@pagebreak}"
-				"This replaces the usecase of the old Just Enough Calculation mod, which allowed you to encode arbitrary recipes (similar to the paper trick in AE2 patterns), which you could exploit to add recipes that gave you the directions for multiblocks and entire processing chains."
+				"This replaces the usecase of the old &9Just Enough Calculation&r mod, which allowed you to encode arbitrary recipes (similar to the paper trick in AE2 patterns), which you could exploit to add recipes that gave you the directions for multiblocks and entire processing chains."
 			]
 			icon: "minecraft:crafting_table"
 			id: "7E43A544DD6383E4"
@@ -141,8 +142,9 @@
 		{
 			dependencies: ["071A387593153E20"]
 			description: [
-				"This pack features two mods, Spice of Life Classic Edition and Carrot Edition."
-				"Carrot Edition adds obtaining extra hearts for eating multiple unique types of foods, and Classic Edition adds diminishing returns on foods that are eaten often. As such, a varied diet is important. Consider finding some animals to farm and crops to breed them with and/or consume yourself."
+				"This pack features two mods, Spice of Life &cClassic Edition&r and &6Carrot Edition.&r"
+				"&6Carrot Edition&r adds obtaining extra hearts for eating multiple unique types of foods, and&c Classic Edition&r adds diminishing returns on foods that are eaten often. As such, a varied diet is important. Consider finding some animals to farm and crops to breed them with and/or consume yourself. "
+				"Both mods have a few items that can aid you on your journey."
 				""
 				"&8if diminishing returns is an unpopular feature i have no issue with removing it lmao "
 			]
