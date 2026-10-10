@@ -140,6 +140,29 @@
             },
             "files": [
                 {
+                    "type": "curseforge",
+                    "file_name": "Controlling-forge-1.20.1-12.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4646/682/Controlling-forge-1.20.1-12.0.2.jar",
+                    "id": "4646682",
+                    "parent_id": "250398",
+                    "hashes": {
+                        "sha1": "f6d3cdd3ec68c5590cf5b2e89c38dbf031824bfd",
+                        "md5": "952274bc9994bba9733e8747558f73fa"
+                    },
+                    "required_dependencies": [
+                        "858542"
+                    ],
+                    "size": 115280,
+                    "date_published": "2023-07-16T04:39:22.697Z"
+                },
+                {
                     "type": "modrinth",
                     "file_name": "Controlling-forge-1.20.1-12.0.2.jar",
                     "mc_versions": [
@@ -275,7 +298,7 @@
             ]
         },
         {
-            "pakku_id": "ffh7BRFyCKyBuEox",
+            "pakku_id": "kK53avsWemFTiKNc",
             "pakku_links": [
                 "bBkg0HOouhuiVs7M"
             ],
@@ -832,47 +855,6 @@
             ]
         },
         {
-            "pakku_id": "wHNJgPLGI4ZUvOJO",
-            "pakku_links": [
-                "wgf9BISeNJ1FBE17"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "jei"
-            },
-            "name": {
-                "curseforge": "Just Enough Items (JEI)"
-            },
-            "id": {
-                "curseforge": "238222"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "jei-1.20.1-forge-15.62.0.219.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/9058/38/jei-1.20.1-forge-15.62.0.219.jar",
-                    "id": "9058038",
-                    "parent_id": "238222",
-                    "hashes": {
-                        "sha1": "e514cd6bc50b816487d9c25cd457de5e0bd5b07f",
-                        "md5": "872176fd31ee2615bfed17d1ba3765c8"
-                    },
-                    "required_dependencies": [
-                        "1689768"
-                    ],
-                    "size": 2232177,
-                    "date_published": "2026-10-04T12:38:50.890Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "fZ3KcEev55T71Slx",
             "type": "MOD",
             "slug": {
@@ -1042,7 +1024,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "modernfix-forge-5.27.85+mc1.20.1.jar",
+                    "file_name": "modernfix-forge-5.27.87+mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -1050,16 +1032,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/9032/601/modernfix-forge-5.27.85+mc1.20.1.jar",
-                    "id": "9032601",
+                    "url": "https://edge.forgecdn.net/files/9101/811/modernfix-forge-5.27.87+mc1.20.1.jar",
+                    "id": "9101811",
                     "parent_id": "790626",
                     "hashes": {
-                        "sha1": "ba76615cdaff6de931c2e33c71f0b05deb1dad41",
-                        "md5": "64d362fb435b59f6da2e27d5e53c089a"
+                        "sha1": "40c9b0aa7ca061d9d2c75f3eba3941f59483a3aa",
+                        "md5": "c5e28493d41f35fe8d6906cca912afa4"
                     },
                     "required_dependencies": [],
-                    "size": 1003271,
-                    "date_published": "2026-10-02T00:10:49.047Z"
+                    "size": 1009643,
+                    "date_published": "2026-10-08T20:22:46.043Z"
                 }
             ]
         },
@@ -1250,43 +1232,6 @@
                     "required_dependencies": [],
                     "size": 777303,
                     "date_published": "2023-07-04T23:12:00.190Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "NTQrW8y1Man2wxUP",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "radium-reforged"
-            },
-            "name": {
-                "curseforge": "Radium Reforged"
-            },
-            "id": {
-                "curseforge": "570017"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5706/69/radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
-                    "id": "5706069",
-                    "parent_id": "570017",
-                    "hashes": {
-                        "sha1": "f5f5f792473bb7b85ec221f75c5afb3740afb13a",
-                        "md5": "3a46fb58e8ff12213e4dbc909f47a77d"
-                    },
-                    "required_dependencies": [],
-                    "size": 713454,
-                    "date_published": "2024-09-09T08:07:43.540Z"
                 }
             ]
         },
@@ -1510,6 +1455,79 @@
                     "required_dependencies": [],
                     "size": 165355,
                     "date_published": "2025-08-03T13:19:13.957Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "gqe3ECKqkw17T1Ct",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "xaeros-minimap"
+            },
+            "name": {
+                "curseforge": "Xaero's Minimap"
+            },
+            "id": {
+                "curseforge": "263420"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "xaerominimap-forge-1.20.1-26.6.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/9067/172/xaerominimap-forge-1.20.1-26.6.0.jar",
+                    "id": "9067172",
+                    "parent_id": "263420",
+                    "hashes": {
+                        "sha1": "ee73886f2f5f27bf28cffa7cc8f2b9b4540df2aa",
+                        "md5": "90ad4deb039c88524e63d9a6f361c37d"
+                    },
+                    "required_dependencies": [],
+                    "size": 2196194,
+                    "date_published": "2026-10-05T06:54:28.163Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "FPdap3W8VrJnUh2t",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "xaeros-world-map"
+            },
+            "name": {
+                "curseforge": "Xaero's World Map"
+            },
+            "id": {
+                "curseforge": "317780"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "xaeroworldmap-forge-1.20.1-1.47.0.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/9067/273/xaeroworldmap-forge-1.20.1-1.47.0.jar",
+                    "id": "9067273",
+                    "parent_id": "317780",
+                    "hashes": {
+                        "sha1": "6715c1d3758a3805589d82c41dc581537fe185cd",
+                        "md5": "68adfbd2bb723adddf2b71ba8e15e51f"
+                    },
+                    "required_dependencies": [],
+                    "size": 1429424,
+                    "date_published": "2026-10-05T07:08:59.003Z"
                 }
             ]
         }
