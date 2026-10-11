@@ -123,6 +123,42 @@
             ]
         },
         {
+            "pakku_id": "ck090wAGWlZh9LI9",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "bic-clipboard"
+            },
+            "name": {
+                "curseforge": "BiC Clipboard"
+            },
+            "id": {
+                "curseforge": "1205571"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "bic_clipboard-1.2.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6562/791/bic_clipboard-1.2.0.jar",
+                    "id": "6562791",
+                    "parent_id": "1205571",
+                    "hashes": {
+                        "sha1": "3febe05a3d05295a8e7933b0910faf2279bd9b87",
+                        "md5": "e52fafd4e0bdd271152c3115c9e4d756"
+                    },
+                    "required_dependencies": [],
+                    "size": 73809,
+                    "date_published": "2025-05-24T20:54:43.720Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "SacuESiSDxxVwHCJ",
             "type": "MOD",
             "side": "CLIENT",
@@ -262,7 +298,7 @@
             ]
         },
         {
-            "pakku_id": "bBkg0HOouhuiVs7M",
+            "pakku_id": "Wk9adjSCm2zs9WGI",
             "type": "MOD",
             "slug": {
                 "curseforge": "emi"
@@ -273,10 +309,11 @@
             "id": {
                 "curseforge": "580555"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "emi-1.1.24+1.20.1+forge.jar",
+                    "file_name": "emi-1.1.22+1.20.1+forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -284,13 +321,9 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8081/375/emi-1.1.24+1.20.1+forge.jar",
+                    "url": "https://edge.forgecdn.net/files/6420/945/emi-1.1.22+1.20.1+forge.jar",
                     "id": "8081375",
                     "parent_id": "580555",
-                    "hashes": {
-                        "sha1": "ea320200878e4a49196760234a22da763671520a",
-                        "md5": "c86d5772fba9fbd4d612f2fe82397f72"
-                    },
                     "required_dependencies": [],
                     "size": 1121750,
                     "date_published": "2026-05-13T06:18:18.303Z"
@@ -300,7 +333,7 @@
         {
             "pakku_id": "kK53avsWemFTiKNc",
             "pakku_links": [
-                "bBkg0HOouhuiVs7M"
+                "Wk9adjSCm2zs9WGI"
             ],
             "type": "MOD",
             "slug": {
@@ -892,6 +925,47 @@
             ]
         },
         {
+            "pakku_id": "XWtX7quhr2YncVfy",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kotlin-for-forge"
+            },
+            "name": {
+                "curseforge": "Kotlin for Forge"
+            },
+            "id": {
+                "curseforge": "351264"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kotlinforforge-4.12.0-all.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.4",
+                        "1.20.3"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7291/67/kotlinforforge-4.12.0-all.jar",
+                    "id": "7291067",
+                    "parent_id": "351264",
+                    "hashes": {
+                        "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+                        "md5": "d6a40dede74edbe646b34a1bafd53b4d"
+                    },
+                    "required_dependencies": [],
+                    "size": 7442998,
+                    "date_published": "2025-12-03T19:47:08.457Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "TjuoMiNfJYBOcIWp",
             "pakku_links": [
                 "l5ASlauQi0mU4UM9",
@@ -1024,7 +1098,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "modernfix-forge-5.27.87+mc1.20.1.jar",
+                    "file_name": "modernfix-forge-5.27.88+mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -1032,16 +1106,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/9101/811/modernfix-forge-5.27.87+mc1.20.1.jar",
-                    "id": "9101811",
+                    "url": "https://edge.forgecdn.net/files/9124/107/modernfix-forge-5.27.88+mc1.20.1.jar",
+                    "id": "9124107",
                     "parent_id": "790626",
                     "hashes": {
-                        "sha1": "40c9b0aa7ca061d9d2c75f3eba3941f59483a3aa",
-                        "md5": "c5e28493d41f35fe8d6906cca912afa4"
+                        "sha1": "c550424a1a5435dfc838672e1df61289717cb2cc",
+                        "md5": "7bccd025e08396b674c6ccdefd2cc181"
                     },
                     "required_dependencies": [],
-                    "size": 1009643,
-                    "date_published": "2026-10-08T20:22:46.043Z"
+                    "size": 1009661,
+                    "date_published": "2026-10-11T00:10:23.227Z"
                 }
             ]
         },
@@ -1232,6 +1306,43 @@
                     "required_dependencies": [],
                     "size": 777303,
                     "date_published": "2023-07-04T23:12:00.190Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "hLVpR14lgVgAERxw",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "radium-reforged"
+            },
+            "name": {
+                "curseforge": "Radium Reforged"
+            },
+            "id": {
+                "curseforge": "570017"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5706/69/radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+                    "id": "5706069",
+                    "parent_id": "570017",
+                    "hashes": {
+                        "sha1": "f5f5f792473bb7b85ec221f75c5afb3740afb13a",
+                        "md5": "3a46fb58e8ff12213e4dbc909f47a77d"
+                    },
+                    "required_dependencies": [],
+                    "size": 713454,
+                    "date_published": "2024-09-09T08:07:43.540Z"
                 }
             ]
         },
@@ -1455,6 +1566,50 @@
                     "required_dependencies": [],
                     "size": 165355,
                     "date_published": "2025-08-03T13:19:13.957Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "WgxsXMP5TRy5lNxa",
+            "pakku_links": [
+                "XWtX7quhr2YncVfy",
+                "QWaLgh9MwCKYNzrR"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "universal-circuits"
+            },
+            "name": {
+                "curseforge": "Universal Circuits"
+            },
+            "id": {
+                "curseforge": "1410398"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "universalcircuits-1.0.4+mc.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8512/700/universalcircuits-1.0.4+mc.20.1.jar",
+                    "id": "8512700",
+                    "parent_id": "1410398",
+                    "hashes": {
+                        "sha1": "11bf76282a96f8e474cde16dc521fb7343013b1b",
+                        "md5": "896716de4e832f78a40663949be46354"
+                    },
+                    "required_dependencies": [
+                        "351264",
+                        "890405"
+                    ],
+                    "size": 181127,
+                    "date_published": "2026-07-26T12:02:21.953Z"
                 }
             ]
         },
