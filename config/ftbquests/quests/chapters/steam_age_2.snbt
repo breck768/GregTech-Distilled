@@ -74,16 +74,19 @@
 				{
 					id: "4B5FD189D8E05434"
 					item: "gtceu:lp_steam_solid_boiler"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1CA7AB1DEAD2D8D5"
 					item: "gtceu:lp_steam_liquid_boiler"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "77E96CD73566BA78"
 					item: "gtceu:lp_steam_solar_boiler"
+					optional_task: true
 					type: "item"
 				}
 			]

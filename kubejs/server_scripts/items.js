@@ -9,3 +9,8 @@ ServerEvents.recipes(event => {
         ]
     )
 })
+
+// -- Crude Glass Recipe -- //
+ServerEvents.recipes(event => {
+    event.smelting('kubejs:crude_glass', 'gtceu:glass_dust')
+})
