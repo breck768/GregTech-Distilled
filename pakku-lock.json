@@ -159,6 +159,44 @@
             ]
         },
         {
+            "pakku_id": "XuZ6tNupFEjzLmzA",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "colorful-hearts"
+            },
+            "name": {
+                "curseforge": "Colorful Hearts"
+            },
+            "id": {
+                "curseforge": "854213"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "colorfulhearts-forge-1.20.1-4.3.16.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5724/977/colorfulhearts-forge-1.20.1-4.3.16.jar",
+                    "id": "5724977",
+                    "parent_id": "854213",
+                    "hashes": {
+                        "sha1": "840036c824edfe6e155f4488337e5f5aec26a17f",
+                        "md5": "9e9be8a8c82350e43dfdd5d76101be50"
+                    },
+                    "required_dependencies": [],
+                    "size": 122868,
+                    "date_published": "2024-09-15T11:06:45.690Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "SacuESiSDxxVwHCJ",
             "type": "MOD",
             "side": "CLIENT",

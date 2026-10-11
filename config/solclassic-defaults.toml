@@ -9,7 +9,7 @@
 maxFoodHistorySize = 100
 #Maximum number of food short history entries to track
 #Range: 1 ~ 100
-maxShortFoodHistorySize = 5
+maxShortFoodHistorySize = 4
 #Long decay modifiers for food recovery
 #Range: 0.0 ~ 1.0
 longFoodDecayModifiers = 0.01
