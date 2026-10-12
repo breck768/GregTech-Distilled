@@ -34,4 +34,9 @@ Bedrock ore veins are enabled, though as of yet not properly implemented. Resour
 
 **AE2 is obviously present** in the pack, despite my earlier comments about it, but it will likely be gated behind EV, or whenever GCYR space travel takes place in progression. GT logistics are a very overlooked aspect of the mod, generally because covers and pipes are so exorbitantly expensive. 
 
-more tba :)
+**There is no "free" teleportation** such as /home. There are plenty of opportunities for spicing up player transportation in Minecraft, /home is undeniably convenient but completely negates that aspect of the game. On top of offering the Hang Glider mod and the various GT jetpacks, there is also a mod present that buffs the top speed of minecarts, currently set to 3x that of vanilla, and many more recipes for rails have been added. This will be important in later points in progression when bedrock ore miners are fully implemented.\
+Also, given that this change is present specifically for ore vein travel on top of general exploration, a fast ladder mod has been added.
+
+**Building wands and similar mods will replace free alternatives** such as Effortless Building. While Effortless Building itself does have craftable upgrade items, every amount of in world player aid and QOL should be attained through crafting some tool of some kind.
+
+There is a general design goal of **keeping things in spirit of GregTech, while not sacrificing player enjoyment.** An example of this is the change to Wrought Iron, which borrows the hot ingot concept from Gregicality. To create Wrought Iron, you simply smelt an iron ingot in a furnace, yielding a Hot Iron Ingot, which gets hammered to a Wrought Iron Ingot in the crafting grid. This does not fundamentally change how or where in progression Wrought Iron is obtained, but it alleviates the obnoxious waiting period that happens as a result of smelting nuggets at a time.
