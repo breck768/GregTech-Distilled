@@ -67,5 +67,18 @@ ServerEvents.recipes(event => {
             P: 'gtceu:bronze_small_fluid_pipe'
         }
     )
+    // -- Glider Recipes -- //
+    event.remove({ id: 'hangglider:glider_framework' })
+    event.shaped(
+        'hangglider:glider_framework',
+        [
+            ' R ', 
+            'R R', 
+            'RRR'  
+        ], {
+            R: 'gtceu:iron_rod'
+        }
+    )
+    
 
 })
