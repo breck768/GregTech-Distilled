@@ -51,6 +51,12 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "railcraft": {
+    "signals": true,
+    "track_component": true,
+    "locomotive": true,
+    "switch_track": true
+  },
   "gtceu": {
     "auto_output_info": true,
     "primitive_pump": true,

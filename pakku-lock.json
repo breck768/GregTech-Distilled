@@ -1584,6 +1584,43 @@
             ]
         },
         {
+            "pakku_id": "qlRQSeghjOp78Wst",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "rethrottle"
+            },
+            "name": {
+                "modrinth": "ReThrottle"
+            },
+            "id": {
+                "modrinth": "UqPbhFLg"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "throttle-1.20.1-1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/UqPbhFLg/versions/K3Fn6OPE/throttle-1.20.1-1.0.jar",
+                    "id": "K3Fn6OPE",
+                    "parent_id": "UqPbhFLg",
+                    "hashes": {
+                        "sha512": "861b194150890b67552bf16f83226d07187e07325834fa7b1875bf43a35dc17c987f9863b0a6c5cb854d5d22fb9285d22561f8c3847ee9ef102e00823ecc3c35",
+                        "sha1": "878bff4a3e070dbccfda5b75e82bd9d8be429d3a"
+                    },
+                    "required_dependencies": [],
+                    "size": 23654,
+                    "date_published": "2026-04-30T01:40:49.809030Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "l5ASlauQi0mU4UM9",
             "type": "MOD",
             "slug": {
