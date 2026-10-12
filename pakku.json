@@ -3,7 +3,9 @@
     "version": "0.1.4",
     "overrides": [
         "config",
-        "kubejs"
+        "kubejs",
+        "defaultconfigs",
+        "fancymenu_data"
     ],
     "projects": {
         "emi": {

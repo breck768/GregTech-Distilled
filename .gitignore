@@ -12,6 +12,7 @@ texturepacks/
 crash-reports/
 xaero/
 XaeroWaypoints*/
+local/
 
 pakku.jar
 rhino.local.properties
