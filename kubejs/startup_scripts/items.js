@@ -5,3 +5,4 @@ StartupEvents.registry('item', event => {
         .maxStackSize(64)
         .tooltip('§eFe')
 })
+
