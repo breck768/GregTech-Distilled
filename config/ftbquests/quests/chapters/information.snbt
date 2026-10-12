@@ -158,6 +158,27 @@
 			x: 1.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["071A387593153E20"]
+			description: [
+				"This pack features the Music Control Reforged mod and C418 Music Only resource pack. These two combine to give you unparalleled control in regards to your ingame music choice. C418 Music Only adds all of the missing music from Volumes Alpha and Beta, while Music Control Reforged adds volume and track control, and also keeps all of the modern music intact with the music category selection, selected with Page Up/Down by default. Volume can also be changed on the fly with the Up and Down arrow keys"
+				""
+				"The default music categories include Default (seemingly only pre 1.12 survival music?), Discs (only music discs), and All (everything, including all c418 music, menu music, creative music, and modern music)"
+				""
+				"{@pagebreak}"
+				"You can also select specific music to play by bringing up the music menu (M by default), or further customize your preferred music from there &8(i have no idea how it works)&r"
+				"The mod also removes music contexts, so everything will play everywhere."
+			]
+			icon: "minecraft:jukebox"
+			id: "63E1CEBFBF7C9047"
+			tasks: [{
+				id: "5380430FA5BBFA9F"
+				title: "Music"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
 	]
 	title: "Information"
 }

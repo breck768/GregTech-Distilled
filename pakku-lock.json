@@ -379,6 +379,43 @@
             ]
         },
         {
+            "pakku_id": "RVAOmtSHqCa0sr8i",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cupboard"
+            },
+            "name": {
+                "curseforge": "Cupboard"
+            },
+            "id": {
+                "curseforge": "326652"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cupboard-1.20.1-4.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8889/41/cupboard-1.20.1-4.2.jar",
+                    "id": "8889041",
+                    "parent_id": "326652",
+                    "hashes": {
+                        "sha1": "db25dfc4935b7f1bde62c69f13a7b70e2ecd9f2f",
+                        "md5": "c44e0bbce8481bdc54cd859669bc3930"
+                    },
+                    "required_dependencies": [],
+                    "size": 33422,
+                    "date_published": "2026-09-15T19:17:18.607Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "V8p1SnUuaSs2wVuR",
             "type": "MOD",
             "slug": {
@@ -742,10 +779,10 @@
             ]
         },
         {
-            "pakku_id": "32gATERMwaW7ZFa9",
+            "pakku_id": "Q8vmbn0vfjy9Eqn5",
             "pakku_links": [
                 "fZ3KcEev55T71Slx",
-                "Oy4Al2yFaPL5T1Z4"
+                "eGHEwjHjFF5TY53e"
             ],
             "type": "MOD",
             "slug": {
@@ -1293,7 +1330,7 @@
             ]
         },
         {
-            "pakku_id": "Oy4Al2yFaPL5T1Z4",
+            "pakku_id": "eGHEwjHjFF5TY53e",
             "type": "MOD",
             "slug": {
                 "curseforge": "melody"
@@ -1436,6 +1473,82 @@
                     "required_dependencies": [],
                     "size": 76237,
                     "date_published": "2024-05-12T16:26:46.523Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "W21xkRmYptDqMZxD",
+            "pakku_links": [
+                "Ik1uaDQAr87v1XB0"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "music-control-reforged"
+            },
+            "name": {
+                "curseforge": "Music Control: Reforged"
+            },
+            "id": {
+                "curseforge": "1723184"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "music_control-1.8.3-forge+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/9073/48/music_control-1.8.3-forge+1.20.1.jar",
+                    "id": "9073048",
+                    "parent_id": "1723184",
+                    "hashes": {
+                        "sha1": "9bdd6e0edf40a87f2006f0f836895ff2d3307bd4",
+                        "md5": "b025d9a5a119e6174d7be1ad981beb7d"
+                    },
+                    "required_dependencies": [
+                        "348521"
+                    ],
+                    "size": 1114923,
+                    "date_published": "2026-10-05T20:47:42.463Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "cybh4encWQL5mLyB",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "only-c418-54-tracks-optimized"
+            },
+            "name": {
+                "curseforge": "Only C418 Music 54 tracks optimized"
+            },
+            "id": {
+                "curseforge": "1599612"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ONLY_C418_MUSIC_1.20-1.20.1.zip",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20",
+                        "1.20-Snapshot"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/9011/741/ONLY_C418_MUSIC_1.20-1.20.1.zip",
+                    "id": "9011741",
+                    "parent_id": "1599612",
+                    "hashes": {
+                        "sha1": "41a964238a878d809ed603f2eb04670755b0ef3e",
+                        "md5": "4e76ad3ac90cfab1ab6d7107e66d3f8d"
+                    },
+                    "required_dependencies": [],
+                    "size": 148243307,
+                    "date_published": "2026-09-29T18:12:01.153Z"
                 }
             ]
         },

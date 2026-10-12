@@ -13,6 +13,9 @@ crash-reports/
 xaero/
 XaeroWaypoints*/
 local/
+modernfix/
+ldlib/
+coremods/
 
 pakku.jar
 rhino.local.properties
