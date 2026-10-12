@@ -441,7 +441,7 @@
                     ],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/6420/945/emi-1.1.22+1.20.1+forge.jar",
-                    "id": "8081375",
+                    "id": "6420945",
                     "parent_id": "580555",
                     "required_dependencies": [],
                     "size": 1121750,
@@ -781,6 +781,47 @@
                     ],
                     "size": 26191988,
                     "date_published": "2026-09-28T19:46:56.223Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "mFIn4TXmjf2BY167",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "faster-ladder-climbing"
+            },
+            "name": {
+                "curseforge": "Faster Ladder Climbing"
+            },
+            "id": {
+                "curseforge": "258881"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FasterLadderClimbing-1.20.1-0.2.10.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20.6",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4819/758/FasterLadderClimbing-1.20.1-0.2.10.jar",
+                    "id": "4819758",
+                    "parent_id": "258881",
+                    "hashes": {
+                        "sha1": "cf27aa0cbcc60a26ce9000b2b1c3c34c8fe84022",
+                        "md5": "473e7fe48569b45d60dc0e008bb5e96f"
+                    },
+                    "required_dependencies": [],
+                    "size": 7457,
+                    "date_published": "2023-10-27T19:49:08.973Z"
                 }
             ]
         },
