@@ -26,7 +26,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Welcome to &1GregTech: Distilled&r. Enjoy your stay! Be sure to read the Information quest tab at your earliest convenience."]
+			description: ["Welcome to &7GregTech: &9Distilled&r. Enjoy your stay! Be sure to read the Information quest tab at your earliest convenience."]
 			icon: "minecraft:grass_block"
 			id: "43EE0BD8B1079F72"
 			shape: "hexagon"
@@ -82,7 +82,11 @@
 		}
 		{
 			dependencies: ["4F6BAFA9BD236CEB"]
-			description: ["&8Your first set of tools.&r Expect to make a couple of these, as their &cdurability is low&r and the next upgrade is only available when you obtain Iron."]
+			description: [
+				"&8Your first set of tools.&r Expect to make a couple of these, as their &cdurability is low&r and the next upgrade is only available when you obtain Iron."
+				""
+				"Make one of any of them to complete this quest."
+			]
 			id: "62AAA77C2670DAC2"
 			shape: "gear"
 			subtitle: "Sticks and rocks"
@@ -107,6 +111,7 @@
 							HideFlags: 2
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -130,6 +135,7 @@
 							HideFlags: 2
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -153,6 +159,7 @@
 							HideFlags: 2
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -173,6 +180,7 @@
 							HideFlags: 2
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -459,20 +467,15 @@
 				id: "20A8DB5A8909AE45"
 				item: {
 					Count: 1
-					id: "gtceu:wrought_iron_mortar"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						Damage: 0
-						DisallowContainerItem: 0b
-						GT.Behaviours: { }
-						GT.Tool: {
-							DefaultEnchantments: [ ]
-							MaxDamage: 383
-						}
-						HideFlags: 2
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_mortars)"
 					}
 				}
+				title: "Any #gtceu:tools/crafting_mortars"
 				type: "item"
 			}]
+			title: "Mortar"
 			x: 7.5d
 			y: -3.0d
 		}
