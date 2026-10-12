@@ -37,38 +37,64 @@ ServerEvents.recipes(event => {
 
 // -- Rail Recipes -- //
 
+
+
 ServerEvents.recipes(event => {
+    event.shaped(
+            Item.of('minecraft:rail', 16),
+            [
+                'SHS', 
+                'RTR', 
+                'RCR'  
+            ], {
+                S: 'gtceu:iron_screw', 
+                H: '#gtceu:tools/crafting_hammers',
+                R: 'gtceu:iron_rod',
+                T: 'gtceu:treated_wood_rod',
+                C: '#gtceu:tools/crafting_screwdrivers'
+            }
+        )
+
+    event.shaped(
+            Item.of('minecraft:rail', 32),
+            [
+                'SHS', 
+                'RTR', 
+                'RCR'  
+            ], {
+                S: 'gtceu:steel_screw', 
+                H: '#gtceu:tools/crafting_hammers',
+                R: 'gtceu:steel_rod',
+                T: 'gtceu:treated_wood_rod',
+                C: '#gtceu:tools/crafting_screwdrivers'
+            }
+        )
+
     event.recipes.gtceu.assembler('gtceu:assembler/rail_steel')
         .itemInputs('12x gtceu:steel_rod', '1x minecraft:stick')
         .circuit(1)
         .itemOutputs('64x minecraft:rail')
-        .duration(100) // Duration in ticks (20 ticks = 1 second)
-        .EUt(30)     // Energy per tick (EU/t)
-});
+        .duration(100) 
+        .EUt(30)   
 
-ServerEvents.recipes(event => {
     event.recipes.gtceu.assembler('gtceu:assembler/rail_aluminium')
         .itemInputs('6x gtceu:aluminium_rod', '1x minecraft:stick')
         .circuit(1)
         .itemOutputs('64x minecraft:rail')
-        .duration(100) // Duration in ticks (20 ticks = 1 second)
-        .EUt(30)     // Energy per tick (EU/t)
-});
+        .duration(100) 
+        .EUt(30)  
 
-ServerEvents.recipes(event => {
     event.recipes.gtceu.assembler('gtceu:assembler/rail_stainless')
         .itemInputs('3x gtceu:stainless_steel_rod', '1x minecraft:stick')
         .circuit(1)
         .itemOutputs('64x minecraft:rail')
-        .duration(100) // Duration in ticks (20 ticks = 1 second)
-        .EUt(30)     // Energy per tick (EU/t)
-});
+        .duration(100)
+        .EUt(30)    
 
-ServerEvents.recipes(event => {
     event.recipes.gtceu.assembler('gtceu:assembler/rail_titanium')
         .itemInputs('1x gtceu:titanium_rod', '1x minecraft:stick')
         .circuit(1)
         .itemOutputs('64x minecraft:rail')
-        .duration(100) // Duration in ticks (20 ticks = 1 second)
-        .EUt(30)     // Energy per tick (EU/t)
+        .duration(100) 
+        .EUt(30) 
 });
