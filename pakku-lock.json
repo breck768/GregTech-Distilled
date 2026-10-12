@@ -785,6 +785,48 @@
             ]
         },
         {
+            "pakku_id": "nXE0T8oVmjsTeH7v",
+            "pakku_links": [
+                "oGvmVMVfE7sizwhS"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fastworkbench"
+            },
+            "name": {
+                "curseforge": "FastWorkbench"
+            },
+            "id": {
+                "curseforge": "288885"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FastWorkbench-1.20.1-8.0.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5101/229/FastWorkbench-1.20.1-8.0.4.jar",
+                    "id": "5101229",
+                    "parent_id": "288885",
+                    "hashes": {
+                        "sha1": "1a322a85e7c7024b8a0715c12d27b5ed0930d729",
+                        "md5": "2b55c4786cc726b0757689af28b97e7e"
+                    },
+                    "required_dependencies": [
+                        "283644"
+                    ],
+                    "size": 28188,
+                    "date_published": "2024-02-12T05:39:41.417Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "mFIn4TXmjf2BY167",
             "type": "MOD",
             "slug": {
@@ -1085,6 +1127,47 @@
                     "required_dependencies": [],
                     "size": 553487,
                     "date_published": "2026-07-21T11:08:31.270Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ldIYEDoSwqtH8r04",
+            "pakku_links": [
+                "wgf9BISeNJ1FBE17"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "jei"
+            },
+            "name": {
+                "curseforge": "Just Enough Items (JEI)"
+            },
+            "id": {
+                "curseforge": "238222"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "jei-1.20.1-forge-15.62.0.219.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/9058/38/jei-1.20.1-forge-15.62.0.219.jar",
+                    "id": "9058038",
+                    "parent_id": "238222",
+                    "hashes": {
+                        "sha1": "e514cd6bc50b816487d9c25cd457de5e0bd5b07f",
+                        "md5": "872176fd31ee2615bfed17d1ba3765c8"
+                    },
+                    "required_dependencies": [
+                        "1689768"
+                    ],
+                    "size": 2232177,
+                    "date_published": "2026-10-04T12:38:50.890Z"
                 }
             ]
         },
@@ -1507,6 +1590,43 @@
                     "required_dependencies": [],
                     "size": 777303,
                     "date_published": "2023-07-04T23:12:00.190Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "oGvmVMVfE7sizwhS",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "placebo"
+            },
+            "name": {
+                "curseforge": "Placebo"
+            },
+            "id": {
+                "curseforge": "283644"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Placebo-1.20.1-8.6.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6274/231/Placebo-1.20.1-8.6.3.jar",
+                    "id": "6274231",
+                    "parent_id": "283644",
+                    "hashes": {
+                        "sha1": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f",
+                        "md5": "13133ab9989e8474931cd7a86bd19cc5"
+                    },
+                    "required_dependencies": [],
+                    "size": 282474,
+                    "date_published": "2025-03-07T09:06:06.367Z"
                 }
             ]
         },

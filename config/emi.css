@@ -442,7 +442,9 @@
 	 */
 	hide-stack-by-id: "ctrl shift key.mouse.left";
 
-	/** unparsed */
+	/**
+	 * Move ingredients for highest leaf and put in inventory if possible.
+	 */
 	craft-tree: "key.keyboard.n";
 }
 
