@@ -179,6 +179,23 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["071A387593153E20"]
+			description: [
+				"This pack features Just Zoom, a highly customizable Zoom mod. Default keybind is Z, configuration menu is B. Also changes the Spyglass in some ways, but these are disabled by default."
+				""
+				"The keybind zoom is set up to mimic the old Optifine zoom, but you can change this if you wish."
+			]
+			icon: "minecraft:spyglass"
+			id: "18397A805911A244"
+			tasks: [{
+				id: "20BD1E6EC9373B16"
+				title: "Zoom"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
 	]
 	title: "Information"
 }

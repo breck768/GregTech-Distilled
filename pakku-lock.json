@@ -202,6 +202,47 @@
             ]
         },
         {
+            "pakku_id": "0HiU8p9LmlJBOHKQ",
+            "pakku_links": [
+                "QWaLgh9MwCKYNzrR"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cmme-additions"
+            },
+            "name": {
+                "curseforge": "CMME Additions"
+            },
+            "id": {
+                "curseforge": "1335017"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cmmeadditions-4.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7878/991/cmmeadditions-4.2.jar",
+                    "id": "7878991",
+                    "parent_id": "1335017",
+                    "hashes": {
+                        "sha1": "83546f43940d4a776c4ee60dc742a46a0bb1a154",
+                        "md5": "2d32b5e28409d2e1f01863a5768546dd"
+                    },
+                    "required_dependencies": [
+                        "890405"
+                    ],
+                    "size": 294164,
+                    "date_published": "2026-04-05T11:59:46.573Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Ik1uaDQAr87v1XB0",
             "type": "MOD",
             "slug": {
