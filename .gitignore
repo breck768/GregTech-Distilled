@@ -16,6 +16,7 @@ local/
 modernfix/
 ldlib/
 coremods/
+justzoom_instance_data/
 
 pakku.jar
 rhino.local.properties
