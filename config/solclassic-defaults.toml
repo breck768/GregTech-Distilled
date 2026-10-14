@@ -6,13 +6,13 @@
 [SolClassicSettings]
 #Maximum number of food history entries to track
 #Range: 5 ~ 300
-maxFoodHistorySize = 100
+maxFoodHistorySize = 5
 #Maximum number of food short history entries to track
 #Range: 1 ~ 100
 maxShortFoodHistorySize = 4
 #Long decay modifiers for food recovery
 #Range: 0.0 ~ 1.0
-longFoodDecayModifiers = 0.01
+longFoodDecayModifiers = 0.0
 #List of decay modifiers for food recovery, applied sequentially
 shortFoodDecayModifiers = [1.0, 0.9, 0.75, 0.5, 0.05]
 #List of food items that should not be tracked
@@ -22,7 +22,7 @@ basketBlacklist = []
 #Enable Wicker Basket
 enableWickerBasket = true
 #Guarantee minimum 1 nutrition even when decay reduces it to 0. When false, fully decayed food gives no nutrition.
-guaranteeMinimumNutrition = false
+guaranteeMinimumNutrition = true
 #Enable food decay tooltip on food items
 enableTooltip = true
 #Enable item description tooltip on mod items (Wicker Basket, Food History Book, etc.)

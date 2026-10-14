@@ -1,6 +1,6 @@
 {
     "name": "gtdistilled",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "overrides": [
         "config",
         "kubejs",

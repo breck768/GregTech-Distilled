@@ -822,6 +822,44 @@
             ]
         },
         {
+            "pakku_id": "Za8MUTtjDjrSFGOR",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fast-leaf-decay"
+            },
+            "name": {
+                "curseforge": "Fast Leaf Decay"
+            },
+            "id": {
+                "curseforge": "230976"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FastLeafDecay-32.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5375/681/FastLeafDecay-32.jar",
+                    "id": "5375681",
+                    "parent_id": "230976",
+                    "hashes": {
+                        "sha1": "4a76af4ca71dd9939d3c21206792c0d5f75b93a7",
+                        "md5": "20df3e3525622d6ea38a243be828ef38"
+                    },
+                    "required_dependencies": [],
+                    "size": 9835,
+                    "date_published": "2024-05-27T10:44:41.997Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "nXE0T8oVmjsTeH7v",
             "pakku_links": [
                 "oGvmVMVfE7sizwhS"
@@ -1126,6 +1164,42 @@
                     ],
                     "size": 136076,
                     "date_published": "2023-08-18T06:55:12.100Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "oyemNm97kGfw7Lme",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "inventory-sorter"
+            },
+            "name": {
+                "curseforge": "Inventory Sorter"
+            },
+            "id": {
+                "curseforge": "240633"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "inventorysorter-1.20.1-23.0.11.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7188/685/inventorysorter-1.20.1-23.0.11.jar",
+                    "id": "7188685",
+                    "parent_id": "240633",
+                    "hashes": {
+                        "sha1": "fe77bda0f98df034f00ecdcb9537b31bf3800477",
+                        "md5": "e36d0a4aff7d73dd2fc9b58695b55c5e"
+                    },
+                    "required_dependencies": [],
+                    "size": 54267,
+                    "date_published": "2025-11-05T11:56:03.443Z"
                 }
             ]
         },
