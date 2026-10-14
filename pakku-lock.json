@@ -1099,6 +1099,42 @@
             ]
         },
         {
+            "pakku_id": "rx6q26y3GYNQrcjD",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "gcyr-extras"
+            },
+            "name": {
+                "curseforge": "Gregicality Rocketry Extras"
+            },
+            "id": {
+                "curseforge": "1477772"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "gcyrextras-1.20.1-0.1.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8120/767/gcyrextras-1.20.1-0.1.3.jar",
+                    "id": "8120767",
+                    "parent_id": "1477772",
+                    "hashes": {
+                        "sha1": "a271acc7298e1e02da027f6470b965695b33f8ad",
+                        "md5": "5039c9a45a9457e7f20ea30c5e7e5438"
+                    },
+                    "required_dependencies": [],
+                    "size": 144588,
+                    "date_published": "2026-05-20T22:38:34.250Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "cKJJNkMmD6QLeLWW",
             "type": "RESOURCE_PACK",
             "slug": {
