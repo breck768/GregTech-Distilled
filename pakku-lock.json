@@ -1283,6 +1283,47 @@
             ]
         },
         {
+            "pakku_id": "zBdDQqYovBgIGsO7",
+            "pakku_links": [
+                "8b2y77ALxqDv3aYX"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "jamlib"
+            },
+            "name": {
+                "curseforge": "JamLib"
+            },
+            "id": {
+                "curseforge": "623764"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "jamlib-forge-1.3.6+1.20.1-patch.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8155/852/jamlib-forge-1.3.6+1.20.1-patch.1.jar",
+                    "id": "8155852",
+                    "parent_id": "623764",
+                    "hashes": {
+                        "sha1": "1d376bf7e9e516869fac7f58ec5ac1dd48830f0c",
+                        "md5": "3c90551eeb21e75201b3625dd7964448"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 191607,
+                    "date_published": "2026-05-27T19:37:52.283Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ldIYEDoSwqtH8r04",
             "pakku_links": [
                 "wgf9BISeNJ1FBE17"
@@ -2042,6 +2083,49 @@
                     "required_dependencies": [],
                     "size": 1798244,
                     "date_published": "2025-02-12T21:26:47.347Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "fHrZ4J0Cji4W6l8U",
+            "pakku_links": [
+                "8b2y77ALxqDv3aYX",
+                "zBdDQqYovBgIGsO7"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "rightclickharvest"
+            },
+            "name": {
+                "curseforge": "RightClickHarvest"
+            },
+            "id": {
+                "curseforge": "452834"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rightclickharvest-forge-4.6.1+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7508/764/rightclickharvest-forge-4.6.1+1.20.1.jar",
+                    "id": "7508764",
+                    "parent_id": "452834",
+                    "hashes": {
+                        "sha1": "539bfd7e456eec310707ca577e029fb9ace626c7",
+                        "md5": "67a2061b0afbc0b52df53e65dd44f81d"
+                    },
+                    "required_dependencies": [
+                        "419699",
+                        "623764"
+                    ],
+                    "size": 288408,
+                    "date_published": "2026-01-22T20:49:20.343Z"
                 }
             ]
         },
