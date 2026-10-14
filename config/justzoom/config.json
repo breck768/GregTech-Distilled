@@ -1,0 +1,22 @@
+{
+  "zoom": {
+    "base_zoom_factor": 75,
+    "zoom_step_size": 100,
+    "smooth_zoom_in_out": true,
+    "start_zooming_animation_speed": 0.0,
+    "stop_zooming_animation_speed": 0.0,
+    "smooth_zoom_scroll_speed_percentage": 100,
+    "maximum_zoom_factor": 100,
+    "smooth_camera_movement_on_zoom": true,
+    "normalize_mouse_sensitivity_on_zoom": true,
+    "improve_third_person_zoom": true,
+    "hide_arms_when_zooming": true,
+    "show_hud": "spyglass_and_keybind_zoom",
+    "reset_zoom_factor_when_stop_zooming": true
+  },
+  "spyglass": {
+    "use_just_zoom_for_spyglass": false,
+    "spyglass_overlay": "only_spyglass",
+    "spyglass_sounds": "only_spyglass"
+  }
+}
