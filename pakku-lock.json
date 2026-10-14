@@ -1283,6 +1283,47 @@
             ]
         },
         {
+            "pakku_id": "3kqZOzldGy3ZM5a0",
+            "pakku_links": [
+                "fZ3KcEev55T71Slx"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "just-zoom"
+            },
+            "name": {
+                "curseforge": "Just Zoom"
+            },
+            "id": {
+                "curseforge": "561885"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "justzoom_forge_3.0.1_MC_1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/9062/471/justzoom_forge_3.0.1_MC_1.20.1.jar",
+                    "id": "9062471",
+                    "parent_id": "561885",
+                    "hashes": {
+                        "sha1": "a1b516b8bbdfac03f74b8b884eb2b1aacd8b60fe",
+                        "md5": "0a3bec47d67fdb9be694f88b07b86b1e"
+                    },
+                    "required_dependencies": [
+                        "410295"
+                    ],
+                    "size": 340610,
+                    "date_published": "2026-10-04T19:50:40.610Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "fZ3KcEev55T71Slx",
             "type": "MOD",
             "slug": {
