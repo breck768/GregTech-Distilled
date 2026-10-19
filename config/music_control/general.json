@@ -11,7 +11,7 @@
   "misc": {
     "musicDontPause": true,
     "musicQueue": 10,
-    "musicCategoryStart": "default",
+    "musicCategoryStart": "all",
     "volumeIncrement": 5
   }
 }
