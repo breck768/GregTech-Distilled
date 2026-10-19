@@ -202,6 +202,68 @@
             ]
         },
         {
+            "pakku_id": "ljuqp24swPT0hGeR",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "c4music"
+            },
+            "name": {
+                "modrinth": "C4Music - C418 Music Pack"
+            },
+            "id": {
+                "modrinth": "QSKCFxWX"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "C4Music_v4.2.zip",
+                    "mc_versions": [
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/QSKCFxWX/versions/miSlkDOm/C4Music_v4.2.zip",
+                    "id": "miSlkDOm",
+                    "parent_id": "QSKCFxWX",
+                    "hashes": {
+                        "sha512": "03dfd4917b7cd4f933d49dc1bad5a3e6efb96d7ea659d5c70a2ec3b40fdee586d753cb4055ed16225a46afaf6bd0c5734925f022b1f81bd0132154243dc9c066",
+                        "sha1": "deef5ce8263f1d4c4f76d8973a2303165c304862"
+                    },
+                    "required_dependencies": [],
+                    "size": 25126968,
+                    "date_published": "2025-07-25T12:57:49.423856Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "0HiU8p9LmlJBOHKQ",
             "pakku_links": [
                 "QWaLgh9MwCKYNzrR"
@@ -1779,41 +1841,6 @@
                     ],
                     "size": 1114923,
                     "date_published": "2026-10-05T20:47:42.463Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "cybh4encWQL5mLyB",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "only-c418-54-tracks-optimized"
-            },
-            "name": {
-                "curseforge": "Only C418 Music 54 tracks optimized"
-            },
-            "id": {
-                "curseforge": "1599612"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ONLY_C418_MUSIC_1.20-1.20.1.zip",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20",
-                        "1.20-Snapshot"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/9011/741/ONLY_C418_MUSIC_1.20-1.20.1.zip",
-                    "id": "9011741",
-                    "parent_id": "1599612",
-                    "hashes": {
-                        "sha1": "41a964238a878d809ed603f2eb04670755b0ef3e",
-                        "md5": "4e76ad3ac90cfab1ab6d7107e66d3f8d"
-                    },
-                    "required_dependencies": [],
-                    "size": 148243307,
-                    "date_published": "2026-09-29T18:12:01.153Z"
                 }
             ]
         },
