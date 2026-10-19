@@ -1653,7 +1653,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "monospace-seven-1.20-no-replace.zip",
+                    "file_name": "monospace-seven-1.20.zip",
                     "mc_versions": [
                         "1.20",
                         "1.20.1"
@@ -1662,16 +1662,10 @@
                         "minecraft"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Cvv4ZJUW/versions/P4Ge3fK3/monospace-seven-1.20-no-replace.zip",
-                    "id": "P4Ge3fK3",
+                    "url": "https://cdn.modrinth.com/data/Cvv4ZJUW/versions/GHWQVacp/monospace-seven-1.20.zip",
+                    "id": "GHWQVacp",
                     "parent_id": "Cvv4ZJUW",
-                    "hashes": {
-                        "sha512": "441f534a382382cc5fb0d983beefe29a7a8f6499c71d7dc89f934e901939d25abbfdb27964d58b370634d61d70f4d0c562efa9fe3b19a72bbef000dc2d00af48",
-                        "sha1": "09ab59e122252fa84e46a70402d362bc778b46e2"
-                    },
-                    "required_dependencies": [],
-                    "size": 36401,
-                    "date_published": "2023-07-28T13:19:04.220468Z"
+                    "required_dependencies": []
                 }
             ]
         },
