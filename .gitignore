@@ -18,6 +18,7 @@ ldlib/
 coremods/
 justzoom_instance_data/
 
+defaultoptions.journal.json
 pakku.jar
 rhino.local.properties
 options.txt

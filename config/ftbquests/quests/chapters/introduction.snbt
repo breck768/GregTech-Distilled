@@ -315,6 +315,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:rawmeats)"
 						}
 					}
+					optional_task: true
 					title: "Any #forge:rawmeats"
 					type: "item"
 				}
@@ -327,6 +328,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:seeds)"
 						}
 					}
+					optional_task: true
 					title: "Any #forge:seeds"
 					type: "item"
 				}
@@ -378,11 +380,7 @@
 		}
 		{
 			dependencies: ["4F6BAFA9BD236CEB"]
-			description: [
-				"Your vanilla crafting table can be converted directly into a Crafting Station. This version can directly access inventories adjacent to it in world. This will be useful once you begin microcrafting."
-				"{@pagebreak}"
-				"&7this unfortunately doesn't quite play well with EMI autocrafting but its the thought that counts :)"
-			]
+			description: ["Your vanilla crafting table can be converted directly into a Crafting Station. This version can directly access inventories adjacent to it in world. This will be useful once you begin microcrafting. Unlike the standard Crafting Station mod, this \"Improved\" one is compatible with EMI autocrafting."]
 			id: "20789F8F43D3823D"
 			optional: true
 			tasks: [{

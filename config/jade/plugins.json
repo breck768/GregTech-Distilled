@@ -84,6 +84,12 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "gravestone": {
+    "grave": true
+  },
+  "balm": {
+    "jade": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,

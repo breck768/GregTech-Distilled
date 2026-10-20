@@ -103,11 +103,19 @@
 			id: "0AB5B9343BC201BE"
 			size: 1.25d
 			subtitle: "NOW we're talking!"
-			tasks: [{
-				id: "387D18538B4E06C2"
-				item: "gtceu:bronze_machine_casing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "387D18538B4E06C2"
+					item: "gtceu:bronze_brick_casing"
+					type: "item"
+				}
+				{
+					id: "48329CA77FF0C6DE"
+					item: "gtceu:bronze_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Your First Machines"
 			x: 0.0d
 			y: -2.5d
@@ -912,6 +920,7 @@
 				title: "tool upgrades"
 				type: "checkmark"
 			}]
+			title: "Tool Upgrades"
 			x: 8.5d
 			y: 3.0d
 		}
@@ -1195,6 +1204,25 @@
 			}]
 			x: 9.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["18060E52503CF80B"]
+			description: [
+				"Minecarts and rails have been buffed in this pack by a substantial amount. There are multiple recipes for rails available, the second of which has become available to you now that you can create Treated Wood. You can easily make large batches of rails now, particularly in an Assembler. Also, the top speed of Minecarts has been buffed by 3x. "
+				""
+				"You might find them to be useful now for travel between ore veins, but later on, you will want to build them for travelling between bedrock miners."
+			]
+			id: "3E1864A3C4F9B8A4"
+			subtitle: "train noises"
+			tasks: [{
+				count: 64L
+				id: "0B2822DAD8632D06"
+				item: { Count: 64, id: "minecraft:rail" }
+				type: "item"
+			}]
+			title: "Railway Transportation"
+			x: 4.0d
+			y: -2.0d
 		}
 	]
 	title: "&8Ultra Low Voltage&7/&fSteam"

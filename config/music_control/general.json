@@ -1,7 +1,7 @@
 {
   "timer": {
     "randomDelay": true,
-    "maxDelay": 300
+    "maxDelay": 60
   },
   "event": {
     "creativeEventFallback": true,
