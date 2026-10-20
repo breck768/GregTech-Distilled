@@ -59,3 +59,4 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'gtceu:shaped/steam_oven_from_lp' })
     event.remove({ id: 'gtceu:shaped/steam_grinder_from_lp' })
 })
+

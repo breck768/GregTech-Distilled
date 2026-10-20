@@ -12,9 +12,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .recipeModifier((machine, recipe) => $SteamMulti.recipeModifier(machine, recipe), true)
         .appearanceBlock(GTBlocks.BRONZE_HULL)
         .pattern(definition => FactoryBlockPattern.start()
-            .aisle("FFF", "MMM", "AAA")
-            .aisle("FFF", "MAM", "MMM")
-            .aisle("FFF", "MCM", "MMM")
+            .aisle("FFF", "MMM", "AMA", "AMA")
+            .aisle("FFF", "MAM", "MAM", "MAM")
+            .aisle("FFF", "MCM", "AMA", "AMA")
             .where('A', Predicates.any()) // Air
             .where('F', Predicates.blocks('gtceu:bronze_firebox_casing')
                 .or(Predicates.abilities(PartAbility.STEAM).setMaxGlobalLimited(1))) // Firebox/Steam Input
@@ -38,15 +38,18 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .recipeModifier((machine, recipe) => $SteamMulti.recipeModifier(machine, recipe), true)
         .appearanceBlock(GTBlocks.BRONZE_HULL)
         .pattern(definition => FactoryBlockPattern.start()
-            .aisle("MMM", "MMM", "MMM", "MMM")
-            .aisle("MMM", "MAM", "MAM", "MMM")
-            .aisle("MMM", "MCM", "MMM", "MMM")
+            .aisle("MMM", "MMM", "MMM")
+            .aisle("MMM", "LGL", "MMM")
+            .aisle("MMM", "LGL", "MMM")
+            .aisle("MMM", "MCM", "MMM")
             .where('A', Predicates.any()) // Air
             .where('M', Predicates.blocks('gtceu:steam_machine_casing').setMinGlobalLimited(10)
                .or(Predicates.abilities(PartAbility.STEAM_IMPORT_ITEMS).setMaxGlobalLimited(1))
                .or(Predicates.abilities(PartAbility.STEAM_EXPORT_ITEMS).setMaxGlobalLimited(1))
                .or(Predicates.abilities(PartAbility.STEAM).setMaxGlobalLimited(1))) // Firebox/Steam Input
             .where('C', Predicates.controller(Predicates.blocks(definition.get())))
+            .where('L', Predicates.blocks('minecraft:glass'))
+            .where('G', Predicates.blocks('gtceu:bronze_gearbox'))
             .build())
         .workableCasingModel("gtceu:block/casings/solid/machine_casing_bronze_plated_bricks",
             "gtceu:block/machines/compressor")
@@ -70,6 +73,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('M', Predicates.blocks('gtceu:steam_machine_casing').setMinGlobalLimited(10)
                .or(Predicates.abilities(PartAbility.STEAM_IMPORT_ITEMS).setMaxGlobalLimited(1))
                .or(Predicates.abilities(PartAbility.STEAM_EXPORT_ITEMS).setMaxGlobalLimited(1))
+               .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(1))
                .or(Predicates.abilities(PartAbility.STEAM).setMaxGlobalLimited(1))) // Firebox/Steam Input
             .where('C', Predicates.controller(Predicates.blocks(definition.get())))
             .where('G', Predicates.blocks('minecraft:glass'))
@@ -90,7 +94,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .appearanceBlock(GTBlocks.BRONZE_HULL)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("MMM", "MAM", "MAM", "MAM", "MMM")
-            .aisle("MMM", "AIA", "AAA", "AIA", "MMM")
+            .aisle("MGM", "AIA", "AAA", "AIA", "MGM")
             .aisle("MCM", "MAM", "MAM", "MAM", "MMM")
             .where('A', Predicates.any()) // Air
             .where('M', Predicates.blocks('gtceu:steam_machine_casing').setMinGlobalLimited(10)
@@ -100,6 +104,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('C', Predicates.controller(Predicates.blocks(definition.get())))
             .where('G', Predicates.blocks('minecraft:glass'))
             .where('I', Predicates.blocks('minecraft:iron_block'))
+            .where('G', Predicates.blocks('gtceu:bronze_gearbox'))
             .build())
         .workableCasingModel("gtceu:block/casings/solid/machine_casing_bronze_plated_bricks",
             "gtceu:block/machines/forge_hammer")

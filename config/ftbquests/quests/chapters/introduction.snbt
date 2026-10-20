@@ -299,7 +299,7 @@
 			description: [
 				"You're probably getting hungry by now, try to find a stable source of food."
 				""
-				"If you've yet to read the Information tab, just know that a varied diet will be important. Also, go read the Information tab."
+				"If you've yet to read the Information tab, just know that a varied diet will be important. Also, go read the Information tab. Ideally, you'll want 5 different food items that all replenish a similar amount of hunger, to minimize or entirely negate diminishing returns."
 				""
 				"Until you can make a vanilla bucket, you can't manually move water around. Consider using natural water sources for farms until then?"
 			]

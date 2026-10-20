@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "czero_point_module"
 	group: "0C686732BF1453B0"
-	icon: "gtceu:quantum_processor_mainframe"
+	icon: "gtceu:wetware_processor_assembly"
 	id: "4C0AB62AEF4B4861"
 	order_index: 2
 	quest_links: [ ]

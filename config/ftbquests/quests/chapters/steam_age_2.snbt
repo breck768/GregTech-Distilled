@@ -264,7 +264,8 @@
 		{
 			dependencies: ["17A8876B8590CDB5"]
 			description: [
-				"As part of the base mod, you can create multiblock variants of the Steam Furnace and Steam Macerator. This pack also offers multiblock versions of the remaining machines, rounding out the full set."
+				"As part of the base mod, you can create multiblock variants of the Steam Furnace and Steam Macerator. This pack also offers multiblock versions of the remaining machines, rounding out the full set. All of them offer 8 parallels and discounted energy costs."
+				"You may want to wait until LV to make these, as they are very expensive and the better ratios on plates and rods will be very helpful. The choice is ultimately yours though."
 				""
 				"These require the equivalent high pressure machine to craft."
 			]
@@ -284,7 +285,11 @@
 				"313924AB9668D115"
 				"34B6AB838F77EC1A"
 			]
-			description: ["A direct upgrade to the Steam Furnace, this Multiblock compliments the Steam Oven rather well. It also does 8 parallels and has great fuel efficiency."]
+			description: [
+				"A direct upgrade to the Steam Furnace, this Multiblock compliments the Steam Oven rather well. It also does 8 parallels and has great fuel efficiency."
+				""
+				"You can finally deprecate your furnace wall that you've been using since the stone age."
+			]
 			id: "65B80C6980091FA7"
 			optional: true
 			tasks: [{
@@ -795,18 +800,82 @@
 			description: [
 				"You may have noticed the \"Low Pressure\" quality of the steam machines you've made up to this point. Low pressure does, in fact, imply the existence of high pressure in this case. With some steel and wrought iron, you can upgrade your existing singleblock machines to high pressure variants. These (generally)* consume twice the amount of steam, but also perform recipes twice as fast. Depending on how much longer you plan to be in the steam age, these might do less work for you than you might expect, but they are still direct upgrades nonetheless."
 				""
-				"As a note, the machines can be directly upgraded (they actually must be), but the high pressure boilers can only be made from scratch. "
+				"As a note, the crafting machines can be directly upgraded (they actually must be), but the high pressure boilers can only be made from scratch. "
+				""
+				"Craft one of them to complete this quest."
 				""
 				"*the high pressure miner is a bit weird, check the tooltip"
 			]
-			icon: "gtceu:hp_steam_solid_boiler"
 			id: "17A8876B8590CDB5"
 			size: 1.5d
-			tasks: [{
-				id: "1D8D4E34C373B398"
-				title: "High Pressure Machines"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2C9E000F25DEF5FD"
+					item: "gtceu:hp_steam_solid_boiler"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1980B0158DC5112A"
+					item: "gtceu:hp_steam_liquid_boiler"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6C354182F7D36D51"
+					item: "gtceu:hp_steam_solar_boiler"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6A735A27EE794D04"
+					item: "gtceu:hp_steam_extractor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "289882105E37F083"
+					item: "gtceu:hp_steam_macerator"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6359922E37A1088D"
+					item: "gtceu:hp_steam_compressor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7C6492399E75F693"
+					item: "gtceu:hp_steam_forge_hammer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7408D4D75BC30C0B"
+					item: "gtceu:hp_steam_furnace"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "30F493A1AEF92212"
+					item: "gtceu:hp_steam_alloy_smelter"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6E27471224C58F1C"
+					item: "gtceu:hp_steam_rock_crusher"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21F1D019C8DAEE03"
+					item: "gtceu:hp_steam_miner"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: -2.5d
 		}
@@ -1163,6 +1232,7 @@
 		}
 		{
 			dependencies: ["313924AB9668D115"]
+			description: ["The Steam Extractinator cannot process fluids like electric Exctractors can, but this will speed up the process of extracting rubber from Sticky Resin greatly."]
 			id: "09D96E87AF7DA345"
 			tasks: [{
 				id: "1AC411F83311CCA6"
@@ -1174,6 +1244,7 @@
 		}
 		{
 			dependencies: ["313924AB9668D115"]
+			description: ["The Steam Press will speed up any compacting recipes you might need, as well as shorten the wait on Wood Planks."]
 			id: "55803E788FC1363F"
 			tasks: [{
 				id: "42EBAF90A24B02B8"
@@ -1185,6 +1256,7 @@
 		}
 		{
 			dependencies: ["313924AB9668D115"]
+			description: ["The Steam Alloyer will alleviate the wait time on Bronze, Red Alloy, and many other alloys to come."]
 			id: "53DF8662AC7479AD"
 			tasks: [{
 				id: "28B846359917DAF9"
@@ -1196,6 +1268,7 @@
 		}
 		{
 			dependencies: ["313924AB9668D115"]
+			description: ["The Steam Impactor will make your 3:2 plate recipes and some ore processing recipes fly by."]
 			id: "4EA171F5D3EB9B98"
 			tasks: [{
 				id: "4BA85A73F105147C"

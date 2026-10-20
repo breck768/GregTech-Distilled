@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "3ultimate_voltage"
 	group: "0C686732BF1453B0"
-	icon: "gtceu:crystal_processor_mainframe"
+	icon: "gtceu:wetware_processor_computer"
 	id: "2076E2265C1D1AF0"
 	order_index: 3
 	quest_links: [ ]
