@@ -970,10 +970,7 @@
 			y: 2.165391156462583d
 		}
 		{
-			dependencies: [
-				"5B2696206205CB2E"
-				"70432F650591353C"
-			]
+			dependencies: ["5B2696206205CB2E"]
 			description: [
 				"Prepare &a128 Cupronickel&r, &a32 Bronze&r and &a16 Tin Alloy&r to craft the Heating Coils required for your first Electric Blast Furnace."
 				""

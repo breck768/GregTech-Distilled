@@ -1,0 +1,434 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "circuit_progression"
+	group: "0F45EAB5FD870311"
+	icon: "gtceu:microchip_processor"
+	id: "176305B00A00DCDD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7CCE8FDAAA246353"
+			subtitle: "First LV Circuits"
+			tasks: [{
+				id: "0AA6A2A667F76554"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: ["This chapter lays out GregTech Circuit Progression. Circuits are unlocked in groups based on what type of technology is used in their construction. For example, the first type of circuit you will make are Electronic circuits, and Integrated circuits after that. As a general rule, each circuit type of any technology group requires one or multiple of the previous ones in its recipe. The rows represent these technology groups, while the columns correspond to which voltage tier a circuit belongs. This means that the &lbottom circuit of each column&r is the most cost efficient one that you can make."]
+			id: "187B4FF27E60B72E"
+			subtitle: "README.md"
+			tasks: [{
+				id: "746BD7D6B6D0C57C"
+				title: "What am I looking at?"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "3BBA7A56B66D939D"
+			subtitle: "First ULV Circuits"
+			tasks: [{
+				id: "3ABAE260005E37F6"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "330995AF87815D5D"
+			subtitle: "First MV Circuits"
+			tasks: [{
+				id: "68F0247243070FA8"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "73D0FC17C4DE8B0D"
+			tasks: [{
+				id: "03CB9117E33E2739"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "27AF5D71DA8EBD9E"
+			tasks: [{
+				id: "10C68649A402149B"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "6CAA2A9412813AF3"
+			subtitle: "First HV Circuits"
+			tasks: [{
+				id: "1BB05A7B2A594368"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "0EC4FA77B8E4E4B7"
+			subtitle: "Final LV Circuits"
+			tasks: [{
+				id: "26A2B4F8F9E9613B"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "31A0E19D11B75C4F"
+			subtitle: "Final MV Circuits"
+			tasks: [{
+				id: "5FC2D41D851ACAEE"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "076C2BB6DDF94BA4"
+			tasks: [{
+				id: "3D0E607A836CD589"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "5D80BB6EFA3FA8B6"
+			subtitle: "First EV Circuits"
+			tasks: [{
+				id: "270C7C16D6BC1461"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "186C6F51BDA33358"
+			subtitle: "First IV Circuits"
+			tasks: [{
+				id: "0574BC563ED5C75F"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "36FE9338EF6DF03A"
+			subtitle: "Final ULV Circuits"
+			tasks: [{
+				id: "410A378DF9391EC1"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "596FA56314059C08"
+			subtitle: "Final HV Circuits"
+			tasks: [{
+				id: "30A493CDB1F29F4B"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "6D89651B965EF779"
+			tasks: [{
+				id: "043D86832473560A"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "31166E2F0608BADE"
+			tasks: [{
+				id: "2DD57C337EEC989F"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "561D90BB7F0C6247"
+			subtitle: "First LuV Circuits"
+			tasks: [{
+				id: "3EEF1E4BDB03086D"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "6D45C82F6C586321"
+			subtitle: "Final EV Circuits"
+			tasks: [{
+				id: "5C7F732C09219011"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "59DD4EBAB4287648"
+			tasks: [{
+				id: "050AA93611D2F27C"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "4D9FCF4209858E26"
+			tasks: [{
+				id: "08A28ABC13F21D66"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "68AD4FE342256EC8"
+			subtitle: "First ZPM Circuits"
+			tasks: [{
+				id: "487E14552624C46F"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "0D46D8E39F07685F"
+			subtitle: "Final IV Circuits"
+			tasks: [{
+				id: "14725D66CB5E4E85"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "7321A9ADB7BB5171"
+			tasks: [{
+				id: "7D0BE9F67D0CE479"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "560027059827CEB4"
+			tasks: [{
+				id: "558142629A97E727"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "0DB2342DBA0F8CD2"
+			subtitle: "First UV Circuits"
+			tasks: [{
+				id: "24AD1A8788117F87"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "760ACC2D3CF30944"
+			subtitle: "Final LuV Circuits"
+			tasks: [{
+				id: "771F0DFAC924EEDF"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "3D9EC1943E3E6280"
+			subtitle: "Final ZPM Circuits"
+			tasks: [{
+				id: "1A7A0F03E13BE1ED"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "463FAFF715739651"
+			subtitle: "Final UV Circuits"
+			tasks: [{
+				id: "0EFAAB6EFA38201F"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "639C7EDD7F491E36"
+			subtitle: "The Only UHV Circuits"
+			tasks: [{
+				id: "553658DB4997DF00"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "6078A4837E8B4C75"
+			tasks: [{
+				id: "4C7E3FB2B57F5CDF"
+				item: "universal_circuits:ulv_universal_circuit"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "7AC4F3AF0FD9FFBD"
+			tasks: [{
+				id: "29E248947F571E3E"
+				item: "universal_circuits:lv_universal_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "6699875F23CE0DEA"
+			tasks: [{
+				id: "2BB23CF4A460A465"
+				item: "universal_circuits:mv_universal_circuit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "35FB3EECBA489F89"
+			tasks: [{
+				id: "49BAAE15B175F647"
+				item: "universal_circuits:hv_universal_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "2E281919F9D06B8E"
+			tasks: [{
+				id: "0B0648BA3842EB81"
+				item: "universal_circuits:ev_universal_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "59A5C5FD4F72313A"
+			tasks: [{
+				id: "3FFC6934BB2719A3"
+				item: "universal_circuits:iv_universal_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "6E32702DA78FD5DB"
+			tasks: [{
+				id: "2FBCDB8B0A39D6F3"
+				item: "universal_circuits:luv_universal_circuit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "4234BEE0CF4727E4"
+			tasks: [{
+				id: "54CF9FB5532FFE67"
+				item: "universal_circuits:zpm_universal_circuit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "7A63F4B77390A275"
+			tasks: [{
+				id: "103395B7055E69F7"
+				item: "universal_circuits:uv_universal_circuit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "0CA0450D96A68F57"
+			tasks: [{
+				id: "7E9528EA39383A51"
+				item: "universal_circuits:uhv_universal_circuit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "0FFB5619E3F9D561"
+			tasks: [{
+				id: "08C4C4460C81D10C"
+				title: "Lore"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+	]
+	title: "Circuit Progression"
+}

@@ -862,7 +862,6 @@
 			dependencies: [
 				"1646BF9194100E57"
 				"2AD44111B9B39C90"
-				"66805BB78A828C00"
 			]
 			description: [
 				"&3Kanthal Heating Coils&r are the next major step in progression. They increase the temperature of your &3Blast Furnace&r to &d2,700K&r, allowing you to process new materials. They may also &eaccelerate&r less hot recipes - check the quest to the top-left for details."
