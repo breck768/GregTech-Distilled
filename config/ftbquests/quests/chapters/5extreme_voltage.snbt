@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "5extreme_voltage"
 	group: "0C5D66777A7B856C"
-	icon: "gtceu:micro_processor_computer"
+	icon: "gtceu:nano_processor_assembly"
 	id: "79B5FC39F3B7B19D"
 	order_index: 5
 	quest_links: [ ]

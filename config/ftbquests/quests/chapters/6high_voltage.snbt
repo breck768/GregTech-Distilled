@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "6high_voltage"
 	group: "0C5D66777A7B856C"
-	icon: "gtceu:advanced_integrated_circuit"
+	icon: "gtceu:micro_processor_assembly"
 	id: "349A8AA10C6B02F5"
 	order_index: 4
 	quest_links: [ ]

@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "medium_voltage"
 	group: "0C5D66777A7B856C"
-	icon: "gtceu:good_electronic_circuit"
+	icon: "gtceu:good_integrated_circuit"
 	id: "2C993F8DED4080A9"
 	order_index: 3
 	quest_links: [ ]

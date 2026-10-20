@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "1insane_voltage"
 	group: "0C686732BF1453B0"
-	icon: "gtceu:micro_processor_mainframe"
+	icon: "gtceu:quantum_processor_assembly"
 	id: "6EE15C86258E851B"
 	order_index: 0
 	quest_links: [ ]
