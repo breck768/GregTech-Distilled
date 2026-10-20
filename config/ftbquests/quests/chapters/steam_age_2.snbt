@@ -277,7 +277,7 @@
 				title: "Steam Multiblocks"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: -4.5d
 		}
 		{
@@ -297,7 +297,7 @@
 				item: "gtceu:steam_oven"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -4.0d
 		}
 		{
@@ -317,7 +317,7 @@
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: -5.0d
 		}
 		{
@@ -339,7 +339,7 @@
 				title: "Ore Processing"
 				type: "checkmark"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -4.5d
 		}
 		{
@@ -553,7 +553,7 @@
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 0.0d
 		}
 		{
@@ -568,7 +568,7 @@
 				item: "gtceu:rubber_plate"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 16.0d
 			y: 4.5d
 		}
 		{
@@ -587,7 +587,7 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -620,7 +620,7 @@
 				item: { Count: 8, id: "gtceu:steel_ingot" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
@@ -652,7 +652,7 @@
 				item: "gtceu:glass_tube"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -668,7 +668,7 @@
 				item: "gtceu:red_alloy_single_cable"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 16.0d
 			y: 2.5d
 		}
 		{
@@ -685,7 +685,7 @@
 				item: "gtceu:resin_printed_circuit_board"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
@@ -699,7 +699,7 @@
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 2.0d
 		}
 		{
@@ -715,7 +715,7 @@
 				item: "gtceu:resistor"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: -2.0d
 		}
 		{
@@ -731,7 +731,7 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: -2.0d
 		}
 		{
@@ -745,7 +745,7 @@
 				type: "dimension"
 			}]
 			title: "Minecraft Movie Joke"
-			x: 10.5d
+			x: 11.0d
 			y: 4.5d
 		}
 		{
@@ -766,8 +766,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 2.0d
+			x: 8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7A5EB1A0C12044F7"]
@@ -780,7 +780,7 @@
 				item: "gtceu:steel_plate"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 16.0d
 			y: -2.5d
 		}
 		{
@@ -792,7 +792,7 @@
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 4.5d
 		}
 		{
@@ -876,7 +876,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 8.5d
 			y: -2.5d
 		}
 		{
@@ -907,8 +907,8 @@
 				item: "gtceu:charcoal_pile_igniter"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0783BCEAC051BCF9"]
@@ -990,7 +990,7 @@
 				type: "checkmark"
 			}]
 			title: "Tool Upgrades"
-			x: 8.5d
+			x: 9.5d
 			y: 3.0d
 		}
 		{
@@ -1002,7 +1002,7 @@
 				item: "toolbelt:belt"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: 2.5d
 		}
 		{
@@ -1232,14 +1232,17 @@
 		}
 		{
 			dependencies: ["313924AB9668D115"]
-			description: ["The Steam Extractinator cannot process fluids like electric Exctractors can, but this will speed up the process of extracting rubber from Sticky Resin greatly."]
+			description: [
+				"The Steam Extractinator cannot process fluids by default, but this will speed up the process of extracting rubber from Sticky Resin greatly."
+				"It gains the ability to output fluids once you can craft output hatches."
+			]
 			id: "09D96E87AF7DA345"
 			tasks: [{
 				id: "1AC411F83311CCA6"
 				item: "gtceu:steam_extractinator"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -6.0d
 		}
 		{
@@ -1251,7 +1254,7 @@
 				item: "gtceu:steam_press"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: -4.0d
 		}
 		{
@@ -1263,7 +1266,7 @@
 				item: "gtceu:steam_alloyer"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -6.0d
 		}
 		{
@@ -1275,7 +1278,7 @@
 				item: "gtceu:steam_impactor"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: -5.0d
 		}
 		{
@@ -1296,6 +1299,19 @@
 			title: "Railway Transportation"
 			x: 4.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["7A5EB1A0C12044F7"]
+			description: ["Now that you have steel, you can create upgrades for your backpack! "]
+			id: "5F7AAF58E7C78B1D"
+			tasks: [{
+				id: "7FA993494ED945B2"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "Backpack Upgrades"
+			x: 11.0d
+			y: 1.5d
 		}
 	]
 	title: "&8Ultra Low Voltage&7/&fSteam"

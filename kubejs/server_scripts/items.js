@@ -131,6 +131,22 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // Backpack Upgrade
+    event.remove({ id: 'sophisticatedbackpacks:upgrade_base' })
+    event.shaped(
+        'sophisticatedbackpacks:upgrade_base',
+        [
+            'SIS', 
+            'ILI', 
+            'SIS'  
+        ], {
+            S: 'minecraft:string', 
+            L: 'minecraft:leather',
+            I: 'gtceu:steel_plate'
+        }
+    )
+
+
     // -- Tool Belt -- //
     event.remove({ id: 'toolbelt:belt' })
     event.shaped(
