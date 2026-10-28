@@ -559,6 +559,49 @@
             ]
         },
         {
+            "pakku_id": "sgLHSZGGwLSlffY4",
+            "pakku_links": [
+                "nrO1ooqBEyOF2NMP"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "craftpresence"
+            },
+            "name": {
+                "curseforge": "CraftPresence"
+            },
+            "id": {
+                "curseforge": "297038"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "CraftPresence-2.7.1+1.20.1-forge.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7704/742/CraftPresence-2.7.1+1.20.1-forge.jar",
+                    "id": "7704742",
+                    "parent_id": "297038",
+                    "hashes": {
+                        "sha1": "c354216e78b6688c9bcbe67043b8f5e2156a4dde",
+                        "md5": "bda5c1f43a6b98a64a4ae71c8ec45616"
+                    },
+                    "required_dependencies": [
+                        "1056812"
+                    ],
+                    "size": 1310126,
+                    "date_published": "2026-03-03T08:20:32.277Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "DfL6bcM5HVq7s4EY",
             "type": "MOD",
             "slug": {
@@ -2721,6 +2764,44 @@
                     "required_dependencies": [],
                     "size": 165355,
                     "date_published": "2025-08-03T13:19:13.957Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "nrO1ooqBEyOF2NMP",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "unilib"
+            },
+            "name": {
+                "curseforge": "UniLib"
+            },
+            "id": {
+                "curseforge": "1056812"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "UniLib-1.2.1+1.20.1-forge.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7703/340/UniLib-1.2.1+1.20.1-forge.jar",
+                    "id": "7703340",
+                    "parent_id": "1056812",
+                    "hashes": {
+                        "sha1": "bf4bd0346650ad95dcd13867793da99a639f31fa",
+                        "md5": "ef951050d7332deb6d2069b925a8701e"
+                    },
+                    "required_dependencies": [],
+                    "size": 1657890,
+                    "date_published": "2026-03-02T23:56:36.377Z"
                 }
             ]
         },
