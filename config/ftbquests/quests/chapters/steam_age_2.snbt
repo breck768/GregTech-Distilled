@@ -56,7 +56,7 @@
 				""
 				"Also, be sure to fill them with water &cbefore&r turning the heat up, or the boiler will &4explode&r. This can be done by filling them using water buckets for the time being."
 				""
-				"Steam is automatically pushed out of boilers on every side except for the bottom, so connecting pipes to those sides will extract the steam. You can automatically fill it with water by either piping water in the bottom or piping it in on another side and restricting the flow with a wrench (explained in the fluid pipe quests below)"
+				"Steam is automatically pushed out of boilers on every side except for the bottom, so connecting pipes to those sides will extract the steam. You can automatically fill it with water by either piping water in the bottom or piping it in on another side and restricting the flow with a wrench."
 				""
 				"{@pagebreak}"
 				"The &0Solid Boiler&r can take any furnace fuels, most likely &0Coal or Charcoal&r, and turns it into steam. It's steam production amount is low, but it is the simplest one to get up and running. It's also the &6cheapest&r to craft."
@@ -949,7 +949,7 @@
 				""
 				"They also have different capabilities in regards to what they can carry. For example, &6Wooden Fluid Pipes&r are very cheap to make, but have the lowest throughput of any pipe and have a pitiful heat tolerance. Not great for transporting Steam, but useful for &9Water&r."
 				""
-				"Pipes automatically connect to blocks and other pipes that they are placed onto, and you can further configure them with a Wrench, as well as restrict the movement of the resources inside by shit clicking the edges."
+				"Pipes automatically connect to blocks and other pipes that they are placed onto, and you can further configure them with a Wrench, as well as restrict the movement of the resources inside by shift clicking the edges."
 			]
 			id: "140D720919268B58"
 			tasks: [{
