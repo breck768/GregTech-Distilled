@@ -1,7 +1,7 @@
 {
   "timer": {
     "randomDelay": true,
-    "maxDelay": 60
+    "maxDelay": 600
   },
   "event": {
     "creativeEventFallback": true,
@@ -9,7 +9,7 @@
     "miscEventChance": "PROPORTIONAL"
   },
   "misc": {
-    "musicDontPause": true,
+    "musicDontPause": false,
     "musicQueue": 10,
     "musicCategoryStart": "all",
     "volumeIncrement": 5

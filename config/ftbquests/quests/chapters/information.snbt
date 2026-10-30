@@ -217,6 +217,19 @@
 			x: 0.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["071A387593153E20"]
+			description: ["This pack features the Carry On mod, which allows you to shit+right click containers or mobs to pick them up. Only works with an empty main hand and offhand."]
+			icon: "minecraft:chest"
+			id: "239D853AE6274ADA"
+			tasks: [{
+				id: "349277D8EFEC0815"
+				title: "Carry On"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
 	]
 	title: "Information"
 }
