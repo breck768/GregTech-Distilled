@@ -67,7 +67,11 @@
 		}
 		{
 			dependencies: ["701F00715AECD87E"]
-			description: ["If you've worked ahead, you might have noticed that &6Wooden Tools&r, along with all &bvanilla tools&r, &clack recipes&r. You must experiment with more &bGregic &fways of making tools. So, go out and grab some Flint."]
+			description: [
+				"If you've worked ahead, you might have noticed that &6Wooden Tools&r, along with all &bvanilla tools&r, &clack recipes&r. You must experiment with more &bGregic &fways of making tools. So, go out and grab some Flint."
+				""
+				"Flint occasionaly drops from breaking Gravel, same as vanilla, but you can also place 3 Gravel in a crafting grid to guarantee one Flint."
+			]
 			id: "0040CAE3FF2FDD88"
 			subtitle: "Huh?"
 			tasks: [{
