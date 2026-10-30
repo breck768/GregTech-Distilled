@@ -419,7 +419,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["517B7F00DBF738E2"]
+			dependencies: ["1D84FCEFD4505BD5"]
 			description: [
 				"Iron can be further processed in a furnace to create &7Wrought Iron&r. This is a harder version of the metal that can be used for stronger tools and is used machine parts later on. "
 				""
@@ -459,7 +459,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["66CAE1FC47A86D12"]
+			dependencies: ["517B7F00DBF738E2"]
 			description: [
 				"The first of many&b GregTech&r crafting tools. This one can convert many early game items into an equivalent dust form."
 				""
@@ -480,7 +480,7 @@
 				type: "item"
 			}]
 			title: "Mortar"
-			x: 7.5d
+			x: 6.5d
 			y: -3.0d
 		}
 		{
@@ -534,6 +534,27 @@
 			title: "And with that..."
 			x: 7.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["517B7F00DBF738E2"]
+			description: ["Another important tool, the Hammer can turn ingots into plates in the crafting grid, among other things. Though you need it at this point to produce Wrought Iron Ingots."]
+			id: "1D84FCEFD4505BD5"
+			subtitle: "BONK"
+			tasks: [{
+				id: "42C17647DF1EE9DD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(gtceu:tools/crafting_hammers)"
+					}
+				}
+				title: "Any #gtceu:tools/crafting_hammers"
+				type: "item"
+			}]
+			title: "Hammer"
+			x: 8.5d
+			y: -3.0d
 		}
 	]
 	title: "&7Origin"

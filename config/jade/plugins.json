@@ -5,8 +5,8 @@
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -52,29 +52,29 @@
     "chiseled_bookshelf": true
   },
   "gtceu": {
-    "auto_output_info": true,
     "primitive_pump": true,
+    "auto_output_info": true,
     "workable_provider": true,
     "transformer": true,
+    "energy_converter_provider": true,
     "ldp_endpoint": true,
     "controllable_provider": true,
-    "energy_converter_provider": true,
-    "exhaust_vent_info": true,
     "me_pattern_buffer": true,
+    "exhaust_vent_info": true,
     "me_pattern_buffer_proxy": true,
     "multiblock_structure": true,
     "recipe_logic_provider": true,
     "maintenance_info": true,
     "machine_mode": true,
     "battery_info": true,
-    "steam_boiler_info": true,
     "electric_container_provider": true,
+    "steam_boiler_info": true,
     "recipe_output_info": true,
     "stained_color": true,
     "hazard_cleaner_provider": true,
-    "data_bank": true,
     "cable_info": true,
-    "parallel_info": true
+    "parallel_info": true,
+    "data_bank": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -86,6 +86,14 @@
   },
   "gravestone": {
     "grave": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
   },
   "balm": {
     "jade": true

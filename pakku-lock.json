@@ -597,6 +597,48 @@
             ]
         },
         {
+            "pakku_id": "rKRuJuLDpwB3rczT",
+            "pakku_links": [
+                "LsB87oCGrGtM1sVq"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cooking-for-blockheads"
+            },
+            "name": {
+                "curseforge": "Cooking for Blockheads"
+            },
+            "id": {
+                "curseforge": "231484"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cookingforblockheads-forge-1.20.1-16.0.15.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7454/483/cookingforblockheads-forge-1.20.1-16.0.15.jar",
+                    "id": "7454483",
+                    "parent_id": "231484",
+                    "hashes": {
+                        "sha1": "fb53bdb2f667f6289ccd97e807a7fbb7ad93c733",
+                        "md5": "d348d9cbbf76348a724acc16edcc5478"
+                    },
+                    "required_dependencies": [
+                        "531761"
+                    ],
+                    "size": 837809,
+                    "date_published": "2026-01-13T13:00:11.873Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "sgLHSZGGwLSlffY4",
             "pakku_links": [
                 "nrO1ooqBEyOF2NMP"
