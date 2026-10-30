@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "circuit_progression"
@@ -11,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["43F2069CC29CF981"]
+			hide_dependent_lines: true
 			id: "7CCE8FDAAA246353"
 			subtitle: "First LV Circuits"
 			tasks: [{
@@ -22,7 +22,11 @@
 			y: -1.5d
 		}
 		{
-			description: ["This chapter lays out GregTech Circuit Progression. Circuits are unlocked in groups based on what type of technology is used in their construction. For example, the first type of circuit you will make are Electronic circuits, and Integrated circuits after that. As a general rule, each circuit type of any technology group requires one or multiple of the previous ones in its recipe. The rows represent these technology groups, while the columns correspond to which voltage tier a circuit belongs. This means that the &lbottom circuit of each column&r is the most cost efficient one that you can make."]
+			description: [
+				"This chapter lays out GregTech Circuit Progression. Circuits are unlocked in groups based on what type of technology is used in their construction. For example, the first type of circuit you will make are Electronic circuits, and Integrated circuits after that. As a general rule, each circuit type of any technology group requires one or multiple of the previous ones in its recipe. The rows represent these technology groups, while the columns correspond to which voltage tier a circuit belongs. This means that the &lbottom circuit of each column&r is the most cost efficient one that you can make."
+				""
+				"For some bonus information, the leftmost column of checkmark quests contain some real world information about what that variety of technology is actually like."
+			]
 			id: "187B4FF27E60B72E"
 			subtitle: "README.md"
 			tasks: [{
@@ -35,6 +39,7 @@
 		}
 		{
 			dependencies: ["4F279D61ABBE1D65"]
+			hide_dependent_lines: true
 			id: "3BBA7A56B66D939D"
 			subtitle: "First ULV Circuits"
 			tasks: [{
@@ -46,6 +51,7 @@
 			y: -1.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "330995AF87815D5D"
 			subtitle: "First MV Circuits"
 			tasks: [{
@@ -57,6 +63,7 @@
 			y: -1.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "73D0FC17C4DE8B0D"
 			tasks: [{
 				id: "03CB9117E33E2739"
@@ -77,6 +84,7 @@
 			y: -0.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "6CAA2A9412813AF3"
 			subtitle: "First HV Circuits"
 			tasks: [{
@@ -88,6 +96,7 @@
 			y: -0.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "0EC4FA77B8E4E4B7"
 			subtitle: "Final LV Circuits"
 			tasks: [{
@@ -120,6 +129,7 @@
 			y: 0.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "5D80BB6EFA3FA8B6"
 			subtitle: "First EV Circuits"
 			tasks: [{
@@ -131,6 +141,7 @@
 			y: 0.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "186C6F51BDA33358"
 			subtitle: "First IV Circuits"
 			tasks: [{
@@ -153,6 +164,7 @@
 			y: -0.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "596FA56314059C08"
 			subtitle: "Final HV Circuits"
 			tasks: [{
@@ -184,6 +196,7 @@
 			y: 1.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "561D90BB7F0C6247"
 			subtitle: "First LuV Circuits"
 			tasks: [{
@@ -195,6 +208,7 @@
 			y: 1.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "6D45C82F6C586321"
 			subtitle: "Final EV Circuits"
 			tasks: [{
@@ -226,6 +240,7 @@
 			y: 2.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "68AD4FE342256EC8"
 			subtitle: "First ZPM Circuits"
 			tasks: [{
@@ -237,6 +252,7 @@
 			y: 2.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "0D46D8E39F07685F"
 			subtitle: "Final IV Circuits"
 			tasks: [{
@@ -268,6 +284,7 @@
 			y: 3.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "0DB2342DBA0F8CD2"
 			subtitle: "First UV Circuits"
 			tasks: [{
@@ -279,6 +296,7 @@
 			y: 3.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "760ACC2D3CF30944"
 			subtitle: "Final LuV Circuits"
 			tasks: [{
@@ -312,6 +330,7 @@
 			y: 4.5d
 		}
 		{
+			hide_dependent_lines: true
 			id: "639C7EDD7F491E36"
 			subtitle: "The Only UHV Circuits"
 			tasks: [{
@@ -323,6 +342,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["3BBA7A56B66D939D"]
 			id: "6078A4837E8B4C75"
 			tasks: [{
 				id: "4C7E3FB2B57F5CDF"
@@ -333,6 +353,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["7CCE8FDAAA246353"]
 			id: "7AC4F3AF0FD9FFBD"
 			tasks: [{
 				id: "29E248947F571E3E"
@@ -343,6 +364,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["330995AF87815D5D"]
 			id: "6699875F23CE0DEA"
 			tasks: [{
 				id: "2BB23CF4A460A465"
@@ -353,6 +375,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["6CAA2A9412813AF3"]
 			id: "35FB3EECBA489F89"
 			tasks: [{
 				id: "49BAAE15B175F647"
@@ -363,6 +386,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["5D80BB6EFA3FA8B6"]
 			id: "2E281919F9D06B8E"
 			tasks: [{
 				id: "0B0648BA3842EB81"
@@ -373,6 +397,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["186C6F51BDA33358"]
 			id: "59A5C5FD4F72313A"
 			tasks: [{
 				id: "3FFC6934BB2719A3"
@@ -383,6 +408,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["561D90BB7F0C6247"]
 			id: "6E32702DA78FD5DB"
 			tasks: [{
 				id: "2FBCDB8B0A39D6F3"
@@ -393,6 +419,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["68AD4FE342256EC8"]
 			id: "4234BEE0CF4727E4"
 			tasks: [{
 				id: "54CF9FB5532FFE67"
@@ -403,6 +430,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["0DB2342DBA0F8CD2"]
 			id: "7A63F4B77390A275"
 			tasks: [{
 				id: "103395B7055E69F7"
@@ -413,6 +441,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["639C7EDD7F491E36"]
 			id: "0CA0450D96A68F57"
 			tasks: [{
 				id: "7E9528EA39383A51"
@@ -423,14 +452,304 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["3BBA7A56B66D939D"]
+			description: [
+				"Less of a defined type of technology and more of a grouping of your first circuits, the \"Primitive Circuits\", other than the Vaccum Tube, are vague in their design. On a fundamental level, a \"circuit\" in this context is simply a bundle of wires and other components that achieve a specific task using electricity. The simplest way of handling current flow is with a Vacuum Tube."
+				""
+				"{@pagebreak}"
+				""
+				"These are simple electrical switches that allow a smaller current fed into a terminal that allows a larger current to flow being fed through the other terminals. A simple switch that controls electricity that itself is controlled by electricity is the foundation of basically all of electronics, analog or digital."
+				"They achieve this through simple physics. The switch terminal heats up a Cathode within the glass bulb, which heats up the surrounding air and releases electrons into the space. When this happens, current that is traveling through the input terminal can travel between two electrodes present within the vacuum, using the released electrons to bridge the gap, allowing current to flow."
+			]
 			id: "0FFB5619E3F9D561"
 			tasks: [{
 				id: "08C4C4460C81D10C"
 				title: "Lore"
 				type: "checkmark"
 			}]
+			title: "Primitive Circuits"
 			x: -3.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["048437D89F76EC4A"]
+			description: ["Resistors are introduced in this tier. As the name suggests, they resist current. This is helpful when you need to control and set the current in a circuit to a specific amount, as every electrical component has its own current ratings that, if it is exceeded, can cause damage to them. They resist current by converting some of the electrical energy to heat energy, losing energy as heat and lowering the overall amount of current that makes it through."]
+			id: "6E11D0420FAA951C"
+			tasks: [{
+				id: "00EBEE42A5539F39"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			description: ["Diodes are the second component introduced in this tier. Their function is to act as a one way gate for electricity. Depending on their orientation, they allow current to flow in one direction while blocking it from flowing in the opposite. This is needed for more precise current control, as well as for safety features such as surge protection or voltage regulation. You can actually do all of these things with your own electricity with the Diode blocks."]
+			id: "7D4BED3367EB1B4B"
+			tasks: [{
+				id: "11CE865836D978CA"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B25198D8B5A08E7"]
+			description: ["The different varieties of circuit boards only differ in their construction, the core purpose and design of all of them are the same. Circuit Boards themselves are convenient and compact ways of directing electricity through traces, which are small wires embedded within the boards themselves. They are designed in a way where you can easily drop in components through holes in the board that expose the traces."]
+			id: "51B6E839A304CA41"
+			tasks: [{
+				id: "211F9B801B16AF25"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73D0FC17C4DE8B0D"]
+			description: [
+				"Integrated Circuits are not specifically a new brand of technology, but instead, they are bundles of previous components all grouped together to form one cohesive unit. Essentially, while the previous tier was comprised of basic components and circuits that were designed to perform specific tasks or functions, Integrated Circuits are fully fledged computers that can handle arbitrary tasks, programmed by the user."
+				""
+				"The NAND Chip seemingly does not fit this scheme, but it actually lines up rather well. The previous ULV circuit, the Vacuum Tube, was functionally a Transistor, which is an electrical switch. A NAND logic gate is simply four of these transistors (or any type of switch) connected in such a way that the full circuit will output a signal if the two input signals are either both OFF, or if one is ON while the other is OFF. While Vacuum Tubes and related components are the fundamental building blocks of electronics, NAND gates are the fundmanetal building blocks of computers."
+			]
+			id: "4AA57280346A1D48"
+			tasks: [{
+				id: "4D155869CCD815C9"
+				title: "Integrated Circuits"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "7DB1DCD15AE41595"
+			tasks: [{
+				id: "2BD18A6DA39E844E"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			description: ["As you might have gleamed from the other quests, a Transistor is similar to a Vacuum Tube in that it serves as an electrical switch. The functionality is identical, they only differ in implementation. Transistors can be made MUCH smaller than Vacuum Tubes though, so they are superior in modern usecases."]
+			id: "7A29CEF011CC3AB7"
+			tasks: [{
+				id: "53E09F79FBC6CD6C"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "52E45D8BA0CEC4D5"
+			tasks: [{
+				id: "4121163A1F5558B9"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: ["Capacitors can be crudely described as batteries, but they differ in usecase. They store an electrical charge, but rather than storing it for use later on, it accumulates current up to a certain point, where it then fires all of it out through the output terminal. This is useful for handling inconsistent voltages or voltage spikes. This is the other electrical component that you can actually craft and use, Lapotronic Capacitors are components of the lategame Power Substation multiblock, which is a large centralized battery with customizable IO."]
+			id: "2E18175831D63C59"
+			tasks: [{
+				id: "6CF038C4E7951648"
+				item: "gtceu:capacitor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: ["Inductors are similar to Capacitors, but they control current rather than voltage. Voltage is the quantity of how strong an electrical charge is, while current is the specific throughput rate of a voltage through a conductor."]
+			id: "765C6E3CB2AFB957"
+			tasks: [{
+				id: "702F663EC482099D"
+				item: "gtceu:inductor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0EC4FA77B8E4E4B7"]
+			description: ["Integrated circuits were the first circuits that could perform specific and/or programmable functions, serving as the basis for computing. Micro technology is, as the name suggests, this concept but on the scale of micrometers. In a single square centimeter (about the size of your fingernail), you can fit 100,000,000 micrometers. The scale of this is hard to imagine, and we're only just now approaching the halfway point of the tech tree!"]
+			id: "060F1F8D5FCEDAA8"
+			tasks: [{
+				id: "56E86D5CD4C90B5C"
+				title: "Micro Technology"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["596FA56314059C08"]
+			description: ["Continuing the theme of downsizing, Nano technology is one step below Micro technology, where a micrometer can fit 1000 nanometers."]
+			id: "7B6C7048126CA5E4"
+			tasks: [{
+				id: "023273187A2E84BE"
+				title: "Nano technology"
+				type: "checkmark"
+			}]
+			title: "Nano Technology"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "3B867B61B50C7C87"
+			tasks: [{
+				id: "32B4406ECAEF429D"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			description: ["SMD components, or Surface Mount Device components, are an upgraded version of the electric components you have been using. They differ in that they are modularly designed to be easily slotted into and taken out of specially designed sockets, rather than being soldered onto a board."]
+			id: "5A40A650CB095453"
+			tasks: [
+				{
+					id: "51CCA58322AD183E"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "3B0CC6434C800F3C"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
+				{
+					id: "66F44062FD9AB2FB"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+				{
+					id: "57442C8C06E93BD1"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "78E4441E49FBB4A3"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+			]
+			title: "SMD Components"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D45C82F6C586321"]
+			description: [
+				"Quantum technology operates on the level of quantum space. The size decrease here is actually not much smaller than Nano technology, instead the fundamental way these circuits process information differs. Rather than representing bits with electrical current, they are done through qubits (quantum bits), which can be both on and off in the same instant, allowing for these types of computers to concurrently calculate multiple things at once. "
+				"Somehow, we are still not in the realm of science fiction!"
+			]
+			id: "2933FC2B3B4EDB6B"
+			tasks: [{
+				id: "06CE0C1120AC2351"
+				title: "Quantum Technology"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "4040DE96CA93A8DA"
+			tasks: [{
+				id: "26FBD8D8B4B0D21B"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "058B2A6FFAC735E5"
+			tasks: [{
+				id: "76BEF590C059FB9B"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			description: ["Advanced SMD components are SMD components, but, uh, advanced?"]
+			id: "450AB0A43013683E"
+			tasks: [
+				{
+					id: "1306E13E8BDD20D3"
+					item: "gtceu:advanced_smd_resistor"
+					type: "item"
+				}
+				{
+					id: "21AB40BC7D92A6DA"
+					item: "gtceu:advanced_smd_diode"
+					type: "item"
+				}
+				{
+					id: "7377DDE611B2EB63"
+					item: "gtceu:advanced_smd_transistor"
+					type: "item"
+				}
+				{
+					id: "415E09DD491AFC20"
+					item: "gtceu:advanced_smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "613AF5F7EC7F0CF8"
+					item: "gtceu:advanced_smd_inductor"
+					type: "item"
+				}
+			]
+			title: "Advanced SMD Components"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0D46D8E39F07685F"]
+			description: [
+				"Yeah, this is where the science fiction happens."
+				"I dont think this is actually based on anything?"
+				"It just kinda..."
+				"sounds cool :)"
+			]
+			id: "4C18B6CC71C61129"
+			tasks: [{
+				id: "03EF949D7CC79827"
+				title: "Crystal Technology"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "1AD0B35F50EE4472"
+			tasks: [{
+				id: "76FD495EE4982018"
+				item: "gtceu:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["760ACC2D3CF30944"]
+			id: "0C96A6AAE390494B"
+			tasks: [{
+				id: "153FA94675E19694"
+				title: "Wetware Technology"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.5d
 		}
 	]
 	title: "Circuit Progression"
