@@ -742,6 +742,7 @@
 		}
 		{
 			dependencies: ["760ACC2D3CF30944"]
+			description: ["Wetware technology is not quite science fiction, it involves lab grown, living organisms performing computing tasks. Not quite sure how this is superior to either of the last two, but the red looks nice and the circuits are looking at you?"]
 			id: "0C96A6AAE390494B"
 			tasks: [{
 				id: "153FA94675E19694"
