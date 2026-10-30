@@ -56,6 +56,8 @@
 				""
 				"Also, be sure to fill them with water &cbefore&r turning the heat up, or the boiler will &4explode&r. This can be done by filling them using water buckets for the time being."
 				""
+				"Steam is automatically pushed out of boilers on every side except for the bottom, so connecting pipes to those sides will extract the steam. You can automatically fill it with water by either piping water in the bottom or piping it in on another side and restricting the flow with a wrench (explained in the fluid pipe quests below)"
+				""
 				"{@pagebreak}"
 				"The &0Solid Boiler&r can take any furnace fuels, most likely &0Coal or Charcoal&r, and turns it into steam. It's steam production amount is low, but it is the simplest one to get up and running. It's also the &6cheapest&r to craft."
 				""
@@ -98,7 +100,7 @@
 			dependencies: ["5C4AB4A662495496"]
 			description: [
 				"Now that you have some Steam being made, you need something to use it on."
-				"Steam machines can be powered by directly piping Steam into their inventory, but using Steam also requires them to have ventilation ports. &6Make sure these machines have a space to breathe&r, otherwise they will run a single recipe and then sit there doing nothing."
+				"Steam machines can be powered by directly piping Steam into their inventory, but using Steam also requires them to have ventilation ports. &6Make sure these machines have a space to breathe&r, otherwise they will run a single recipe and then sit there doing nothing. The ventilation port side can be configured with a wrench."
 			]
 			id: "0AB5B9343BC201BE"
 			size: 1.25d
