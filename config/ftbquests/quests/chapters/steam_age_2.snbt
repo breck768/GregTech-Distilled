@@ -252,7 +252,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["5C4AB4A662495496"]
+			dependencies: ["18060E52503CF80B"]
 			description: ["The &6Primitive Pump&r is the best solution you have for filling boilers with &9water&r. Once built, this multiblock automatically creates water passively, with a substantial increase or decrease to the production rate depending on the humidity of the biome it is built in. For the best results, build in any biome with &9plenty of water&r."]
 			id: "3A4A81A34898E404"
 			tasks: [{
@@ -260,7 +260,7 @@
 				item: "gtceu:primitive_pump"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -522,7 +522,11 @@
 		}
 		{
 			dependencies: ["0EAC2D2D25B74790"]
-			description: ["Building and constructing a &8Primitive Blast Furnace&r is something of a rite of passage for any &bGregTech&r player. This is your gateway into creating &8Steel&r. It is also likely to be your first major crafting project. This pack includes the \"hard\" recipe for Firebricks, so you will need plently of Clay, Gypsum, and Calcite, among other things. Those last two are ores found in ore veins, and you can also macerate vanilla Calcite blocks, which is preferred if you can locate some."]
+			description: [
+				"Building and constructing a &8Primitive Blast Furnace&r is something of a rite of passage for any &bGregTech&r player. This is your gateway into creating &8Steel&r. It is also likely to be your first major crafting project. This pack includes the \"hard\" recipe for Firebricks, so you will need plently of Clay, Gypsum, and Calcite, among other things. Those last two are ores found in ore veins, and you can also macerate vanilla Calcite blocks, which is preferred if you can locate some."
+				""
+				"The wait time on the macerator and compressor recipes for this is rather extreme, consider creating multiple machines for this process."
+			]
 			id: "45AD4B6A0B7DDAA6"
 			size: 1.5d
 			subtitle: "I started blasting"
@@ -1299,8 +1303,8 @@
 				type: "item"
 			}]
 			title: "Railway Transportation"
-			x: 4.0d
-			y: -2.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7A5EB1A0C12044F7"]
