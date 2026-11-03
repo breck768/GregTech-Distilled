@@ -7,7 +7,7 @@
 	group: "76CF20B03F551A1A"
 	icon: "gtceu:ev_electric_motor"
 	id: "7FB9F636D95820A3"
-	order_index: 3
+	order_index: 2
 	quest_links: [
 		{
 			id: "2E99A771FCA40E15"
@@ -271,7 +271,6 @@
 		}
 		{
 			dependencies: [
-				"330BDB559A7BAB35"
 				"41D32C5178760F47"
 				"57D4E09A9CAB150C"
 			]

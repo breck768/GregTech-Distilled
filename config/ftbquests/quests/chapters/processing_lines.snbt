@@ -1,0 +1,206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "processing_lines"
+	group: "0F45EAB5FD870311"
+	icon: "gtceu:lv_chemical_reactor"
+	id: "450AA7DC57298359"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Throughout the progression of GregTech, you will find yourself commonly creating dedicated certain processing lines, or groups of machines, that all work together to create one specific product. Most packs take two approaches to this, which is either"
+				"- Tell you absolutely nothing and expect you to figure it out on your own, or have communities create flowcharts "
+				"- Tell you the exact process to create the entire processing line, removing any problem solving."
+				""
+				"I?"
+				"Will do both."
+				""
+				"For every processing line in the game, this chapter will have an associated questline detailing the specifics of the machines required for a processing line, as well as the inputs, outputs, and resources that loop within the line itself."
+				"The catch is that these are hidden by default. If you want to comb through EMI and find the route(s) yourself, you are free to do so. If you are struggling to find the solution, an optimal solution, or simply want the answer handed to you (no shame in that!), you can opt into the processing lines being shown to you by completing the associated checkmark quest within this chapter, which will expose the questline for you. "
+			]
+			icon: "gtceu:platinum_dust"
+			id: "43B96945D14D5444"
+			size: 3.0d
+			tasks: [{
+				id: "7742CE6E5162A6B1"
+				title: "What is this?"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: ["Complete this quest to expose the Oxygen Line"]
+			icon: "gtceu:oxygen_bucket"
+			id: "4831F7D8CD96397A"
+			tasks: [{
+				id: "3FC5EE4DFC09FFC3"
+				title: "Oxygen Line"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4831F7D8CD96397A"]
+			description: [
+				"Rock Crusher"
+				"Produces: Cobblestone"
+			]
+			hide_until_deps_complete: true
+			icon: "gtceu:lv_rock_crusher"
+			id: "188CDC312D89C908"
+			tasks: [{
+				id: "6C0B6D947E85AB74"
+				title: "Rock Crusher"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4831F7D8CD96397A"]
+			description: [
+				"Forge Hammer"
+				"Consumes: Cobblestone"
+				"Produces: Gravel"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			icon: "gtceu:lv_forge_hammer"
+			id: "0234BCA274307487"
+			tasks: [{
+				id: "4071ED48991EBB49"
+				title: "Forge Hammer"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4831F7D8CD96397A"]
+			description: [
+				"Forge Hammer"
+				"Consumes: Gravel"
+				"Produces: Sand"
+			]
+			hide_until_deps_complete: true
+			icon: "gtceu:lv_forge_hammer"
+			id: "2BDE8000B233C78D"
+			tasks: [{
+				id: "5B7759989706E06E"
+				title: "Forge Hammer"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4831F7D8CD96397A"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Arc Furnace"
+				"Consumes: Sand, Oxygen"
+				"Produces: Glass"
+				""
+				"Requires manually created Oxygen to kickstart. Once line is running, recycles Oxygen from electrolyzer, Oxygen positive."
+			]
+			hide_until_deps_complete: true
+			icon: "gtceu:lv_arc_furnace"
+			id: "0ABC1174F0E91A7A"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "19991DBF09AA8F4B"
+				title: "Arc Furnace"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4831F7D8CD96397A"]
+			description: [
+				"Macerator"
+				"Consumes: Glass"
+				"Produces: Glass Dust"
+			]
+			hide_until_deps_complete: true
+			icon: "gtceu:lv_macerator"
+			id: "33161BC284AC0A66"
+			tasks: [{
+				id: "3BF862E4F5B4EFE5"
+				title: "Macerator"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4831F7D8CD96397A"]
+			description: [
+				"Centrifuge"
+				"Consumes: Glass Dust"
+				"Produces: Silicon Dioxide"
+			]
+			hide_until_deps_complete: true
+			icon: "gtceu:lv_centrifuge"
+			id: "2303EB6664295946"
+			tasks: [{
+				id: "73EF7D5818D7E1D5"
+				title: "Centrifuge"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4831F7D8CD96397A"]
+			description: [
+				"Electrolyzer"
+				"Consumes: Silicon Dioxide"
+				"Produces: Oxygen, Silicon"
+			]
+			hide_until_deps_complete: true
+			icon: "gtceu:lv_electrolyzer"
+			id: "14D4FC29685A6162"
+			tasks: [{
+				id: "418E136A3A670095"
+				title: "Electrolyzer"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4831F7D8CD96397A"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:oxygen_bucket"
+			id: "018FBB7719632C86"
+			tasks: [{
+				id: "439150D5B442BDB3"
+				title: "Oxygen"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4831F7D8CD96397A"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:silicon_dust"
+			id: "6490A53820975448"
+			tasks: [{
+				id: "5435DF10E2DCA116"
+				title: "Silicon Dust"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+	]
+	title: "Processing Lines"
+}

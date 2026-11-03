@@ -7,16 +7,895 @@
 	id: "348E9CA64335778E"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["64EAC4C9872E8A50"]
-		id: "4509C5AB699439EC"
-		tasks: [{
-			id: "3DE7B6AC05667E95"
-			title: "e"
-			type: "checkmark"
-		}]
-		x: -0.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["7A5EB1A0C12044F7"]
+			description: [
+				"With the creation of LV circuits, you can now enter the world of electricity. "
+				""
+				"The circuit(s) you have made, along with Basic Machine Hulls, serve as the basis for every machine going forward."
+				""
+				"With that, lets get crafting!"
+			]
+			id: "4509C5AB699439EC"
+			size: 2.0d
+			subtitle: "Ligma Valls"
+			tasks: [{
+				id: "0A7359DC7B6BDC9E"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			title: "Welcome to LV!"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7A5EB1A0C12044F7"
+				"64EAC4C9872E8A50"
+			]
+			description: [
+				"With the inclusion of ULV covers, you hopefully will have already been introduced to the prior version of most of these items. "
+				"While serving the same functionality as their ULV counterparts, the rest that you will be making will also be used as crafting components for various machines. These, plus circuits and machine hulls, serve as the foundation for machines going forward. Due to this, you may wish to craft these components in batches so that you can save time crafting later, but due to the presence of EMI autocrafting, this is more of a choice than in older GregTech versions"
+				""
+				"Make one of any of them to complete this quest. You will eventually need many of all of them."
+			]
+			id: "180086DD06A0F221"
+			subtitle: "\"You're gonna hate this\" or something"
+			tasks: [
+				{
+					id: "325C00727949E956"
+					item: "gtceu:lv_electric_motor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64A0B9D0721CEF94"
+					item: "gtceu:lv_electric_piston"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3248EAEDC9C52DFC"
+					item: "gtceu:lv_conveyor_module"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E847A3D3FCF732C"
+					item: "gtceu:lv_electric_pump"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7B34148EC44D0DF2"
+					item: "gtceu:lv_robot_arm"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Machine Components"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["64EAC4C9872E8A50"]
+			disable_toast: true
+			id: "4C050ED55B21CE58"
+			tasks: [{
+				id: "5BB606897670C25C"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "LV Circuits"
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"180086DD06A0F221"
+				"4509C5AB699439EC"
+				"4C050ED55B21CE58"
+			]
+			description: ["The Basic Steam Turbine is the first EU generation you can make. This machine takes the Steam you're already making and converts it into energy at a 2:1 ratio. This means that if you have, say, 640 mb of steam, it will be converted into 320 EU. Set the output side with a wrench."]
+			id: "79EBCF054AB055AA"
+			size: 1.5d
+			subtitle: "Steamy!"
+			tasks: [{
+				id: "66C49713CFB813EB"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "Basic Steam Turbine"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79EBCF054AB055AA"]
+			description: [
+				"This quest is important to read for players unfamiliar with GregTech energy and machine behavior. Those who have played before or don't need a refresher know what they're doing. It is split up into pages for your convenience."
+				""
+				"{@pagebreak}"
+				"&lEnergy Overview&r"
+				"GregTech uses EU (standing for Energy Unit) rather than the RF or FE energy that most other mods use. This is because it operates in a way that is much more complicated than those, and this quest explains how it works along with a few other related things."
+				""
+				"EU is still fundamentally a unit of electrical power, like the aforementioned systems, but it differs in that it is also measured in Amps. One Amp can be treated as something like a \"packet\" of energy, and its size depends on the voltage tier. For example, one Amp of LV is 32 EU, and these packets are transferred or used up once per tick. These values correspond directly to how much energy a machine of the same tier can use. All LV machines can use, at most, 32 EU per tick (abberviated to EU/t), though the actual energy usage depends on the recipe being run in the machine."
+				""
+				"{@pagebreak}"
+				"&lCables&r"
+				"Different cables, on top of being assigned a tier of energy it can transport, also transport different amounts of Amps, depending on the size. Both of these bits of information are found in the tooltip."
+				"There is a distinction between &ocables&r and &owires&r. Cables are wires that are coated in rubber, which lowers the power loss (covered later) and also prevents you from taking damage by touching live wires, which can happen with bare wires. "
+				"Superconductors are only available in wire form, though they do not have cable loss and do not damage you when live. These are also explained later."
+				"You can interact with and mine cables using a Wirecutter, similar to using a wrench for most other GregTech blocks."
+				""
+				"{@pagebreak}"
+				"&lEnergy&r"
+				"You can think of a cable having multiple Amps as a pipe that has multiple lanes. A cable that can transport 4 Amps of power can transport 4 instances of an LV Amp, or totalling to 128 EU/t, though again, the machines you'll be making cannot consume that entire figure."
+				""
+				"An important note is that all singleblock generators will generate exactly one Amp when consistently running. This means that, ideally, you should be matching the number of generators with the number of amps your cables can carry, if you want to be efficient. Multiblock generators are a bit more complex in this regard, but you will not be using these until EV and beyond, so it is not currently a concern."
+				""
+				""
+				"{@pagebreak}"
+				"&lCable loss&r"
+				"Just like in real life, cables lose energy over distance. The loss is noted in the tooltip, it is important to note this figure is loss &oper amp&r, not per total block. Tin Cables have loss of 1 EU, so for 1x cable, they simply lose 1 EU per block travelled. However, using 4x cables for an example, they actually lose 4 total EU per block, the single amp transported in each \"channel\" still lose 1 EU per block."
+				"Superconductors are wires that are more complex to craft, but also have more amps than most (if not all) of the cables at their tier, do not have any cable loss, and do not damage you when live. They are also needed in some specific crafting recipes. Every tier has one superconductor that can be crafted."
+				""
+				"{@pagebreak}"
+				"&lThe danger zone&r"
+				"You should not try to transport &4more&r amps than a cable can support. GregTech machines only \"ask\" for energy on demand, so you can also only consume as many amps as you have machines, but if you have, for example, 3 turbines and 3 machines connected together, and 2 of the machines are running recipes, connected together by 1x Tin cables, you will be attempting to transfer 2 amps of power over cables that can only support one. This will result in the cables &4vaporizing&r, which destroys the cable blocks. "
+				"The rule of thumb here is to simply not connect more generators than a cable has amps. "
+				""
+				"You are freely able to connect lower tier energy to higher tier machines, such as connecting LV Turbines and Tin cables up to an MV machine. The machine will only try to pull one amp, so this is generally ill advised, but it can be useful if you know what you're doing. However, if you try to connect &ohigher&r voltage energy to a &olower&r voltage machine, this will cause the &4machine to overvolt and explode, voiding the machine and all items contained within.&r It is best to match voltages where possible, and be careful when playing with transformers."
+				""
+				"{@pagebreak}"
+				"&lMachines&r"
+				"As noted with the ULV covers, you can place any type of cover on machines to alter their behavior in some way. On top of this, you can also set an output slot, similar to how you set the vent port of Steam machines, and then choose to automatically output items or fluids through that side in the GUI. A benefit of CEu Modern is that you can actually desync these slots in the GUI and have items and fluids be output through different slots, no covers required. This was a feature in 1.12, but it required a late game item to configure."
+				""
+				"Present in the bottom left, you can set a different programmed circuit in crafting machines. Some recipes require this to be set, which is a feature present to avoid recipe conflicts. You can see the required circuit represented as an item in the crafting recipe in EMI. In prior versions of GregTech, this was actually an item that took up an input slot of the machine, but Modern has fully condensed programmed circuits into a GUI feature."
+				""
+				"You can use a Soft Mallet to manually turn any machine on or off, but for electric machines, you can also click the power button in the GUI for the same effect. "
+			]
+			id: "12B2289AE89B789E"
+			subtitle: "Nerd emoji"
+			tasks: [{
+				id: "669D30E948FAFF57"
+				title: "ok"
+				type: "checkmark"
+			}]
+			title: "GregTech Energy/Machine Info Dump"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79EBCF054AB055AA"]
+			description: ["These machines will phase out microcrafting in your crafting table. Most of them serve as replacements for some of the crafting tools you've been using up to this point."]
+			id: "4B89ACC907ACC921"
+			tasks: [{
+				id: "64CA3AA792320CAD"
+				title: "Convenient Machines"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B89ACC907ACC921"]
+			description: [
+				"The Wiremill mills wires. It creates wires at a 1:2 ratio of ingots to wires, which is vastly better than the 3:2 ratio you dealt with in the steam age. As you can imagine, there is no plate intermediate, it makes wires directly from ingots."
+				"Most players choose to make this one first."
+			]
+			id: "470AB63333677769"
+			tasks: [{
+				id: "6A654428803C8132"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B89ACC907ACC921"]
+			description: ["The Bender finally allows you to create 1:1 plates from ingots, something you have been working towards since you first began working with metals."]
+			id: "6293584FF2F0DC92"
+			tasks: [{
+				id: "0B21CACC0EB113AA"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B89ACC907ACC921"]
+			description: [
+				"The Lathe is your rod creating machine, allowing for 1:1 rod creation with a small dust byproduct."
+				"Most other modpacks opt for the \"easy\" version of this machine, which directly makes 2 rods out of 1 ingot. The \"hard\" version used here does actually yield this same amount, but you must turn the small dust back into ingots to run the recipe again. In MV, you gain access to the Extruder, which will make 2 rods directly (along with many other convenient recipes)."
+				"You can likely imagine that this can be annoying to manage, so you have two options you can take:"
+				"1. Continue to manually make rods with files, stomaching the worse material effieciency to opt for speed"
+				"2. Create an automated setup to take ingots, create rods in a lathe, and deal with the byproducts in some way. There is a machine that can pack the dusts into full size dusts, and a machine that can smelt the dust into an ingot, which can then be piped back into the lathe again. "
+				""
+				"GregTech offers a solution to this problem, consider trying to solve it for maximum effieciency, a dopamine hit, and brownie points. Or, continue doing the manual process until MV when it stops being a choice."
+			]
+			id: "2D3CD351ECC5D198"
+			tasks: [{
+				id: "1B5C3041334E3BA4"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B89ACC907ACC921"]
+			description: [
+				"The polarizer will be predominantly used throughout the game to magnetize rods, replacing the need for the redstone recipe in a crafting grid you needed to use to get to this point. Upon entering MV, those motors require magnetic steel rods, which can onlly be made in this machine, but you can opt to continue to spend redstone on magnetic iron rods until then."
+				"It's worth noting this machine is decently energy efficient and dirt cheap to craft, only requiring some wire, a couple rods, and a machine hull. No circuits or other components necessary!"
+			]
+			id: "67EE4DA36D47F6B9"
+			tasks: [{
+				id: "5E4BAB9B049D7609"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B89ACC907ACC921"]
+			description: [
+				"The Assembler is perhaps the most important machine in the mod, given how many important recipes require it and how much it unlocks when you create it at every tier. It is placed in this section of the questbook, however, because it is most convenient right now for having massively more efficient and convenient circuit component recipes. Combine these with the other machines (particularly the wiremill), and circuits become more expensive in time to craft rather than in resource requirement."
+				"To get the most out of the Assembler in this regard, you will also want a Basic Centrifuge, Basic Extractor, and Basic Arc Furnace for some recipes requiring fluids or more advanced materials."
+			]
+			id: "4D82CECF0A3730C3"
+			tasks: [{
+				id: "241C1802F871810D"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B89ACC907ACC921"]
+			description: [
+				"Similar to the Assembler, the Chemical Reactor is massively important for later progression, but it will be important currently as it can massively offset the cost of Rubber production. Currently, you need to combine 1 Sulfur and 1 Sticky Resin turned into Rubber Pulp in an Alloy Smelter to get one Rubber Ingot, and two of those are required for a rubber sheet, which allows you to coat a single 1x wire."
+				"The Chemical Reactor, combined with the Fluid Solidifer, detailed in the next quest, can turn this recipe into 1 Sulfur, 3 Sticky Resin, which can make 9 ingots worth of Rubber, that can then be turned into plates at a 1:1 ratio. You're getting 9 times the value out of your sulfur, 18 when considering the sheets, while getting 3x/6x the value out of your rubber trees. It should be obvious that you want to get this up as soon as possible, and probably make a dedicated setup for it."
+			]
+			id: "5D04164CCEE0759F"
+			tasks: [{
+				id: "1077641CE23DAFEF"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B89ACC907ACC921"]
+			description: ["The Fluid Solidifier can be used to make some things, such as Tin Rotors, more efficiently, but as detailed in the Chemical Reactor quest, you will want it for Rubber production currently."]
+			id: "3CCAC30DA8A06C1E"
+			tasks: [{
+				id: "53A765904052AA3E"
+				item: "gtceu:lv_fluid_solidifier"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B89ACC907ACC921"]
+			description: ["As noted in the Assembler quest, you will want this for circuit creation. You can make Glue by centrifuging Sticky Resin in this machine, which is used in Resistors and Circuit Boards."]
+			id: "7741579C77FA8DB0"
+			tasks: [{
+				id: "276BC865AC418376"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B89ACC907ACC921"]
+			description: ["A machine you should be familiar with, the Extractor in LV gains a fluid output slot. This machine can be used to liquify metals, among other things, which can be used in some recipes to maximize efficiency. Right now, you'll want to create some Liquid Red Alloy for more efficient Vacuum Tubes."]
+			id: "69CB7AAA33F19A37"
+			tasks: [{
+				id: "4B7F6AFD1298C3CF"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B89ACC907ACC921"]
+			description: [
+				"The Arc Furnace is distinct from a regular Furnace in that it requires Oxygen to run. It is used at this point to create Annealed Copper, an alternate version of copper used in some specific use cases, and also offers a 1:2 sand to glass recipe."
+				"Yes, it does require Oxygen, something you cannot make yet. You will have plenty of it in due time."
+			]
+			id: "76734A43AEC9D1F2"
+			tasks: [{
+				id: "41E66841CE788A87"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B89ACC907ACC921"]
+			description: [
+				"The Cutting Machine acts as a saw, this can be used for more efficient bolt recipes. Combine with the Lathe for screws worth pocket change."
+				"It requires Water, Distilled Water, or Lubricant for all recipes Distilled Water is more efficient in cost and time spent than regular Water, and Lubricant is even stronger."
+			]
+			id: "7F2BEB36501CABCB"
+			tasks: [{
+				id: "08E2563AD70890EE"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["79EBCF054AB055AA"]
+			description: [
+				"GregTech ore processing goes much more indepth than simply doubling ores in a slightly convoluted way. It involves a deep tree of recipes that process ores in many specific ways to not only get the most yield out of a single ore, but more importantly, produce byproducts different than that of the ore itself."
+				"You do NOT need to, and really shouldnt, craft all or even most of these machines right now. Most of the processes on offer only become specifically useful later in the game, this portion of quests is only here to inform you that this exists. Unless you REALLY like the idea of some extra yield, any ore processing setup you've made up to this point will be serviceable, though a couple of these will be needed soon for some particular recipes."
+			]
+			id: "02F6E1C558B0CAA4"
+			tasks: [{
+				id: "1DDA7E88267227BD"
+				title: "Ore Processing, Again"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["02F6E1C558B0CAA4"]
+			description: ["You can choose to create a singleblock Macerator for your own convenience. As noted in the recipes in EMI, the chanced byproducts of recipes in this machine can only be produced in HV, MV or prior versions only produce the guaranteed outputs. &lThis is the only machine in the entire mod that behaves this way&r, all other machines produced chanced outputs at the noted rates (or above, if overclocked). For the purposes of ore processing, creating electric macerators before HV is actively detrimental, as the multiblock Steam Grinder you can already make is vastly quicker, cheaper, and more energy efficient. It can still be helpful to make one of these to augment your group of machines used for crafting as to not interrupt any processing you may be doing in your multiblocks."]
+			id: "0C6CF5B71FCB7FFD"
+			tasks: [{
+				id: "2504ABF9B6848441"
+				item: "gtceu:lv_macerator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["02F6E1C558B0CAA4"]
+			description: ["The Thermal Centrifuge can take crushed dust and turns it into Refined Dust, yielding some byproducts in the process."]
+			id: "75BA1F3E35E1955C"
+			tasks: [{
+				id: "5FDF1DC4A57E8A76"
+				item: "gtceu:lv_thermal_centrifuge"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["02F6E1C558B0CAA4"]
+			description: ["The Electromagnetic Separator separates refined dust, electromagnetically. It only has a few recipes."]
+			id: "7819EA42B95A5EDD"
+			tasks: [{
+				id: "020444A1816DC4DE"
+				item: "gtceu:lv_electromagnetic_separator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["02F6E1C558B0CAA4"]
+			description: ["The Chemical Bath can be described as a more specialized ore washer, needing things like Sodium Persulfate rather than water for some ore processing recipes. It also has some miscellaneous recipes like more efficient treated wood and oxidized copper recipes if those are your thing."]
+			id: "5AE416B4DAB2EBAE"
+			tasks: [{
+				id: "28868290B2DEBDC1"
+				item: "gtceu:lv_chemical_bath"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02F6E1C558B0CAA4"]
+			description: ["The Ore Washer, fundamentally, is an electric version of the cauldron washing process you may be familiar with. It requires water and washes impure dusts."]
+			id: "4DCBFDAF0FBD5B73"
+			tasks: [{
+				id: "6620C49F2BB662CB"
+				item: "gtceu:lv_ore_washer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["02F6E1C558B0CAA4"]
+			description: ["The Sifter is the premier gem ore processor. This machine allows you to generate greader yield for ores such as Diamond or Emerald, as well as some important GregTech gems. It takes Purified Ore and has many chanced outputs."]
+			id: "30E552DAA16CBBEE"
+			tasks: [{
+				id: "19A2F25C83005CD6"
+				item: "gtceu:lv_sifter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02F6E1C558B0CAA4"]
+			description: ["The Autoclave is a machine that can turn gem dusts into their gem form, taking some fluid input and possibly not always producing the gem depending on the fluid used. Used with the Sifter for the best effect."]
+			id: "03B02C9EAFC93A94"
+			tasks: [{
+				id: "20A054596B007E4A"
+				item: "gtceu:lv_autoclave"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02F6E1C558B0CAA4"]
+			description: ["The Electrolyzer can separate compounds of basically any type, this will be the most convenient way to extract specific materials out of ores, though most useful recipes require MV. Still, you'll get some use out of it during this tier."]
+			id: "5B7A7B2BF869DF9A"
+			tasks: [{
+				id: "3840CACF2A9F1F26"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4798AEB718C0948B"]
+			description: ["These machines can be useful in some way, but are not required for progression, or at least not right now."]
+			id: "54F4762CD15E8AC0"
+			tasks: [{
+				id: "5514108947EC8821"
+				title: "Other Machines"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["54F4762CD15E8AC0"]
+			description: [
+				"The Canner is your gateway into creating Batteries, which can be used to store energy for use in some different ways."
+				"For the first few tiers of batteries, you can create the internals out of Sodium, Cadmium, and Lithium, in order of energy capacity. Intelligent use of EMI can inform you on how to obtain them, all three can be obtained in LV through ore processing in some way. They are generally interchangeable, the only context where a specific one is required is for Night Vision Goggles, which require a Sodium battery."
+				""
+				"You can charge batteries or any other energy containers with the charger slot located in any appropriately tiered machine, or with a turbo charger."
+				""
+				"Batteries are created out of Battery Alloy, which is an alloy of Antimony and Lead. Antimony can be obtained from Stibnite Ore, found in the nether."
+			]
+			id: "3EDF27DDA2C82676"
+			tasks: [
+				{
+					id: "3016C77ACA26F568"
+					item: "gtceu:lv_canner"
+					type: "item"
+				}
+				{
+					id: "6EB3FC108F51A308"
+					item: "gtceu:battery_alloy_ingot"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EDF27DDA2C82676"]
+			description: [
+				"With Batteries, you can replace the remaining tools that do not have a machine equivalent with tools that can be used in world. Drills are the most immediately useful, as the LV one has the same capabilities as your Mining Hammers while having more durability, and the ones from later tools have an even &olarger&r mining area, scaling up to 9x9x9 with the IV drill. There are other power tools, including a Wrench, Wire Cutter, Screwdriver, and more. "
+				"These all have an energy capacity equal to the battery used in the battery pack, and they have an unbreaking-like effect when filled with energy, where the durability itself only goes down at random. When the energy runs out, it uses durability like normal. Breaking a power tool returns you the battery pack, so you only need to bolt on another tool head."
+			]
+			id: "5EF0D11E54B96EAE"
+			tasks: [{
+				id: "4FD07F509A50D44D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/drills)"
+					}
+				}
+				title: "Any #forge:tools/drills"
+				type: "item"
+			}]
+			title: "Power Tools"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EDF27DDA2C82676"]
+			description: ["You now have access to an Item Magnet, which makes in world item drops a nonissue. You have a dedicated Curios slot for this as well."]
+			id: "453C195B7B5DD282"
+			tasks: [{
+				id: "2416DBDFC1E10665"
+				item: "gtceu:lv_item_magnet"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EDF27DDA2C82676"]
+			description: ["Your first Prospector, this gives you a view of all of the ore present within a 3 chunk diameter around where you used it. Incredibly useful for finding new ore veins and figuring out how to find the small or oddly shaped ones. This also adds any new ore veins to your minimap, same as if you clicked on the dust piles on the surface. Future prospectors can also show you Fluid veins and Bedrock veins."]
+			id: "799552B442B9837F"
+			tasks: [{
+				id: "78E2E9E75DE0445B"
+				item: "gtceu:prospector.lv"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3EDF27DDA2C82676"
+				"54F4762CD15E8AC0"
+			]
+			description: [
+				"There are some utility machines related to batteries you can make."
+				"The Turbo Charger will quickly charge any power tools or batteries you add to the slot. It can take 16 amps of input, providing 4 amps to each slot, effectively charging them 4x as fast than if you used the charging slot of a machine."
+				"Battery buffers can not only serve as battery storage, but hold it for later use in energy transport. Each one can handle an amperage input double that of the number of slots. They can also, critically in some setups, serve as a \"refresh point\" for cable loss, as they will output the full content of the buffer at max output. Of course, you still need to provide enough energy to maintain this."
+			]
+			id: "476C505C515ECDB0"
+			tasks: [
+				{
+					id: "56F80CC14921252F"
+					item: "gtceu:lv_charger_4x"
+					type: "item"
+				}
+				{
+					id: "626EC4D3A025036C"
+					item: "gtceu:lv_battery_buffer_4x"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54F4762CD15E8AC0"]
+			description: ["The Fisher is your automatic solution to fishing. The tooltip details the requirements. "]
+			id: "7AA412EBCDAEA05F"
+			tasks: [{
+				id: "1181364C91883D43"
+				item: "gtceu:lv_fisher"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54F4762CD15E8AC0"]
+			description: [
+				"The block breaker is a simple utility machine that breaks physical blocks for you. Who needs Create?"
+				"{@pagebreak}"
+				"me"
+			]
+			id: "3B573DA19C395D92"
+			tasks: [{
+				id: "6B2899E17F021ACE"
+				item: "gtceu:lv_block_breaker"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54F4762CD15E8AC0"]
+			description: ["The Item Collector can collect items that have fallen on the ground. This can be useful for any vanilla adjacent farms you might construct, such as some crop farms."]
+			id: "30D632805584FDDD"
+			tasks: [{
+				id: "5992908A1A87EBA6"
+				item: "gtceu:lv_item_collector"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54F4762CD15E8AC0"]
+			description: ["The World Accelerator is a rather expensive machine that can speed up the tickrate of its surroundings."]
+			id: "65EDB8F2A56961CA"
+			tasks: [{
+				id: "7B54D95EC5F4CC99"
+				item: "gtceu:lv_world_accelerator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3EDF27DDA2C82676"]
+			description: ["Spray Cans are also unlocked with the Canner. Putting liquid forms of Dyes into Spray Cans allows you to color nearly any GregTech block. This sees use most commonly in color coding different types of cable to differentiate voltage tiers, though it can also color pipes or even machines. "]
+			id: "1D1DFF0C9D12AC48"
+			tasks: [
+				{
+					id: "4F8BDB5BE33B41BF"
+					item: "gtceu:empty_spray_can"
+					type: "item"
+				}
+				{
+					id: "5BAB62DB49D2E1B1"
+					item: "gtceu:red_dye_spray_can"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12B2289AE89B789E"]
+			description: [
+				"As per last time, be sure to have ample infrastructure before continuing. Your LV machines will serve as a springboard for progression for a while, so having a crafting setup will be very important."
+				""
+				"Moving forward, your two primary goals are to craft Good Electronic Circuits to eventually an LV Circuit Assembler, and build an Electric Blast Furnace to create Aluminum, both are key requirements for entering MV."
+			]
+			id: "4798AEB718C0948B"
+			tasks: [{
+				id: "19F7A60CD17B5AF3"
+				title: "Checkpoint, Again"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4798AEB718C0948B"]
+			description: ["The first major processing line you will want to make will produce Silicon and Oxygen. Silicon will be important during MV, but Oxygen will be useful for some EBF recipes and various chemistry recipes. Head on over to the Processing Lines tab if you want information on how to build it."]
+			id: "44CBB4D32BAA1C6A"
+			size: 1.5d
+			subtitle: "Your First Processing Line"
+			tasks: [
+				{
+					id: "3F04DEFB968E14E6"
+					item: "gtceu:silicon_dust"
+					type: "item"
+				}
+				{
+					id: "6D66F75DE27EB3B0"
+					item: "gtceu:oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "The Oxygen Line"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EDF27DDA2C82676"]
+			description: ["By default, the Night Vision Goggles are gated behind MV, as glass lenses require an MV lathe to create. This pack adds a crafting grid recipe, shamelessly stolen from GTNH, that allows you to make these as soon as you can make batteries. "]
+			id: "1DD04BAF338856C8"
+			tasks: [{
+				id: "7ED6058D81130578"
+				item: {
+					Count: 1
+					id: "gtceu:nightvision_goggles"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7377388B1922E23B"
+				"5602DBCEBB5B5509"
+			]
+			description: [
+				"The Circuit Assembler can be seen as the last \"convenient machine\" as i've named them here, it provides more convenient recipes for both Electronic circuits you've made up to this point, and it is required for the vast majority of the remaining circuits in the mod."
+				"All versions of them require the next tier of circuits to craft. This LV one needed MV circuits, the MV one will need HV circuits, etc."
+			]
+			id: "6F7EB02E9526F6AC"
+			size: 2.0d
+			tasks: [{
+				id: "478604C4E81E0FCB"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"68993A775ACA091B"
+				"04DE51E233CBE644"
+			]
+			description: ["Your first MV circuits. Do note that the recipe for this is exorbitantly expensive, requiring 3 Electronic Circuits. Your next objective should be to make a second one of these, then use them to make a Circuit Assembler to unlock the better recipe, and never look at the crafting grid recipe ever again."]
+			id: "5602DBCEBB5B5509"
+			subtitle: "Evil Electronic Circuit"
+			tasks: [{
+				id: "19C1FC0B5668A874"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4798AEB718C0948B"]
+			description: ["Emitters are crafting components you may not be immediately familiar with. They are rather simple to craft, if a bit expensive, requiring Brass and Quartzite, an alloy and an ore respectively."]
+			hide_dependency_lines: true
+			id: "7377388B1922E23B"
+			tasks: [{
+				id: "44E9348AAB872573"
+				item: "gtceu:lv_emitter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4798AEB718C0948B"]
+			description: [
+				"It's time to dive into some ore processing!"
+				"Diodes are the primary novel component of Good Electronic Circuits, which are your first MV circuits. "
+				"There are multiple recipes for these, but the only one you can make currently is the least efficient one, using Copper Fine Wire, Liquid Glass, and Gallium Arsenide Dust. The first two should be simple enough, but Gallium Arsenide is a bit more involved."
+				""
+				"You need to obtain Gallium and Arsenic. Gallium can be obtained by processing Sphalerite in a few different ways. You can electrolyze Sphalerite Dust for a small chance at getting Gallium, but try to find a better way to process it!"
+				"Arsenic is much simpler, you only need to locate Realgar and electrolyze it in dust form. "
+				""
+				"Note that Arsenic is the first material that you will obtain that has a hazardous property, causing Arsenicosis through inhalation. This is a fancy way of saying, do not have it in your inventory for an extended period of time. The grace period is very lenient, but if you keep it on your person for too long, you eventually get a Hunger status effect, continuing to hold it will inflict Wither, almost certainly killing you."
+				"You can also avoid the problem entirely by only handling Arsenic through automation, but again, the grace period is very forgiving."
+			]
+			id: "68993A775ACA091B"
+			tasks: [{
+				id: "5B8B8F62F26B97A9"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4798AEB718C0948B"]
+			description: [
+				"The next tier of circuit board, this one is the first that reflects the process to create most others for the rest of the game."
+				"To make the base boards, you can simply do Wood Pulp and Glue in an assembler, but you have a choice to make involving finishing the full circuit board."
+				"The first option is the crafting grid recipe of surrounding the board in silver wire. This is more resource intensive but substantially easier in the short term."
+				"The second option is to engage in some chemistry and create Iron III Chloride or Sodium Persulfate and mix that with the board and silver foil. Once you create a setup for those chemicals, the overall resource cost is much easier."
+				"Starting at the next tier of circuit board, the chemistry route is the only one available, and it uses the same process, so it may be in your best interest to bite the bullet on the more complex route now to futureproof your factory. You'll find that decisions like these will not stop showing up."
+			]
+			id: "04DE51E233CBE644"
+			subtitle: "Phenol not included"
+			tasks: [{
+				id: "2341E5F83B6D81DE"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "0B1BA7E04202AA45"
+			size: 2.0d
+			tasks: [
+				{
+					id: "56506C803DD75AFB"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7D5E49A4C292D851"
+					item: { Count: 9, id: "gtceu:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2823C75A0A26FA69"
+					item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+					type: "item"
+				}
+				{
+					id: "76B873D63B620910"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "34BA660AFEEB7DBB"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "16FDA8A842FA2398"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "7D5F10653F30F3FB"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5013030A8289DF98"
+					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "05C0966EA8B307FC"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "406F8368C93C5877"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4798AEB718C0948B"]
+			description: ["Cupronickel blocks are the main way to upgrade the visuals and functionality of Electric Blast Furnaces, among other multiblocks. Each one has a specified heat capacity, which, along with the voltage tier of the multiblock itself, dictate which recipes it can run. There are some nuances regarding higher tier coil blocks and the voltage tier of the multiblock that can cause this number to fluctuate upward, and it can also contribute to some overclocking bonuses, but this is never required for progression and can only serve as a nice bonus for some upgrade milestones. You will be safe by just keeping the coils and voltage tiers up to date. When in doubt, the multiblock controller GUI will tell you the heat capacity its operating at when it forms."]
+			id: "7DE133345094BC67"
+			tasks: [{
+				count: 16L
+				id: "5A220F3D4AD88E1C"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4798AEB718C0948B"]
+			id: "54A622E17FA8FD33"
+			tasks: [{
+				id: "6905B3B1C2FA92D5"
+				item: "gtceu:lv_input_bus"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4798AEB718C0948B"]
+			description: [
+				"Yes, you do need two."
+				""
+				"If you've done any perusing of any EBF recipes, you may have noticed that there are next to no LV recipes present. To get one up and running, you need MV power. But, how can you do this with LV generators and infrastructure?"
+				""
+				"A quirk of EU as a system is that you can create higher tier voltage amps out of lower ones. While LV is 32 EU/t, MV is 128 EU/t, a 4x increase. Every voltage is 4x the energy of the last. You can use this fact to your advantage in two ways. First, you can create transformer machines that can take a voltage as input and output another one. These transfer the same &oamount&r of energy, but as a different voltage tier. "
+				"What you need to do for the EBF, as you can only create LV energy hatches, is make two. Each energy hatch can take 2 amps of input. This does not mean anything when you have one energy hatch, but when you have two hatches, the amperage totals to 4. The game will buff up the energy tier of the multiblock to the next tier when doing this. This means that, for multiblocks, you can power them at a tier above what you're normally producing, assuming you make enough to do this. "
+				""
+				"Basically, produce 4 amps of LV, wire the turbines into 2 energy hatches that are part of one multiblock, profit."
+			]
+			id: "3F3A136A5AD3968C"
+			tasks: [{
+				count: 2L
+				id: "7C5699C177E31A46"
+				item: "gtceu:lv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4798AEB718C0948B"]
+			description: [
+				"Maintenance is a mechanic new to Electric Multiblocks. Every multiblock requires its own Maintenance Hatch which should not be wallshared, and upon constructing a new multiblock, you must perform the maintenance operations with the tools specified in icon at the top left of the block GUI. This can be done by having those tools in your inventory and clicking on the dark icon in the center. "
+				"Periodically, a multiblock will develop a maintenance problem that you need to manually fix. These can cause issues such as longer recipe times, and if too many develop, the machine will stop running recipes entirely. This, thankfully, happens &overy&r rarely, you are not even likely to run into any maintenance issues until HV and beyond, and by the time it would become annoying to manage, there are automated solutions to maintenance issues."
+			]
+			id: "1A36723A72447815"
+			tasks: [{
+				id: "1862D060E86D47C3"
+				item: "gtceu:maintenance_hatch"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+	]
 	title: "&7Low Voltage"
 }

@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["43F2069CC29CF981"]
+			disable_toast: true
 			hide_dependent_lines: true
 			id: "7CCE8FDAAA246353"
 			subtitle: "First LV Circuits"
@@ -28,17 +29,19 @@
 				"For some bonus information, the leftmost column of checkmark quests contain some real world information about what that variety of technology is actually like."
 			]
 			id: "187B4FF27E60B72E"
+			size: 2.0d
 			subtitle: "README.md"
 			tasks: [{
 				id: "746BD7D6B6D0C57C"
 				title: "What am I looking at?"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: -2.5d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4F279D61ABBE1D65"]
+			disable_toast: true
 			hide_dependent_lines: true
 			id: "3BBA7A56B66D939D"
 			subtitle: "First ULV Circuits"
@@ -51,6 +54,8 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["5602DBCEBB5B5509"]
+			disable_toast: true
 			hide_dependent_lines: true
 			id: "330995AF87815D5D"
 			subtitle: "First MV Circuits"
@@ -474,6 +479,7 @@
 		{
 			dependencies: ["048437D89F76EC4A"]
 			description: ["Resistors are introduced in this tier. As the name suggests, they resist current. This is helpful when you need to control and set the current in a circuit to a specific amount, as every electrical component has its own current ratings that, if it is exceeded, can cause damage to them. They resist current by converting some of the electrical energy to heat energy, losing energy as heat and lowering the overall amount of current that makes it through."]
+			disable_toast: true
 			id: "6E11D0420FAA951C"
 			tasks: [{
 				id: "00EBEE42A5539F39"
@@ -484,7 +490,9 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["68993A775ACA091B"]
 			description: ["Diodes are the second component introduced in this tier. Their function is to act as a one way gate for electricity. Depending on their orientation, they allow current to flow in one direction while blocking it from flowing in the opposite. This is needed for more precise current control, as well as for safety features such as surge protection or voltage regulation. You can actually do all of these things with your own electricity with the Diode blocks."]
+			disable_toast: true
 			id: "7D4BED3367EB1B4B"
 			tasks: [{
 				id: "11CE865836D978CA"
@@ -497,6 +505,7 @@
 		{
 			dependencies: ["6B25198D8B5A08E7"]
 			description: ["The different varieties of circuit boards only differ in their construction, the core purpose and design of all of them are the same. Circuit Boards themselves are convenient and compact ways of directing electricity through traces, which are small wires embedded within the boards themselves. They are designed in a way where you can easily drop in components through holes in the board that expose the traces."]
+			disable_toast: true
 			id: "51B6E839A304CA41"
 			tasks: [{
 				id: "211F9B801B16AF25"
@@ -523,6 +532,8 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["04DE51E233CBE644"]
+			disable_toast: true
 			id: "7DB1DCD15AE41595"
 			tasks: [{
 				id: "2BD18A6DA39E844E"
