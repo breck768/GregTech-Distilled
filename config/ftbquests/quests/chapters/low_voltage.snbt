@@ -76,7 +76,7 @@
 			]
 			title: "Machine Components"
 			x: 1.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["64EAC4C9872E8A50"]
@@ -89,7 +89,7 @@
 			}]
 			title: "LV Circuits"
 			x: 4.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -775,6 +775,13 @@
 			y: 6.0d
 		}
 		{
+			dependencies: [
+				"7DE133345094BC67"
+				"3F3A136A5AD3968C"
+				"1A36723A72447815"
+				"54A622E17FA8FD33"
+			]
+			icon: "gtceu:electric_blast_furnace"
 			id: "0B1BA7E04202AA45"
 			size: 2.0d
 			tasks: [
@@ -850,6 +857,7 @@
 		}
 		{
 			dependencies: ["4798AEB718C0948B"]
+			description: ["You should be familiar with Hatches by this point, they are pretty much unchanged here. The higher tier ones have higher capacity."]
 			id: "54A622E17FA8FD33"
 			tasks: [{
 				id: "6905B3B1C2FA92D5"
