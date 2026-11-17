@@ -35,6 +35,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'minecraft:pink_carpet' })
 })
 
+// -- Leather recipe -- //
+
 ServerEvents.recipes(event => {
     event.recipes.gtceu.compressor('gtceu:compressor/leather')
         .itemInputs('4x minecraft:rotten_flesh')
@@ -220,5 +222,7 @@ ServerEvents.recipes(event => {
         }
     )
     
+    // -- Pams nuking -- //
+    event.remove({ id: 'pamhc2crops:paper_x2_paper_plants' })
 
 })

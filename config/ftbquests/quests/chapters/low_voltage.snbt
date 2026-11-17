@@ -702,7 +702,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -718,7 +718,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4798AEB718C0948B"]
@@ -731,7 +731,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4798AEB718C0948B"]
@@ -753,7 +753,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4798AEB718C0948B"]
@@ -772,7 +772,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -840,7 +840,7 @@
 				}
 			]
 			x: 4.5d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4798AEB718C0948B"]
@@ -853,7 +853,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4798AEB718C0948B"]
@@ -865,7 +865,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4798AEB718C0948B"]
@@ -887,7 +887,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4798AEB718C0948B"]
@@ -902,7 +902,23 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["54F4762CD15E8AC0"]
+			description: [
+				"The Greenhouse is a (semi) custom multiblock that has the power to entirely replace your existing agricultural infrastructure. This thing can, with some water, produce any crop or tree type in the pack. You can halve the processing time and double the output by providing Fertilizer and running on Circuit 2."
+				""
+				"You can't &oquite&r make this if you're reading this quest as soon as possible, but you can make it before you break into MV."
+			]
+			id: "1FEDE76CDBEE4ACE"
+			tasks: [{
+				id: "2495E667A14693C0"
+				item: "gtceu:greenhouse"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
 		}
 	]
 	title: "&7Low Voltage"

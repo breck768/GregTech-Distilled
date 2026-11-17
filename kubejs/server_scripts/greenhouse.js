@@ -77,6 +77,10 @@ ServerEvents.recipes(event => {
     Greenhouse('rubber_sapling', 'gtceu:rubber_sapling', 1000, ['32x gtceu:rubber_log', '8x gtceu:sticky_resin', '4x gtceu:rubber_sapling'], false)
     Greenhouse('rubber_sapling_boosted', 'gtceu:rubber_sapling', 1000, ['64x gtceu:rubber_log', '16x gtceu:sticky_resin', '4x gtceu:rubber_sapling'], true)
 
+    // Maple trees (theyre freaky)
+    Greenhouse('maple_sapling', 'pamhc2trees:maple_sapling', 1000, ['32x pamhc2trees:pammaple', '8x pamhc2trees:maplesyrupitem', '4x pamhc2trees:maple_sapling'], false)
+    Greenhouse('maple_sapling_boosted', 'pamhc2trees:maple_sapling', 1000, ['64x pamhc2trees:pammaple', '16x pamhc2trees:maplesyrupitem', '4x pamhc2trees:maple_sapling'], true)
+
     // -- Crops -- //
     const seedIds = Ingredient.of('#forge:seeds').getItemIds();
 
