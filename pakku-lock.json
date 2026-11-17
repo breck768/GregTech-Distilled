@@ -1430,6 +1430,47 @@
             ]
         },
         {
+            "pakku_id": "CB907jJRIlRMzMYx",
+            "pakku_links": [
+                "QWaLgh9MwCKYNzrR"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "gregtech-vaults"
+            },
+            "name": {
+                "curseforge": "GregTech Vaults"
+            },
+            "id": {
+                "curseforge": "1528586"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "gregtech-vaults-0.2.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8116/613/gregtech-vaults-0.2.0.jar",
+                    "id": "8116613",
+                    "parent_id": "1528586",
+                    "hashes": {
+                        "sha1": "5f4b252dd5756cba0a1581dc0eabdb4aa6418adf",
+                        "md5": "e0eb4498bec3d3fdd4458b2b6b1e8b49"
+                    },
+                    "required_dependencies": [
+                        "890405"
+                    ],
+                    "size": 203279,
+                    "date_published": "2026-05-20T01:17:17.853Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "0QFlaaSCNUDdeQbF",
             "pakku_links": [
                 "QWaLgh9MwCKYNzrR"
