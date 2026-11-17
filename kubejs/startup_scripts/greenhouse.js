@@ -13,6 +13,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('greenhouse', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
+        .langValue("Greenhouse")
         .recipeType('greenhouse')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()

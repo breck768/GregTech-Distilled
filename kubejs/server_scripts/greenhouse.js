@@ -2,11 +2,12 @@ ServerEvents.recipes(event => {
     // -- Controller Recipe -- //
     event.shaped(
         'gtceu:greenhouse',
-        ['AWA', 'ASA', 'WAW'],
+        ['MGM', 'CWC', 'MCM'],
         {
-            A: '#forge:circuits/mv',
-            W: 'gtceu:copper_single_cable',
-            S: 'gtceu:solid_machine_casing'
+            C: '#gtceu:circuits/mv',
+            W: 'gtceu:lv_world_accelerator',
+            M: 'gtceu:solid_machine_casing',
+            G: 'gtceu:tempered_glass'
         }
     ).id('gtceu:shaped/greenhouse')
 
