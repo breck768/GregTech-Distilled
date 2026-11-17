@@ -1,8 +1,3 @@
-const $BlockItem = Java.loadClass('net.minecraft.world.item.BlockItem');
-const $CropBlock = Java.loadClass('net.minecraft.world.level.block.CropBlock');
-const $Block = Java.loadClass('net.minecraft.world.level.block.Block');
-const $Vec3 = Java.loadClass('net.minecraft.world.phys.Vec3');
-
 ServerEvents.recipes(event => {
     // -- Controller Recipe -- //
     event.shaped(
@@ -83,38 +78,44 @@ ServerEvents.recipes(event => {
 
     // -- Crops -- //
     const seedIds = Ingredient.of('#forge:seeds').getItemIds();
+
     seedIds.forEach(seedId => {
-        let level = Utils.server.overworld();
-        let seedStack = Item.of(seedId);
-        let item = seedStack.item;
-        if (!(item instanceof $BlockItem)) return;
-        let block = item.block;
-        let state = block.defaultBlockState();
-        if (block instanceof $CropBlock) {
-            state = block.getStateForAge(block.getMaxAge());
-        }
-        let drops = $Block.getDrops(
-            state,
-            level,
-            BlockPos.ZERO,
-            null, // BlockEntity
-            null, // Entity
-            Item.of('minecraft:air') // Tool
-        );
-        let results = [];
-        drops.forEach(drop => {
-            let dropId = drop.id;
-            if (dropId !== seedId && !results.includes(dropId)) {
-                results.push(dropId);
+        let crop = null;
+
+        // 1. Check if the seed is crafted from a single non-seed item
+        event.forEachRecipe({ output: seedId }, r => {
+            if (crop) return;
+            let count = 0;
+            let firstIng = null;
+            for (let ing of r.originalRecipeIngredients) {
+                count++;
+                firstIng = ing;
+            }
+            if (count === 1 && firstIng) {
+                for (let itemId of firstIng.getItemIds()) {
+                    if (itemId !== seedId && !itemId.includes('seed')) {
+                        crop = itemId;
+                        break;
+                    }
+                }
             }
         });
-        // The entire above block of code gets the loot drop of a fully grown crop to retrieve the actual item youd get
-        // I literally don't think theres any more elegant way of doing that
-        if (seedId == "minecraft:melon_seeds") results[0] = "minecraft:melon_slice";
-        if (seedId == "minecraft:pumpkin_seeds") results[0] = "minecraft:pumpkin";
-        var crop = results[0];
-        var cropName = crop.split(':')[1]; 
+
+        // 2. Fallback: strip "_seeds" or "_seed" from the ID
+        if (!crop) {
+            let guessedCrop = seedId.replace(/_seeds?$/, '');
+            if (guessedCrop !== seedId && Item.exists(guessedCrop)) {
+                crop = guessedCrop;
+            }
+        }
+
+        // 3. Explicit vanilla exceptions
+        if (seedId == "minecraft:melon_seeds") crop = "minecraft:melon_slice";
+        if (seedId == "minecraft:pumpkin_seeds") crop = "minecraft:pumpkin";
+        if (!crop) return;
+
+        var cropName = crop.split(':')[1];
         Greenhouse(cropName, seedId, 1000, '16x ' + crop, false);
         Greenhouse(cropName + "_boosted", seedId, 1000, '32x ' + crop, true);
-    })
+    });
 })
