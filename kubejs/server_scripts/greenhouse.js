@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
         'gtceu:greenhouse',
         ['MGM', 'CWC', 'MCM'],
         {
-            C: '#gtceu:circuits/mv',
+            C: '#gtceu:circuits/lv',
             W: 'gtceu:lv_world_accelerator',
             M: 'gtceu:solid_machine_casing',
             G: 'gtceu:tempered_glass'
