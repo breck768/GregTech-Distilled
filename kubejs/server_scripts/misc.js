@@ -1,5 +1,3 @@
-
-
 ServerEvents.recipes(event => {
     // -- Remove vanilla tool recipes -- //
     event.remove({ id: 'minecraft:wooden_pickaxe' })
@@ -50,3 +48,14 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'gtceu:shaped/golden_axe' })
     event.remove({ id: 'gtceu:shaped/golden_hoe' })
 })
+
+BlockEvents.rightClicked(event => {
+    const { player } = event;
+    if (!player.isCrouching()) return;
+
+    const isBackpack = stack => stack.id.startsWith('sophisticatedbackpacks:') && stack.id.endsWith('backpack');
+
+    if (isBackpack(player.mainHandItem) || isBackpack(player.offHandItem)) {
+        event.cancel();
+    }
+});

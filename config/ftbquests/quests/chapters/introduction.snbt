@@ -557,6 +557,30 @@
 			x: 8.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["4F6BAFA9BD236CEB"]
+			description: [
+				"This pack offers Sophisticated Backpacks for personal storage. Upgrades for them require Steel, and the capacity upgrades are also gated behind the GregTech Tier Metals, but you can make the basic pretty much right now."
+				""
+				"As a note, placing these has been disabled. If you try, it will visually place but immediately delete the placed backpack and seemingly void it. This is just a clientside bug, the backpack remains in your inventory."
+			]
+			id: "6C74E3ABA61D698D"
+			tasks: [{
+				id: "41A93D2E108DF241"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "Backpacks"
+			x: 5.5d
+			y: -0.5d
+		}
 	]
 	title: "&7Origin"
 }

@@ -1333,9 +1333,10 @@
 			description: [
 				"Vaults are the GregTech styled solution to bulk storage that you will want to invest in until digital storage."
 				""
-				"The structure in EMI shows the bare minimum requirement for the multiblock forming, but you can place up to 27 Vault Cores in the interior to buff the storage capacity of the vault. The Vault Core tier must match that of the Vault itself. They can also be equipped with"
+				"The structure in EMI shows the bare minimum requirement for the multiblock forming, but you can place up to 27 Vault Cores in the interior to buff the storage capacity of the vault. The Vault Core tier must match that of the Vault itself. They can also be equipped with Vault Interfaces to enable automatic input and output, if you wish to use these for automation. Even further, they can be linked to a special Wireless Terminal for convenient access from a distance."
 				""
-				"&c"
+				"&cAs a warning, these can void items in the GUI if you aren't careful. This only seems to happen if you spread a stack between many different slots in Slot View mode, and then picking up and immediately putting back one of that same in the Stacked GUI mode. Hopefully this gets fixed eventually."
+				"&rAs long as you dont do specifically that you should be fine :)"
 			]
 			id: "392F7AED37B52481"
 			subtitle: "Storage Problems Begone!"
