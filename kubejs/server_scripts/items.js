@@ -224,5 +224,5 @@ ServerEvents.recipes(event => {
     
     // -- Pams nuking -- //
     event.remove({ id: 'pamhc2crops:paper_x2_paper_plants' })
-
+    
 })
