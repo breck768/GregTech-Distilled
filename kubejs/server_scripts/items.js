@@ -332,4 +332,72 @@ ServerEvents.recipes(event => {
             F: '#gtceu:tools/crafting_files'
         }
     )
+
+    //Cooking for Blockheads recipes
+    event.remove({ id: 'cookingforblockheads:tool_rack' })
+    event.shaped(
+        'cookingforblockheads:tool_rack',
+        [
+            'SSS', 
+            'NHN', 
+            '   '  
+        ], {
+            S: 'gtceu:treated_wood_plate',
+            N: 'minecraft:iron_nugget',
+            H: '#gtceu:tools/crafting_hammers'
+        }
+    )
+
+    event.remove({ id: 'cookingforblockheads:toaster' })
+    event.shaped(
+        'cookingforblockheads:toaster',
+        [
+            '  B', 
+            'ITI', 
+            'ILI'  
+        ], {
+            B: 'minecraft:stone_button',
+            I: 'gtceu:iron_plate',
+            T: 'minecraft:iron_trapdoor',
+            L: 'minecraft:lava_bucket'
+        }
+    )
+
+    event.remove({ id: 'cookingforblockheads:spice_rack' })
+    event.shapeless(
+        'cookingforblockheads:spice_rack',
+        [
+            'gtceu:treated_wood_plate' 
+        ]
+    )
+
+    event.remove({ id: 'cookingforblockheads:fruit_basket' })
+    event.shaped(
+        'cookingforblockheads:fruit_basket',
+        [
+            'H F', 
+            'SPS', 
+            '   '  
+        ], {
+            S: 'gtceu:treated_wood_slab',
+            P: 'gtceu:treated_wood_pressure_plate',
+            H: '#gtceu:tools/crafting_hammers',
+            F: '#gtceu:tools/crafting_files'
+        }
+    )
+
+    event.remove({ id: 'cookingforblockheads:oven' })
+    event.shaped(
+        'cookingforblockheads:oven',
+        [
+            'GGG', 
+            'PTP', 
+            'PFP'  
+        ], {
+            G: 'minecraft:black_stained_glass',
+            P: 'gtceu:iron_plate',
+            T: 'minecraft:iron_trapdoor',
+            F: 'minecraft:furnace'
+        }
+    )
 })
