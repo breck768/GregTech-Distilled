@@ -87,7 +87,6 @@ ServerEvents.recipes(event => {
     seedIds.forEach(seedId => {
         let crop = null;
 
-        // 1. Check if the seed is crafted from a single non-seed item
         event.forEachRecipe({ output: seedId }, r => {
             if (crop) return;
             let count = 0;
@@ -106,7 +105,6 @@ ServerEvents.recipes(event => {
             }
         });
 
-        // 2. Fallback: strip "_seeds" or "_seed" from the ID
         if (!crop) {
             let guessedCrop = seedId.replace(/_seeds?$/, '');
             if (guessedCrop !== seedId && Item.exists(guessedCrop)) {
@@ -114,7 +112,6 @@ ServerEvents.recipes(event => {
             }
         }
 
-        // 3. Explicit vanilla exceptions
         if (seedId == "minecraft:melon_seeds") crop = "minecraft:melon_slice";
         if (seedId == "minecraft:pumpkin_seeds") crop = "minecraft:pumpkin";
         if (!crop) return;

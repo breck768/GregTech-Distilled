@@ -49,6 +49,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'gtceu:shaped/golden_hoe' })
 })
 
+// Disable backpack placing
 BlockEvents.rightClicked(event => {
     const { player } = event;
     if (!player.isCrouching()) return;
