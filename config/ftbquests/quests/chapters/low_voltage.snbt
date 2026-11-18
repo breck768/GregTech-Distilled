@@ -18,7 +18,7 @@
 				"With that, lets get crafting!"
 			]
 			id: "4509C5AB699439EC"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "Ligma Valls"
 			tasks: [{
 				id: "0A7359DC7B6BDC9E"
@@ -27,7 +27,7 @@
 			}]
 			title: "Welcome to LV!"
 			x: 2.5d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -75,7 +75,7 @@
 				}
 			]
 			title: "Machine Components"
-			x: 1.0d
+			x: 1.5d
 			y: -4.5d
 		}
 		{
@@ -88,7 +88,7 @@
 				type: "item"
 			}]
 			title: "LV Circuits"
-			x: 4.0d
+			x: 3.5d
 			y: -4.5d
 		}
 		{
@@ -175,7 +175,7 @@
 				title: "Convenient Machines"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -2.0d
 		}
 		{
@@ -190,7 +190,7 @@
 				item: "gtceu:lv_wiremill"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -4.0d
 		}
 		{
@@ -202,7 +202,7 @@
 				item: "gtceu:lv_bender"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -4.0d
 		}
 		{
@@ -222,7 +222,7 @@
 				item: "gtceu:lv_lathe"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -4.0d
 		}
 		{
@@ -237,7 +237,7 @@
 				item: "gtceu:lv_polarizer"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: -4.0d
 		}
 		{
@@ -252,7 +252,7 @@
 				item: "gtceu:lv_assembler"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: -2.0d
 		}
 		{
@@ -267,7 +267,7 @@
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -279,7 +279,7 @@
 				item: "gtceu:lv_fluid_solidifier"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -291,7 +291,7 @@
 				item: "gtceu:lv_centrifuge"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -303,7 +303,7 @@
 				item: "gtceu:lv_extractor"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -318,7 +318,7 @@
 				item: "gtceu:lv_arc_furnace"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -333,7 +333,7 @@
 				item: "gtceu:lv_cutter"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: -3.0d
 		}
 		{
@@ -717,7 +717,7 @@
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 8.0d
 		}
 		{
@@ -730,8 +730,8 @@
 				item: "gtceu:lv_emitter"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 10.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4798AEB718C0948B"]
@@ -780,6 +780,11 @@
 				"3F3A136A5AD3968C"
 				"1A36723A72447815"
 				"54A622E17FA8FD33"
+			]
+			description: [
+				"You have the major parts, now just collect the rest of the structure."
+				"This is, up to this point, probably the most resource and time intensive thing you've done. This is a major accomplishment, congratulations!"
+				"The EBF is required to create Aluminium Ingots, a vital material for the next tier. "
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "0B1BA7E04202AA45"
@@ -852,7 +857,7 @@
 				item: "gtceu:cupronickel_coil_block"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 8.0d
 		}
 		{
@@ -864,7 +869,7 @@
 				item: "gtceu:lv_input_bus"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 8.0d
 		}
 		{
@@ -887,7 +892,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4798AEB718C0948B"]
@@ -902,7 +907,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["54F4762CD15E8AC0"]
@@ -912,13 +917,103 @@
 				"You can't &oquite&r make this if you're reading this quest as soon as possible, but you can make it before you break into MV."
 			]
 			id: "1FEDE76CDBEE4ACE"
+			size: 1.5d
 			tasks: [{
 				id: "2495E667A14693C0"
 				item: "gtceu:greenhouse"
 				type: "item"
 			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54F4762CD15E8AC0"]
+			description: ["The Basic Miner is a substantial upgrade to the previous Steam Miner. It uses the same amount of power as the Low Pressure Miner, but has double the diameter that it works in and mines nearly twice as fast."]
+			id: "3F1833D30C517EFF"
+			tasks: [{
+				id: "3928EE7842010E8E"
+				item: "gtceu:lv_miner"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["54F4762CD15E8AC0"]
+			description: [
+				"The Large Bronze Boiler is your best option for upgrading your Steam production in LV. It has the steam output of over 50 High Pressure Solid Boilers, with fuel consumption to match."
+				"It would be wise to build one of these going into the next tier, but it may not be a good idea to invest in multiple, as Steam as a power source will be invalidated by the end of MV. Unless you're daring. Or stubborn."
+			]
+			id: "22BAE52194D1FD4D"
+			tasks: [{
+				id: "2405C9433ED286D8"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["0B1BA7E04202AA45"]
+			description: [
+				"Aluminium is your ticket to MV. It may not be immediately obvious how you obtain it though. "
+				"There is such thing as an Aluminium Ore, but if you check the veins that contain it, none of them actually generate in the Overworld."
+				"Aluminium Dust can be obtained in LV primarily by electrolyzing Sapphire or Green Sapphire. It can also be obtained as an ore processing byproduct from a multitude of ores, but doing it this way is less efficient. "
+				"In MV, it will be possible to passively automate Aluminium, as well as some other materials."
+			]
+			id: "1F47DAB1C0EB832A"
+			size: 3.0d
+			tasks: [{
+				id: "03C5EE9F361641C6"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["54F4762CD15E8AC0"]
+			description: [
+				"The Distillery is your ticket to diving into Oil Processing, also referred to as Petrochemistry."
+				"It makes itself known in MV, but as of right now, distilling fluids can offer some alternative power sources. The specifics of those power sources will be elaborated on later."
+			]
+			id: "7177DEA1A7D7C77B"
+			tasks: [{
+				id: "4E49B45B80B6F2CB"
+				item: "gtceu:lv_distillery"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B1BA7E04202AA45"]
+			description: [
+				"As mentioned earlier, Superconductors are wires that have no cable loss and generally higher amperage. With the creation of your first EBF, you can create Manganese Phosphide wires, which are the LV Superconductors. As a reminder, these wires do not need to be coated in rubber, as they already have no cable loss and no live wire damage."
+				"As you might guess, they are made of an alloy of Manganese and Phosphorus. As a challenge, I won't be telling you how to obtain these. EMI will do that instead!"
+			]
+			id: "5D09C0504862EF3E"
+			tasks: [{
+				id: "630F49120296CE1A"
+				item: "gtceu:manganese_phosphide_single_wire"
+				type: "item"
+			}]
+			title: "LV Superconductors"
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7F2BEB36501CABCB"]
+			description: ["As mentioned in an earlier quest, Diamond Tools are the best type of tool you can make in LV. Up to this point, you could only create Diamond Hammers, but the Cutter allows you to create Diamond Plates from Blocks, which unlocks the rest of the tools."]
+			id: "61BC166A1C0B3C9D"
+			tasks: [{
+				id: "0D402C2AE70031FB"
+				item: "gtceu:diamond_plate"
+				type: "item"
+			}]
+			title: "Diamond Tools"
+			x: 9.0d
+			y: -3.0d
 		}
 	]
 	title: "&7Low Voltage"
